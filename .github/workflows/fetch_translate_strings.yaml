@@ -10,7 +10,7 @@ permissions:
 
 jobs:
 
-  fetch strings:
+  fetch_strings:
 
     runs-on: ubuntu-latest
     strategy:
