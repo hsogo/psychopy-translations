@@ -60,9 +60,7 @@ jobs:
       run: |
         python generateTranslationTemplate.py
 
-    
     - name: Commit and push translation template
-      if 
       run: |
         git config --local user.name "PsychoPy devops"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
