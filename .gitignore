@@ -1,0 +1,8 @@
+locale/**/*.mo
+
+# python tmp files
+__pycache__
+*.pyc
+
+# platform specific files
+.DS_Store

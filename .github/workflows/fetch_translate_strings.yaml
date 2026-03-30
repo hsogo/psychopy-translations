@@ -1,0 +1,84 @@
+name: Fetch translate strings
+
+on:
+  workflow_dispatch:  # manual
+  pull_request:
+   branches: [ release, dev ]
+
+permissions:
+  contents: write
+
+jobs:
+
+  fetch strings:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Checkout psychopy (lib)
+      uses: actions/checkout@v3
+      with:
+        repository: psychopy/psychopy
+        ref: ${{ github.event.inputs.branch }}
+        path: source/psychopy
+    - name: Checkout psychopy-studio
+      uses: actions/checkout@v3
+      with:
+        repository: psychopy/psychopy-studio
+        ref: ${{ github.event.inputs.branch }}
+        path: source/psychopy-studio
+    - name: Find and checkout plugins
+      run: |
+        # fetch plugins.json (a list of dicts including "repo" key with the git url)
+        curl -s https://www.psychopy.org/plugins.json -o plugins.json
+        # extract the git urls and checkout each plugin
+        cat plugins.json | jq -r '.[].repo' | while read repo; do
+          # if repo is null or blank string then skip
+          if [ -z "$repo" ] || [ "$repo" = "null" ]; then
+            continue
+          fi
+          name=$(basename $repo .git)
+          echo "Cloning to source/$name from $repo using default branch with depth 1"
+          git clone --depth 1 $repo source/$name
+        done
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12
+    - name: Install UV
+      uses: astral-sh/setup-uv@v7
+      with:
+        activate-environment: true
+    - name: Install translation dependencies
+      run: |
+        uv pip install babel polib packaging six
+        uv pip install -e source/psychopy/. --no-deps  # to get __version__
+    - name: Generate translation template
+      run: |
+        python generateTranslationTemplate.py
+
+    
+    - name: Commit and push translation template
+      if 
+      run: |
+        git config --local user.name "PsychoPy devops"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        # add files/changes
+        echo 'git add -A locale/'
+        git add -A locale/
+        # commit (if there are changes)
+        echo 'git status'
+        git status
+        if (git status | grep -q 'Changes to be committed:')
+        then
+          # make the commit
+          echo 'git commit -m'
+          git commit -m "Automated update of translations"
+          echo 'git push (with token)'
+          git push
+        else
+          echo 'no changes to commit/push to psychopy-translations'
+        fi
