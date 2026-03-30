@@ -58,7 +58,7 @@ jobs:
         uv pip install babel polib packaging six
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
     - name: Generate PsychoPy Alerts text for localization
-      working-directory: source/psychopy/psychopy/alerts/alertsCatalog
+      working-directory: source/psychopy/psychopy/alerts/alertsCatalogue
       run: |
         python generateAlertmsg.py
     - name: Generate PsychoPy Prefs hints for localization
