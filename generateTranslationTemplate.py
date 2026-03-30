@@ -11,7 +11,6 @@ import os
 import sys
 import subprocess
 import shutil
-import git
 import babel.messages.frontend
 import polib
 import argparse
@@ -47,18 +46,6 @@ def generate_new_template(verbose=False):
     Returns:
         None
     """
-
-    # hints.py must be updated to find new hints and alarts
-    if verbose:
-        print('Generate hints.py... ', end='')
-    subprocess.call(['python', 'generateHints.py'], cwd='../preferences')
-    if verbose:
-        print('Done.\nGenerate alartmsg.py... ', end='')
-    subprocess.call(['python', 'generateAlertmsg.py'], cwd='../alerts/alertsCatalogue')
-    if verbose:
-        print('Done.')
-
-    # Extracting messages and generating new template file
 
     if verbose:
         print('Generating new template file... ', end='')

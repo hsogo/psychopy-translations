@@ -11,6 +11,7 @@ permissions:
 jobs:
 
   fetch_strings:
+    name: Fetch translation strings
 
     runs-on: ubuntu-latest
     strategy:
@@ -56,10 +57,19 @@ jobs:
       run: |
         uv pip install babel polib packaging six
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
+    - name: Generate PsychoPy Alerts text for localization
+      working-directory: source/psychopy/alerts/alertsCatalog
+      run: |
+        python generateAlertmsg.py
+    - name: Generate PsychoPy Prefs hints for localization
+      working-directory: source/psychopy/preferences
+      run: |
+        python generateHints.py
+
     - name: Generate translation template
+      working-directory: source/psychopy
       run: |
         python generateTranslationTemplate.py
-
     - name: Commit and push translation template
       run: |
         git config --local user.name "PsychoPy devops"
