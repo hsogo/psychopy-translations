@@ -11,6 +11,7 @@ permissions:
 jobs:
 
   fetch_strings:
+    name: Fetch translation strings
 
     runs-on: ubuntu-latest
     strategy:
