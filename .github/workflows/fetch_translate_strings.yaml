@@ -56,7 +56,7 @@ jobs:
     - name: Install translation dependencies
       run: |
         # minimal dependencies to run the translation template generation script
-        uv pip install babel polib packaging six pyyaml
+        uv pip install babel polib packaging six pyyaml autopep8
         # then psychopy with no further deps
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
     - name: Generate PsychoPy Alerts text for localization
