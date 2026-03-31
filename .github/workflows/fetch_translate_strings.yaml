@@ -55,14 +55,16 @@ jobs:
         activate-environment: true
     - name: Install translation dependencies
       run: |
-        uv pip install babel polib packaging six
+        # minimal dependencies to run the translation template generation script
+        uv pip install babel polib packaging six pyyaml autopep8
+        # then psychopy with no further deps
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
     - name: Generate PsychoPy Alerts text for localization
-      working-directory: source/psychopy/alerts/alertsCatalog
+      working-directory: source/psychopy/psychopy/alerts/alertsCatalogue
       run: |
         python generateAlertmsg.py
     - name: Generate PsychoPy Prefs hints for localization
-      working-directory: source/psychopy/preferences
+      working-directory: source/psychopy/psychopy/preferences
       run: |
         python generateHints.py
 
