@@ -4,5 +4,9 @@ locale/**/*.mo
 __pycache__
 *.pyc
 
+# source files (that we search for translation strings)
+source
+plugins.json
+
 # platform specific files
 .DS_Store
