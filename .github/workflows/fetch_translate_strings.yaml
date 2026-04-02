@@ -83,6 +83,8 @@ jobs:
     - name: Compare old/new .pot files and update .po files
       run: |
         python compare_old_new.py -v
+        # then move locale/messages_new.pot to locale/messages.pot (overwriting old one) for next round of updates
+        mv locale/messages_new.pot locale/messages.pot
 
     - name: Git check status
       run: |
