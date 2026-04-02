@@ -68,27 +68,57 @@ jobs:
       run: |
         python generateHints.py
 
-    - name: Generate translation template
-      working-directory: source/psychopy
+    - name: Generate .pot (translation template)
+      working-directory: source
       run: |
-        python generateTranslationTemplate.py
-    - name: Commit and push translation template
+        # NB run the command in source with input-dirs=. so the paths are relative to source/ 
+        # used to be --width=79 but trying now with --no-wrap
+        pybabel extract \
+          -F ../babel.cfg \
+          --input-dirs=. --project=PsychoPy \
+          --version=$(uv run python -c "import psychopy; print(psychopy.__version__)") \
+          --no-wrap \
+          --output-file=../locale/messages_new.pot
+
+    - name: Compare old/new .pot files and update .po files
       run: |
-        git config --local user.name "PsychoPy devops"
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        # add files/changes
-        echo 'git add -A locale/'
+        python compare_old_new.py -v
+
+    - name: Check git status
+      run: |
         git add -A locale/
-        # commit (if there are changes)
-        echo 'git status'
         git status
-        if (git status | grep -q 'Changes to be committed:')
-        then
-          # make the commit
-          echo 'git commit -m'
-          git commit -m "Automated update of translations"
-          echo 'git push (with token)'
-          git push
-        else
-          echo 'no changes to commit/push to psychopy-translations'
-        fi
+        
+    - name: Upload new/old .pot and ja_JP/fr_FR .po files as artifact to check
+      uses: actions/upload-artifact@v4
+      if: always()  # upload even if previous steps fail, to check what went wrong
+      with:
+        name: translations
+        path: |
+          locale/messages_new.pot
+          locale/messages.pot
+          locale/ja_JP/LC_MESSAGES/messages.po
+          locale/fr_FR/LC_MESSAGES/messages.po
+
+    
+
+    # - name: Commit and push translation template
+    #   run: |
+    #     git config --local user.name "PsychoPy devops"
+    #     git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    #     # add files/changes
+    #     echo 'git add -A locale/'
+    #     git add -A locale/
+    #     # commit (if there are changes)
+    #     echo 'git status'
+    #     git status
+    #     if (git status | grep -q 'Changes to be committed:')
+    #     then
+    #       # make the commit
+    #       echo 'git commit -m'
+    #       git commit -m "Automated update of translations"
+    #       echo 'git push (with token)'
+    #       git push
+    #     else
+    #       echo 'no changes to commit/push to psychopy-translations'
+    #     fi
