@@ -94,6 +94,8 @@ jobs:
         git status
     
     - name: Git commit and PR creation
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # to authenticate with GitHub API for PR creation
       run: |
         git config --local user.name "PsychoPy devops"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
