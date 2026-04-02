@@ -84,10 +84,29 @@ jobs:
       run: |
         python compare_old_new.py -v
 
-    - name: Check git status
+    - name: Git check status
       run: |
         git add -A locale/
         git status
+    
+    - name: Git commit and PR creation
+      run: |
+        git config --local user.name "PsychoPy devops"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        # if changes create a PR with github cli (gh) - but only if there are changes to commit
+        if (git status | grep -q 'Changes to be committed:')
+        then
+          echo 'Creating a PR with gh cli...'
+          # create a new branch for the PR
+          branch="updated-translations-$(date +%Y%m%d%H%M%S)"
+          git checkout -b $branch
+          git commit -m "Automated update of translations"
+          git push --set-upstream origin $branch
+          # create the PR
+          gh pr create --title "Automated update of translations" --body "This PR updates the translation template and PO files with new strings from psychopy, psychopy-studio and all official plugins"
+        else
+          echo 'No changes to commit, skipping PR creation.'
+        fi
 
     - name: Upload new/old .pot and ja_JP/fr_FR .po files as artifact to check
       uses: actions/upload-artifact@v4
