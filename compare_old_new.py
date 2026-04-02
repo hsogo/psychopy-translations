@@ -16,8 +16,8 @@ import argparse
 import pathlib
 
 locale_dir = pathlib.Path('locale')
-new_pot_filename = locale_dir / 'messages_new.pot'
-current_pot_filename = locale_dir / 'messages.pot'
+new_pot_filename = pathlib.Path('messages_new.pot')
+current_pot_filename = pathlib.Path('messages.pot')
 
 poedit_mime_headers = {
     "X-Poedit-KeywordsList": "_translate;translate",

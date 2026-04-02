@@ -81,16 +81,17 @@ jobs:
           --input-dirs=. --project=PsychoPy \
           --version=$(uv run python -c "import psychopy; print(psychopy.__version__)") \
           --no-wrap \
-          --output-file=../locale/messages_new.pot
+          --output-file=../messages_new.pot
 
     - name: Compare old/new .pot files and update .po files
       run: |
         python compare_old_new.py -v
-        # then move locale/messages_new.pot to locale/messages.pot (overwriting old one) for next round of updates
-        mv locale/messages_new.pot locale/messages.pot
+        # then move messages_new.pot to messages.pot (overwriting old one) for next round of updates
+        mv messages_new.pot messages.pot
 
-    - name: Git check status
+    - name: Git check status on po files
       run: |
+        # pot file will have changed date to current date, so just check po files for changes to commit
         git add -A locale/
         git status
     
@@ -103,6 +104,7 @@ jobs:
         # if changes create a PR with github cli (gh) - but only if there are changes to commit
         if (git status | grep -q 'Changes to be committed:')
         then
+          git add messages.pot # now also add pot, if there are changes to po files
           echo 'Creating a PR with gh cli...'
           # create a new branch for the PR
           branch="updated-translations-$(date +%Y%m%d%H%M%S)"
@@ -120,8 +122,9 @@ jobs:
       if: always()  # upload even if previous steps fail, to check what went wrong
       with:
         name: translations
+        retention-days: 7
         path: |
-          locale/messages_new.pot
-          locale/messages.pot
+          messages_new.pot
+          messages.pot
           locale/ja_JP/LC_MESSAGES/messages.po
           locale/fr_FR/LC_MESSAGES/messages.po
