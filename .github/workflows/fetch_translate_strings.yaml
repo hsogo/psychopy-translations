@@ -56,7 +56,7 @@ jobs:
     - name: Install translation dependencies
       run: |
         # minimal dependencies to run the translation template generation script
-        uv pip install babel polib packaging six pyyaml autopep8
+        uv pip install babel polib packaging six pyyaml autopep8 i18next
         # then psychopy with no further deps
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
     - name: Generate PsychoPy Alerts text for localization
@@ -88,7 +88,7 @@ jobs:
       run: |
         git add -A locale/
         git status
-        
+
     - name: Upload new/old .pot and ja_JP/fr_FR .po files as artifact to check
       uses: actions/upload-artifact@v4
       if: always()  # upload even if previous steps fail, to check what went wrong
