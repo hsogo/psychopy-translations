@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  # allow github-actions bot to create PRs
+  pull-requests: write
 
 jobs:
 
@@ -120,26 +122,3 @@ jobs:
           locale/messages.pot
           locale/ja_JP/LC_MESSAGES/messages.po
           locale/fr_FR/LC_MESSAGES/messages.po
-
-    
-
-    # - name: Commit and push translation template
-    #   run: |
-    #     git config --local user.name "PsychoPy devops"
-    #     git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-    #     # add files/changes
-    #     echo 'git add -A locale/'
-    #     git add -A locale/
-    #     # commit (if there are changes)
-    #     echo 'git status'
-    #     git status
-    #     if (git status | grep -q 'Changes to be committed:')
-    #     then
-    #       # make the commit
-    #       echo 'git commit -m'
-    #       git commit -m "Automated update of translations"
-    #       echo 'git push (with token)'
-    #       git push
-    #     else
-    #       echo 'no changes to commit/push to psychopy-translations'
-    #     fi
