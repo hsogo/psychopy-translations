@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  # allow github-actions bot to create PRs
+  pull-requests: write
 
 jobs:
 
@@ -56,7 +58,7 @@ jobs:
     - name: Install translation dependencies
       run: |
         # minimal dependencies to run the translation template generation script
-        uv pip install babel polib packaging six pyyaml autopep8
+        uv pip install babel polib packaging six pyyaml autopep8 i18next
         # then psychopy with no further deps
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
     - name: Generate PsychoPy Alerts text for localization
@@ -68,27 +70,57 @@ jobs:
       run: |
         python generateHints.py
 
-    - name: Generate translation template
-      working-directory: source/psychopy
+    - name: Generate .pot (translation template)
+      working-directory: source
       run: |
-        python generateTranslationTemplate.py
-    - name: Commit and push translation template
+        # NB run the command in source with input-dirs=. so the paths are relative to source/ 
+        # used to be --width=79 but trying now with --no-wrap
+        pybabel extract \
+          -F ../babel.cfg \
+          --input-dirs=. --project=PsychoPy \
+          --version=$(uv run python -c "import psychopy; print(psychopy.__version__)") \
+          --no-wrap \
+          --output-file=../locale/messages_new.pot
+
+    - name: Compare old/new .pot files and update .po files
+      run: |
+        python compare_old_new.py -v
+        # then move locale/messages_new.pot to locale/messages.pot (overwriting old one) for next round of updates
+        mv locale/messages_new.pot locale/messages.pot
+
+    - name: Git check status
+      run: |
+        git add -A locale/
+        git status
+    
+    - name: Git commit and PR creation
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # to authenticate with GitHub API for PR creation
       run: |
         git config --local user.name "PsychoPy devops"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        # add files/changes
-        echo 'git add -A locale/'
-        git add -A locale/
-        # commit (if there are changes)
-        echo 'git status'
-        git status
+        # if changes create a PR with github cli (gh) - but only if there are changes to commit
         if (git status | grep -q 'Changes to be committed:')
         then
-          # make the commit
-          echo 'git commit -m'
+          echo 'Creating a PR with gh cli...'
+          # create a new branch for the PR
+          branch="updated-translations-$(date +%Y%m%d%H%M%S)"
+          git checkout -b $branch
           git commit -m "Automated update of translations"
-          echo 'git push (with token)'
-          git push
+          git push --set-upstream origin $branch
+          # create the PR
+          gh pr create --title "Automated update of translations" --body "This PR updates the translation template and PO files with new strings from psychopy, psychopy-studio and all official plugins"
         else
-          echo 'no changes to commit/push to psychopy-translations'
+          echo 'No changes to commit, skipping PR creation.'
         fi
+
+    - name: Upload new/old .pot and ja_JP/fr_FR .po files as artifact to check
+      uses: actions/upload-artifact@v4
+      if: always()  # upload even if previous steps fail, to check what went wrong
+      with:
+        name: translations
+        path: |
+          locale/messages_new.pot
+          locale/messages.pot
+          locale/ja_JP/LC_MESSAGES/messages.po
+          locale/fr_FR/LC_MESSAGES/messages.po
