@@ -2,8 +2,9 @@ name: Fetch translate strings
 
 on:
   workflow_dispatch:  # manual
-  pull_request:
-   branches: [ release, dev ]
+  # cron nightly at 2am
+  schedule:
+    - cron: '0 2 * * *'
 
 permissions:
   contents: write
