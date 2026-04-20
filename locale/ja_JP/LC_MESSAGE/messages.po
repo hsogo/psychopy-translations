@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PsychoPy 2026.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-02 16:24+0000\n"
-"PO-Revision-Date: 2026-04-20 13:56+0900\n"
+"PO-Revision-Date: 2026-04-20 20:46+0900\n"
 "Last-Translator: Hiroyuki Sogo <hsogo12600@gmail.com>\n"
 "Language-Team: Hiroyuki Sogo <hsogo12600@gmail.com>\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-Basepath: ../../../..\n"
 "X-Poedit-KeywordsList: _translate\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -5721,11 +5721,11 @@ msgstr "デバイスのボタン数"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:19
 msgid "BIDS Event Type"
-msgstr "BIDS Event Type"
+msgstr "BIDSイベントの種類"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:20
 msgid "Trial Type"
-msgstr "Trial Type"
+msgstr "試行の種類"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:21
 msgid "Link Component"
@@ -5737,27 +5737,27 @@ msgstr "関連づける属性"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:23 psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:15
 msgid "Onset"
-msgstr "Onset"
+msgstr "開始"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:24 psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:16
 msgid "Duration"
-msgstr "Duration"
+msgstr "持続時間"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:25
 msgid "Event Type"
-msgstr "Event Type"
+msgstr "イベントの種類"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:26
 msgid "Sample Point"
-msgstr "Sample Point"
+msgstr "サンプルポイント"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:27
 msgid "Response Time"
-msgstr "Response Time"
+msgstr "反応時間"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:28
 msgid "Event Value"
-msgstr "Event Value"
+msgstr "イベントの値"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:29
 msgid "HED Tags (Sidecar Preferred)"
@@ -5765,11 +5765,11 @@ msgstr "HED Tags (Sidecar推奨)"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:30
 msgid "Stimulus File"
-msgstr "Stimulus File"
+msgstr "刺激ファイル"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:31
 msgid "Database ID"
-msgstr "Database ID"
+msgstr "データベースID"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:32
 msgid "Database Reference"
@@ -5777,7 +5777,7 @@ msgstr "Database Reference"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:33
 msgid "Custom Columns"
-msgstr "Custom Columns"
+msgstr "カスタム列"
 
 #: psychopy-bids/psychopy_bids/bids_event/__init__.py:34 psychopy-bids/psychopy_bids/deprecated/bids_beh/__init__.py:16
 #: psychopy-bids/psychopy_bids/deprecated/bids_task/__init__.py:26
