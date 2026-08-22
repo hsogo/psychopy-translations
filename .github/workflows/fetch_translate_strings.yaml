@@ -2,9 +2,9 @@ name: Fetch translate strings
 
 on:
   workflow_dispatch:  # manual
-  # cron nightly at 2am
+  # cron nightly at 2am on first of month (to avoid too many PRs being created)
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 1 * *'
 
 permissions:
   contents: write
@@ -21,19 +21,25 @@ jobs:
       fail-fast: true
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout psychopy-translations
+      uses: actions/checkout@v3
+      with:
+        path: psychopy-translations
+    
     - name: Checkout psychopy (lib)
       uses: actions/checkout@v3
       with:
         repository: psychopy/psychopy
         ref: ${{ github.event.inputs.branch }}
         path: source/psychopy
+    
     - name: Checkout psychopy-studio
       uses: actions/checkout@v3
       with:
         repository: psychopy/psychopy-studio
         ref: ${{ github.event.inputs.branch }}
         path: source/psychopy-studio
+    
     - name: Find and checkout plugins
       run: |
         # fetch plugins.json (a list of dicts including "repo" key with the git url)
@@ -48,24 +54,29 @@ jobs:
           echo "Cloning to source/$name from $repo using default branch with depth 1"
           git clone --depth 1 $repo source/$name
         done
+    
     - name: Install Python
       uses: actions/setup-python@v4
       with:
         python-version: 3.12
+    
     - name: Install UV
       uses: astral-sh/setup-uv@v7
       with:
         activate-environment: true
+    
     - name: Install translation dependencies
       run: |
         # minimal dependencies to run the translation template generation script
-        uv pip install babel polib packaging six pyyaml autopep8 i18next
+        uv pip install ./psychopy-translations
         # then psychopy with no further deps
         uv pip install -e source/psychopy/. --no-deps  # to get __version__
+    
     - name: Generate PsychoPy Alerts text for localization
       working-directory: source/psychopy/psychopy/alerts/alertsCatalogue
       run: |
         python generateAlertmsg.py
+    
     - name: Generate PsychoPy Prefs hints for localization
       working-directory: source/psychopy/psychopy/preferences
       run: |
@@ -76,26 +87,32 @@ jobs:
       run: |
         # NB run the command in source with input-dirs=. so the paths are relative to source/ 
         # used to be --width=79 but trying now with --no-wrap
+        # using add-location=file to add the filename *without* the constantly-changing line numbers
         pybabel extract \
-          -F ../babel.cfg \
+          -F ../psychopy-translations/babel.cfg \
           --input-dirs=. --project=PsychoPy \
           --version=$(uv run python -c "import psychopy; print(psychopy.__version__)") \
           --no-wrap \
-          --output-file=../messages_new.pot
+          --sort-output \
+          --add-location=file \
+          --output-file=../psychopy-translations/messages_new.pot
 
     - name: Compare old/new .pot files and update .po files
+      working-directory: psychopy-translations
       run: |
-        python compare_old_new.py -v
+        python -m psychopy_translations.compare_old_new --new ./messages_new.pot --current ./messages.pot -v
         # then move messages_new.pot to messages.pot (overwriting old one) for next round of updates
         mv messages_new.pot messages.pot
 
     - name: Git check status on po files
+      working-directory: psychopy-translations
       run: |
         # pot file will have changed date to current date, so just check po files for changes to commit
-        git add -A locale/
+        git add -A psychopy_translations/locale/
         git status
     
     - name: Git commit and PR creation
+      working-directory: psychopy-translations
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # to authenticate with GitHub API for PR creation
       run: |
@@ -124,7 +141,7 @@ jobs:
         name: translations
         retention-days: 7
         path: |
-          messages_new.pot
-          messages.pot
-          locale/ja_JP/LC_MESSAGES/messages.po
-          locale/fr_FR/LC_MESSAGES/messages.po
+          psychopy-translations/messages_new.pot
+          psychopy-translations/messages.pot
+          psychopy-translations/psychopy_translations/locale/ja_JP/LC_MESSAGES/messages.po
+          psychopy-translations/psychopy_translations/locale/fr_FR/LC_MESSAGES/messages.po
