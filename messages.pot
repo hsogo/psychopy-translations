@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PsychoPy 2026.2.1\n"
+"Project-Id-Version: PsychoPy 2027.1.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-27 10:26+0000\n"
+"POT-Creation-Date: 2026-09-16 11:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+#, python-brace-format
+msgid "\t{}: {} files\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid ""
+"\n"
+"Auto-JS translation will overwrite your existing JavaScript code.\n"
+"Press OK to continue, or Cancel.\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid ""
+"\n"
+"Py to JS auto-translation requires the metapensiero library.\n"
+"Available for Python 3.5+.\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"\n"
+"Sync cancelled by user."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"\n"
+"You can update to the latest version automatically"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"\n"
+"You cannot update to the latest version automatically.\n"
+"Please fetch the latest Standalone package from www.psychopy.org"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid " Apply "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid " Auto-update (will fetch latest version)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid " Avoid `this`, `these`, `continue`, `Clock`, or `component` in name"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid " Benchmark Wizard"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
 #: psychopy/psychopy/gui/qtgui.py psychopy/psychopy/gui/wxgui.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid " Cancel "
@@ -30,9 +84,37 @@ msgstr ""
 msgid " Configuration Wizard"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid " HSV Channels "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid " Help "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
 #: psychopy/psychopy/gui/qtgui.py psychopy/psychopy/gui/wxgui.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid " OK "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid " Properties"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid " RGB Channels "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid " Use zip file below (download a PsychoPy release file ending .zip)"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
@@ -69,6 +151,13 @@ msgstr ""
 msgid "%(monName)s %(calibName)s Spectra"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid ""
+"%(nCondition)i conditions, with %(nParam)i parameters\n"
+"%(paramStr)s"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 #, python-format
 msgid "%(num)i suboptimal values were detected (%(warn)s, ...)"
@@ -84,12 +173,321 @@ msgstr ""
 msgid "%(photomType)s found on %(photomPort)s"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&About..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Builder Demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#, python-format
+msgid "&Close View\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Close file\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Close readme\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Close tests panel\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Coder Demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&Copy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Copy\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Copy Routine\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&Details"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Duplicate\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "&Edit"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "&File"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Find\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Find in experiment...\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Flow Larger\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Flow Smaller\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Help"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Indentation guides\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&New\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&New Routine\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&News..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+#, python-format
+msgid "&Next window\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&OK"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "&Open Builder view\t"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "&Open Coder view\t"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Open list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/themes/ui.py
+msgid "&Open theme folder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Open...\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Output/Shell\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Paste\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Paste Routine\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Pavlovia.org"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Preferences"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Preferences\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&PsychoPy API (reference)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "&PsychoPy Builder Help"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&PsychoPy Coder Tutorial"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&PsychoPy Homepage"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#, python-format
+msgid "&Quit\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Rename Routine\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Routine Larger\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Routine Smaller\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Run"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Run tests\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#, python-format
+msgid "&Run/pilot\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&Save"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Save\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Save list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&System Info..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Tests"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Themes"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Toggle readme\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Tools"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "&Unpack Demos..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&View"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Whitespace\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Window"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid ""
+"'%s' was modified outside of PsychoPy:\n"
+"\n"
+"Reload (without saving)?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "'Clone' this project, creating local copies of all its files and tracking any changes you make so that they can be applied when you next 'sync' the project."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "'Star' this project to get back to it easily. Projects you've starred will appear first in your searches and projects with more stars in total will appear higher in everyone's searches."
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -122,8 +520,20 @@ msgstr ""
 msgid "(Optional) expected start (s), purely for representing in the timeline"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "(Re)create a project"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "(missing)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "+cond."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "+param"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -216,6 +626,7 @@ msgstr ""
 msgid "A monitor config is required for accurate eyetracking measurements, but none was found."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
 #: psychopy/psychopy/experiment/devices.py
 msgid "A name to refer to this device by in Device Manager."
 msgstr ""
@@ -238,6 +649,10 @@ msgstr ""
 msgid "A {eyetracker} eye tracker has been configured, but no calibration routine is present."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "ALL stdout"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "Abbreviate long component names to maximise timeline space?"
 msgstr ""
@@ -246,8 +661,17 @@ msgstr ""
 msgid "About Experiment"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "About PsychoPy"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
 msgid "Above"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Add"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
@@ -262,6 +686,10 @@ msgstr ""
 msgid "Add a Routine to the experiment flow"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Add a condition (row); to delete a condition, delete all of its values."
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
 msgid "Add a loop to the experiment flow"
 msgstr ""
@@ -271,18 +699,32 @@ msgstr ""
 msgid "Add a new monitor configuration"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Add a parameter (column); to delete a param, set its type to None, or delete all of its values."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
 msgid "Add a text marker in the hdf5 file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Add custom item"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
 msgid "Add device..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Add experiment to list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
 #: psychopy-studio/src/routes/runner/files/Panel.svelte
 msgid "Add file"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte
 #: psychopy-studio/src/lib/paramCtrls/ctrls/FileListCtrl.svelte
 msgid "Add item"
@@ -290,6 +732,14 @@ msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/FileListCtrl.svelte
 msgid "Add multiple items"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Add new components and features via plugins."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Add or edit the text shown when your experiment is opened"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -300,20 +750,57 @@ msgstr ""
 msgid "Add plugin names here to load when a PsychoPy session starts."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Add task"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Add to favorites"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+#, python-brace-format
+msgid "Add {}..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Adding task"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Additional resources"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Advanced"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 msgid "After sending a signal, should PsychoPy read and record a response from the port?"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Aggressive low-latency"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Alerts"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
 msgid "Alignment"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "All Files (*.*)|*.*"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/buttonBox/__init__.py
 msgid "All buttons"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "All plugins and additional packages have been uninstalled. You will need to restart PsychoPy for this to take effect."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/soundsensor/__init__.py
@@ -350,8 +837,16 @@ msgstr ""
 msgid "An image to define the alpha mask through which the image is seen - gauss, circle, None or a filename (including path)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "An image to represent this project, this helps it stand out when browsing on Pavlovia."
+msgstr ""
+
 #: psychopy/psychopy/experiment/loops.py
 msgid "An xlsx or csv file specifying the parameters for each condition"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Analyzing code"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/aperture/__init__.py
@@ -370,6 +865,10 @@ msgstr ""
 msgid "Animate position changes"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Animation"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Any additional resources needed"
 msgstr ""
@@ -385,8 +884,31 @@ msgstr ""
 msgid "Aperture: restrict the drawing of stimuli to a given region"
 msgstr ""
 
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "App info"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Appearance"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Application"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/routines/Standalone.svelte
 msgid "Apply"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Are you sure you want to PERMANENTLY delete file `{}`?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Are you sure you want to PERMANENTLY delete folder `{}`?"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
@@ -396,6 +918,19 @@ msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Are you sure you want to delete this calibration? (cannot be undone)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "Are you sure you want to exit PsychoPy? Unsaved work may be lost (but we'll try to save opened files)."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Are you sure you want to reset your preferences? This cannot be undone."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Arrow"
 msgstr ""
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
@@ -426,8 +961,17 @@ msgstr ""
 msgid "Attempted to stop experiment '{}', but it is already stopping. Status will remain unchanged."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Attempting to fetch PsychoPy %s..."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Attempting to measure frame rate of screen, please wait..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Audio"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -444,6 +988,10 @@ msgstr ""
 msgid "Audio transcription service \"{transcriber}\" is not supported online."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Author"
+msgstr ""
+
 #: psychopy/psychopy/projects/pavlovia.py
 msgid "Author (A-Z)"
 msgstr ""
@@ -452,12 +1000,20 @@ msgstr ""
 msgid "Author (Z-A)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Author's GitHub"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
 msgid "Auto log"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
 msgid "Automatically record all changes to this in the log file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
+msgid "Available devices"
 msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
@@ -492,6 +1048,11 @@ msgstr ""
 msgid "Background image"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid "Bad name in %s: Parameters (column headers) cannot contain dots or be duplicated."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/progress/__init__.py
 msgid "Bar color"
 msgstr ""
@@ -502,6 +1063,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/form/__init__.py
 msgid "Base text color for responses, also sets color of lines in sliders and borders of textboxes"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Basic"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
@@ -536,12 +1101,21 @@ msgstr ""
 msgid "Below"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Below are all of the surveys linked to your Pavlovia account - select the one you want and press OK to add its ID."
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte
 msgid "Below are all of the surveys linked to your Pavlovia account - select the one you want and press OK to add its ID. You can view and manage your Pavlovia surveys "
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
 msgid "Benchmark complete! (See the Coder output window.)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Benchmark wizard"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -606,8 +1180,38 @@ msgstr ""
 msgid "Briefly summarise the bug"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Browse ..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Browse for a file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Browse for a folder to open."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Browse on Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Browse the file system for a directory to open"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte
 msgid "Browse your projects on Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Browse..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Browser"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/brush/__init__.py
@@ -629,6 +1233,19 @@ msgstr ""
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 #, python-brace-format
 msgid "Builder cannot interpret value \"{param.val}\" of {param.label} for {component.type} component \"{component.params[name].val}\" as a dollar sign has been used incorrectly."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Builder variable"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-brace-format
+msgid "Builder variable(s) ({}) in file:{}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Builder, Coder and Runner"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -687,6 +1304,14 @@ msgstr ""
 msgid "Byte size override"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "CANCEL Insert"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "CANCEL insert"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Calibrate gamma"
 msgstr ""
@@ -720,8 +1345,25 @@ msgstr ""
 msgid "Can't sync project without a local root. Please specify a local root then try again."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 msgid "Cancel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot access directory `{}`, not a directory."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot access directory `{}`, permission denied."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Cannot add component, experiment has no routines."
 msgstr ""
 
 #: psychopy/psychopy/data/experiment.py
@@ -733,8 +1375,53 @@ msgstr ""
 msgid "Cannot calculate parameter."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot change working directory to location of file `{}`. It needs to be saved first."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot create folder `{}`, already exists."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot create folder `{}`, permission denied."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot delete file `{}`, permission denied."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot delete folder `{}`, directory does not exist."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot delete folder `{}`, directory is not empty or permission denied."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot delete folder `{}`, file does not exist."
+msgstr ""
+
 #: psychopy/psychopy/visual/rift.py
 msgid "Cannot find any connected HMD, check connections and try again."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot rename `{}` to `{}`."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+#, python-format
+msgid "Cannot save to file '%s'."
 msgstr ""
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
@@ -742,8 +1429,24 @@ msgstr ""
 msgid "Cannot validate stop time for `{name}` as it stops on final frame of Routine"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Carrier"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
 msgid "Category"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Change the name of this routine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Change working directory to ..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "Changes to commit:\n"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
@@ -758,8 +1461,25 @@ msgstr ""
 msgid "Check"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Check Only"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/resourceManager/__init__.py
 msgid "Check all"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Check internet settings (and proxy setting in PsychoPy Preferences)."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Check proxy settings in preferences."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Check software & hardware, generate report"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/eyetracker_calibrate/__init__.py
@@ -774,6 +1494,11 @@ msgstr ""
 msgid "Choose Monitor"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Choose directory ..."
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte
 msgid "Choose folder for Pavlovia project"
 msgstr ""
@@ -785,6 +1510,10 @@ msgstr ""
 msgid "Choose which (if any) responses to store at the end of a trial"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "Choose/create the root location for the synced project"
+msgstr ""
+
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 #, python-brace-format
 msgid "Chosen transcriber '{engine}' requires an API key, please supply one in Preferences."
@@ -794,8 +1523,21 @@ msgstr ""
 msgid "Chromatic Calibration..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Circle"
+msgstr ""
+
 #: psychopy-studio/src/routes/runner/outputs/AlertsOutput.svelte
 msgid "Clear alerts"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Clear all"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+#: psychopy-app/src/psychopy_app/stdout/stdOutRich.py
+msgid "Clear all previous output."
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/KeyPressCtrl.svelte
@@ -814,8 +1556,13 @@ msgstr ""
 msgid "Clear pavlovia output"
 msgstr ""
 
+#: psychopy-studio/src/routes/coder/shell/StdoutOutput.svelte
 #: psychopy-studio/src/routes/runner/outputs/StdoutOutput.svelte
 msgid "Clear stdout"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Clearing tasks"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/Dialog.svelte
@@ -850,8 +1597,28 @@ msgstr ""
 msgid "Click here"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Click here to manage surveys on Pavlovia."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Click the other end for the loop"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/KeyPressCtrl.svelte
 msgid "Click to set"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Click to view the project in Pavlovia."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Click where you want the loop to start/end, or CANCEL insert."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Click where you want to insert the Routine, or CANCEL insert."
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
@@ -871,6 +1638,8 @@ msgstr ""
 msgid "Clone"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 msgid "Close"
 msgstr ""
@@ -883,10 +1652,46 @@ msgstr ""
 msgid "Close Monitor Center (but not other PsychoPy windows)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close PsychoPy Coder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close all files"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close all files in the editor."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Close current experiment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close current file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Close current window"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid "Close the current shell and start a new one, this will clear any variables."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid "Close the current shell."
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Close window"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Closing Runner"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
@@ -1045,6 +1850,10 @@ msgstr ""
 msgid "Coherence of the dots (fraction moving in the signal direction on any one frame)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Color"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/colorPicker/Dialog.svelte
 msgid "Color Picker"
 msgstr ""
@@ -1097,6 +1906,10 @@ msgstr ""
 msgid "Color of the screen this Routine (e.g. black, $[1.0,1.0,1.0], $variable. Right-click to bring up a color-picker.)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Color picker"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/_base.py
 #: psychopy/psychopy/experiment/components/routineSettings/__init__.py
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -1128,8 +1941,31 @@ msgstr ""
 msgid "Column priority"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Comment\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Comment selected lines"
+msgstr ""
+
 #: psychopy-studio/src/lib/pavlovia/CommitDlg.svelte
 msgid "Commit changes"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "Committing changes"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Compatibility information"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Compile\t%s"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
@@ -1138,6 +1974,10 @@ msgstr ""
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Compile Python"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Compile the exp to a script"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -1163,6 +2003,10 @@ msgstr ""
 msgid "Conditions"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Conditions data (no file)"
+msgstr ""
+
 #: psychopy/psychopy/data/utils.py
 #, python-format
 msgid "Conditions file %s: Missing parameter name(s); empty cell(s) in the first row?"
@@ -1175,6 +2019,10 @@ msgstr ""
 #: psychopy/psychopy/data/utils.py
 #, python-format
 msgid "Conditions file not found: %s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Conditions file set from variable."
 msgstr ""
 
 #: psychopy/psychopy/gui/qtgui.py
@@ -1205,6 +2053,15 @@ msgstr ""
 msgid "Connecting Python"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "Connection Error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Connections"
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/+page.svelte
 msgid "Console"
 msgstr ""
@@ -1226,6 +2083,12 @@ msgstr ""
 msgid "Coordinate running experiments and scripts and view any output."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Copy"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Copy\tCtrl+C"
 msgstr ""
@@ -1238,12 +2101,26 @@ msgstr ""
 msgid "Copy current Routine"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Copy text"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Copy the current monitor's name to clipboard"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Copy the current routine so it can be used in another exp"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Copy..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#, python-brace-format
+msgid "Copyright (C) {year} OpenScienceTools.org"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/buttonBox/__init__.py
@@ -1261,6 +2138,32 @@ msgstr ""
 #: psychopy/psychopy/hardware/microphone/microphone_psychtoolbox.py
 #: psychopy/psychopy/hardware/microphone/microphone_soundevice.py
 msgid "Could not choose default recording device as no recording devices are connected."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid ""
+"Could not connect to Pavlovia server. \n"
+"\n"
+"Please check that you are connected to the internet. If you are connected, then the Pavlovia servers may be down. You can check their status here: \n"
+"\n"
+"https://pavlovia.org/status"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid "Could not detect the necessary Python library for translating code. Install it now?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Could not download font {} from Google Fonts, reason: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#, python-brace-format
+msgid ""
+"Could not find GitLab project with id {}.\n"
+"\n"
+"Please check that the project exists on Pavlovia, that you are logged in as the correct user in the PsychoPy app, and that your account has access to the project."
 msgstr ""
 
 #: psychopy/psychopy/hardware/microphone/microphone_psychtoolbox.py
@@ -1283,6 +2186,16 @@ msgstr ""
 #: psychopy/psychopy/hardware/button.py
 #, python-brace-format
 msgid "Could not find device named '{}', make sure it has been set up in DeviceManager."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#, python-brace-format
+msgid "Could not find folder {directory}, please select a different local root."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+#, python-brace-format
+msgid "Could not get image from: {}, using blank image instead."
 msgstr ""
 
 #: psychopy/psychopy/tools/pkgtools.py
@@ -1310,6 +2223,10 @@ msgid ""
 "Delimiter in heading: {} in {}."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Could not move existing PsychoPy installation (permissions error?)"
+msgstr ""
+
 #: psychopy/psychopy/data/utils.py
 #, python-format
 msgid "Could not open %s as conditions"
@@ -1332,6 +2249,11 @@ msgstr ""
 msgid "Could not pause loop as there is no experiment running."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid "Could not read conditions from: %s\n"
+msgstr ""
+
 #: psychopy/psychopy/tools/pkgtools.py
 #, python-brace-format
 msgid "Could not remove {absPath}, reason: {err}"
@@ -1339,6 +2261,10 @@ msgstr ""
 
 #: psychopy/psychopy/session.py
 msgid "Could not resume experiment as there is none running or paused."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Could not retrieve plugins. Try restarting the PsychoPy app and make sure you are connected to the internet."
 msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
@@ -1356,6 +2282,10 @@ msgstr ""
 msgid "Could not stop experiment as there is none running."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Couldn't connect to psychopy.org to check for updates. \n"
+msgstr ""
+
 #: psychopy/psychopy/tools/versionchooser.py
 #, python-brace-format
 msgid "Couldn't find version {} locally. Trying github..."
@@ -1369,8 +2299,56 @@ msgstr ""
 msgid "Counterbalance Routine: use the Shelf to choose a value taking into account previous runs of this experiment."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Coverage Report"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Create a .csv file from an existing .psydat file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create a Pavlovia project for the current experiment."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create a copy of this project on your own Pavlovia account so that you can make changes without affecting the original project."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Create a new folder here."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Create a new loop in your flow window"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Create a new monitor"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Create a new routine (e.g. the trial definition)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create a project"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Create new experiment file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Create new text file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create project on Pavlovia"
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/TableCtrl.svelte
@@ -1381,6 +2359,10 @@ msgstr ""
 msgid "Creates a new calibration entry for this monitor"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Creating frames..."
+msgstr ""
+
 #: psychopy/psychopy/gui/qtgui.py
 msgid "Critical"
 msgstr ""
@@ -1389,8 +2371,25 @@ msgstr ""
 msgid "Critical issue"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Cross"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Cu&t\t%s"
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
 msgid "Current file path"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Current working directory"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Custom"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/static/__init__.py
@@ -1401,12 +2400,33 @@ msgstr ""
 msgid "Custom code to be run during the static period (after updates)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Custom polygon..."
+msgstr ""
+
 #: psychopy/psychopy/experiment/routines/eyetracker_calibrate/__init__.py
 msgid "Custom target"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+msgid "Cut"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Cut text"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "DELETED"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Dark calibration of ColorCAL"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Data"
 msgstr ""
 
 #: psychopy-studio/src/routes/coder/callbacks.svelte.js
@@ -1441,7 +2461,22 @@ msgstr ""
 msgid "Decibel range"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Decrease font size"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Decrease indentation of current line"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Dedent selection\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DeviceCtrl.svelte
+#: psychopy-studio/src/lib/paramCtrls/ctrls/utils.svelte.js
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Default"
 msgstr ""
@@ -1459,12 +2494,18 @@ msgstr ""
 msgid "Defines the space between text and the textbox border"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Delete"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
 msgid "Delete Component"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Delete the file"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
@@ -1488,16 +2529,46 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Description of the project to be shown on Pavlovia. Note: This is different than a README file!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Description:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Desktop"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid ""
+"Details of changes\n"
+" (optional)"
+msgstr ""
+
 #: psychopy/psychopy/experiment/devices.py
 msgid "Device"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Device Manager"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
 #: psychopy/psychopy/experiment/devices.py
 msgid "Device label"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/lib/dialogs/deviceManager/Dialog.svelte
 msgid "Device manager"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
+msgid "Device name"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/joyButtons/__init__.py
@@ -1515,6 +2586,10 @@ msgstr ""
 msgid "Device parameter of microphone component \"{name}\" will not be used online."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Dictionary keys can't be code"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/routineSettings/__init__.py
 msgid "Different window settings?"
 msgstr ""
@@ -1525,6 +2600,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/dots/__init__.py
 msgid "Direction of motion for the signal dots (degrees)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Directory:"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
@@ -1543,6 +2622,11 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/routines/_base.py
 msgid "Disable this Routine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Disabled"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/routines/Standalone.svelte
@@ -1584,6 +2668,11 @@ msgstr ""
 msgid "Do you want to randomize the order of your questions?"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-brace-format
+msgid "Do you want to remove routine '{}' from the experiment?"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/buttonBox/__init__.py
 #: psychopy/psychopy/experiment/components/joyButtons/__init__.py
 #: psychopy/psychopy/experiment/components/keyboard/__init__.py
@@ -1606,6 +2695,11 @@ msgstr ""
 msgid "Done"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Done! Your preferences have been reset. Changes will be applied when you next open PsychoPy."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/dots/__init__.py
 msgid "Dot color"
 msgstr ""
@@ -1626,6 +2720,10 @@ msgstr ""
 msgid "Dot size"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Dots"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/dots/__init__.py
 msgid "Dots: Random Dot Kinematogram"
 msgstr ""
@@ -1634,12 +2732,25 @@ msgstr ""
 msgid "Down"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Download"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Downloading PsychoPy v%s"
+msgstr ""
+
 #: psychopy-studio/src/lib/python/functions.svelte.js
 msgid "Downloading UV (a Python installer)..."
 msgstr ""
 
 #: psychopy/psychopy/tools/versionchooser.py
 msgid "Downloading the PsychoPy Library from Github (may take a while)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Drag"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/grating/__init__.py
@@ -1659,9 +2770,23 @@ msgstr ""
 msgid "Duplicate column name '{}'"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid "Duplicate condition names, different conditions file: %s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Duplicate dictionary key: {}"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte
 #, python-brace-format
 msgid "Duplicate field name: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Duplicate the current line (or current selection)"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/eyetracker_calibrate/__init__.py
@@ -1683,6 +2808,14 @@ msgstr ""
 msgid "E (even)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "E&xit PsychoPy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "E&xperiment"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 msgid "EOL (end-of-line) character"
 msgstr ""
@@ -1695,6 +2828,9 @@ msgstr ""
 msgid "Each frame (Py)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -1706,6 +2842,14 @@ msgstr ""
 msgid "Edit Component"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Edit experiment settings"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Edit project..."
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte
 msgid "Edit settings for this Routine"
 msgstr ""
@@ -1714,6 +2858,7 @@ msgstr ""
 msgid "Edit settings for this experiment"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Edit user..."
 msgstr ""
@@ -1727,8 +2872,14 @@ msgstr ""
 msgid "Editable?"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/coder/+page.svelte
 msgid "Editor"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Editor file location"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/colorPicker/DklColor.svelte
@@ -1759,6 +2910,14 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Enable the <esc> key, to allow subjects to quit / break out of the experiment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Enable/disable line wrapping in editors."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Enabled"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/code/__init__.py
@@ -1798,6 +2957,24 @@ msgstr ""
 msgid "End points"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Enlarge font\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Enter folder name:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Envelope"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Error"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 msgid "Exclusive aggressive low-latency (no fallback)"
 msgstr ""
@@ -1810,8 +2987,17 @@ msgstr ""
 msgid "Exclusive control"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 msgid "Exclusive low-latency"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "Exit PsychoPy?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Exit, discard any edits"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/eyetracker_calibrate/__init__.py
@@ -1836,11 +3022,25 @@ msgstr ""
 msgid "Expected words"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 msgid "Experiment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Experiment %s has changed. Save before quitting?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Experiment &Settings\t%s"
 msgstr ""
 
 #: psychopy/psychopy/session.py
@@ -1880,8 +3080,13 @@ msgstr ""
 msgid "Experiment name"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Experiment settings"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Experiment start"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/variable/__init__.py
@@ -1914,6 +3119,15 @@ msgstr ""
 msgid "Export HTML"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Export HTML...\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Export experiment to html/javascript file"
+msgstr ""
+
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 msgid "Eye tracker experiments should use 'ioHub' as the Input -> Keyboard Backend setting"
 msgstr ""
@@ -1927,9 +3141,30 @@ msgstr ""
 msgid "Eyetrackers by {brand} do not support manual pacing"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Eyetracking"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Failed to access the plugin index from the server. Please check your internet connection and try again."
+msgstr ""
+
 #: psychopy/psychopy/hardware/serialdevice.py
 #, python-brace-format
 msgid "Failed to connect to device on {port}, this device is likely to have been disconnected, or the port is in use by another application."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"Failed to create directory for new version (permissions error?):\n"
+"%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"Failed to fetch PsychoPy release.\n"
+"Check proxy setting in preferences"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginsPanel.svelte
@@ -1938,6 +3173,21 @@ msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
 msgid "Failed to load details for "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-brace-format
+msgid "Failed to open `{}`. Make sure that encoding of the file is utf-8."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#, python-brace-format
+msgid "Failed to open file {}, reason: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#, python-brace-format
+msgid "Failed to open {}, file does not exist."
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/bugReport/BugReport.svelte
@@ -1954,10 +3204,20 @@ msgstr ""
 msgid "Failed, click to show error"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Favorites"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Fetched %(done)i of %(total)i kb of PsychoPy-%(version)s.zip"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte
 msgid "Fetching versions from GitHub..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Field"
 msgstr ""
@@ -1982,6 +3242,9 @@ msgstr ""
 msgid "Fields marked with an asterisk (*) are required."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -1990,12 +3253,40 @@ msgstr ""
 msgid "File"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid ""
+"File '%s' lacks write-permission:\n"
+"Will try save-as instead."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid ""
+"File appears to have been modified outside of PsychoPy:\n"
+"   %s\n"
+"OK to overwrite?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "File browser pane location"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "File logging level"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/pavlovia_survey/__init__.py
 msgid "File path of the JSON file used to construct the survey"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "File save error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#, python-brace-format
+msgid "File {} does not exist in this location. Remove item from Runner?"
 msgstr ""
 
 #: psychopy-studio/src/routes/coder/+page.svelte
@@ -2028,10 +3319,25 @@ msgstr ""
 msgid "Fill color of this stimulus (e.g. $[1,1,0], red )"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Filter components by whether they work with PsychoJS, PsychoPy or both."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Filter..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 msgid "Find"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Find &Next\t%s"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/visualValidator/__init__.py
@@ -2042,8 +3348,13 @@ msgstr ""
 msgid "Find in experiment"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
 #: psychopy-studio/src/lib/dialogs/find/Dialog.svelte
 msgid "Find in experiment..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Find online..."
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/visualValidator/__init__.py
@@ -2099,9 +3410,21 @@ msgstr ""
 msgid "Flow"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Folder"
+msgstr ""
+
 #: psychopy/psychopy/projects/pavlovia.py
 #, python-brace-format
 msgid "Folder '{localRoot}' is not empty, use '{localRoot}/{projectName}' instead?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Folder in which local files are stored for this project. Changes to files in this folder will be tracked and applied to the project when you 'sync', so make sure the only files in this folder are relevant!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Folder name cannot be empty."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/button/__init__.py
@@ -2118,12 +3441,21 @@ msgstr ""
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 #, python-brace-format
-msgid "Font `{font} {style}` not available in weight `{weight}`, component `{name}` will default to Open Sans Regular."
+msgid "Font `{font}{style}` not available in weight `{weight}`, component `{name}` will use default font."
 msgstr ""
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 #, python-brace-format
 msgid "Font `{param.val}` not found locally, will check Google Fonts on next run."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Font `{val}` not found locally, will attempt to retrieve from Google Fonts when this experiment next runs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Font download successfully"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/slider/__init__.py
@@ -2132,6 +3464,11 @@ msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
 msgid "Font size (in pts) takes an integer between 6 and 24"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Font {} is not installed, would you like to download it from Google Fonts?"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
@@ -2148,6 +3485,22 @@ msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
 msgid "Fonts which come packaged with PsychoPy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/stdout/stdOutRich.py
+msgid "For further info see "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+#, python-format
+msgid "For more information about the %s plugin, read the documentation at:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid ""
+"For stimulus generation and experimental control in Python.\n"
+"PsychoPy depends on your feedback. If something doesn't work\n"
+"then let us know at psychopy-users@googlegroups.com"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/sound/__init__.py
@@ -2173,6 +3526,12 @@ msgstr ""
 msgid "Force end of Routine"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Force reload window"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Force stereo"
 msgstr ""
@@ -2185,12 +3544,28 @@ msgstr ""
 msgid "Foreground color of this stimulus (e.g. $[1,1,0], red )"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Forget the local git repository (deletes history keeps files)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Fork"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/form/__init__.py
 msgid "Form: a Psychopy survey tool"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Format"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Format to use for Routine start timestamps; either wall clock time (in ISO 8601 format) or seconds since experiment start (as a float)."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Formatting"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
@@ -2220,6 +3595,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "From preferences..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "From theme..."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/microphone/__init__.py
@@ -2262,16 +3641,35 @@ msgstr ""
 msgid "Gaze cursor color"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "General"
+msgstr ""
+
 #: psychopy-studio/src/routes/+page.svelte
 msgid "Generate experiments easily using an intuitive graphical user interface (GUI)."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Get more demos from the online demos repository on Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/components/Panel.svelte
 msgid "Get more..."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 msgid "Get response?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Get survey ID from a list of your surveys on Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Get system information."
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
@@ -2303,12 +3701,63 @@ msgstr ""
 msgid "Give the name of any visual Component to use it as a calibration target."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Go"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Go to &Coder view\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Go to changelog"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Go to downloads"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Go to online help"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid "Go to online help about this component"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the Coder view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the PsychoPy homepage"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the online PsychoPy reference manual"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the online PsychoPy tutorial"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Go to the online documentation for PsychoPy Builder"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "Google Cloud Platform key, required for the audio transcription using Google Speech Recognition. Specified as a path to a JSON file containing the key data."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/slider/__init__.py
 msgid "Granularity"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Grating"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/grating/__init__.py
@@ -2318,6 +3767,10 @@ msgstr ""
 #: psychopy-studio/src/lib/dialogs/colorPicker/HexColor.svelte
 #: psychopy-studio/src/lib/dialogs/colorPicker/RgbColor.svelte
 msgid "Green"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Group/owner:"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/counterbalance/__init__.py
@@ -2333,6 +3786,12 @@ msgstr ""
 msgid "Handle right-to-left (RTL) languages and Arabic reshaping"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Hardware"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Help"
@@ -2342,6 +3801,27 @@ msgstr ""
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Help Forum"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Hex/HTML"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Hide/show the source assistant pane."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid "Hit [Return] to start a Python session."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid "Hit [Return] to start a Python shell."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Homepage"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
@@ -2489,6 +3969,15 @@ msgstr ""
 msgid "Hue"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "I'm sure"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "I/O"
+msgstr ""
+
 #: psychopy/psychopy/experiment/routines/visualValidator/__init__.py
 msgid "If relevant, a channel number attached to the light sensor, to distinguish it from other light sensors on the same port. Leave blank to use the first light sensor which can detect the Window."
 msgstr ""
@@ -2535,6 +4024,10 @@ msgstr ""
 msgid "Image: present images (bmp, jpg, tif...)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Impending Loop collapse"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/roi/__init__.py
 msgid "In debug mode, the ROI is drawn in red. Use this to see what area of the screen is in the ROI."
 msgstr ""
@@ -2549,6 +4042,14 @@ msgstr ""
 msgid "In what format (color space) have you specified the colors? (rgb, dkl, lms, hsv)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Inavlid image format, could not set image."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Include coverage report (requires coverage module)"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Incomplete URL"
 msgstr ""
@@ -2558,8 +4059,25 @@ msgstr ""
 msgid "Incorrect item type '{}' in Form '{}', allowed types are: {}"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Increase font size"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Increase indentation of current line"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Indent selection\t%s"
+msgstr ""
+
 #: psychopy/psychopy/experiment/loops.py
 msgid "Indicates that this loop generates TRIALS, rather than BLOCKS of trials or stimuli within a trial. It alters how data files are output"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/dialogs.py
+msgid "Info"
 msgstr ""
 
 #: psychopy/psychopy/gui/qtgui.py
@@ -2586,17 +4104,64 @@ msgstr ""
 msgid "Inner radius"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Input"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Input text"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Insert"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Loop"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Loop in Flow"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Routine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Routine in Flow"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/pavlovia_survey/__init__.py
 msgid "Inserting a JSON file (exported from Pavlovia Surveys) means that the survey is embedded within this project and will not change unless you import it again (better for archiving)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Install"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Install a package from a local file, such as a .egg or .whl. You can also point to a pyproject.toml file to add an 'editable install' of an in-development package."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Install from file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "Installation complete. See above for info.\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "Installation failed. See above for info.\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Installed"
 msgstr ""
 
 #: psychopy-studio/src/lib/python/functions.svelte.js
@@ -2621,6 +4186,11 @@ msgstr ""
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 #: psychopy/psychopy/experiment/components/polygon/__init__.py
 msgid "Interpolate"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+#, python-format
+msgid "Invalid value in \"%(pref)s\" (\"%(section)s\" Tab)"
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
@@ -2666,9 +4236,34 @@ msgstr ""
 msgid "Joystick: query joystick position and buttons"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Keep warning me"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Key Bindings"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/KeyPressCtrl.svelte
 #, python-brace-format
 msgid "Keybinding '{1}' for {2} is already in use by '{3}'"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (+-)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (Arrow Keys)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (Custom keys)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (WASD)"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -2681,6 +4276,15 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/buttonBox/__init__.py
 msgid "Keys to treat as buttons (in order of what button index you want them to be). Must be the same length as the number of buttons."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Keywords associated with this project, helping others to find it. For example, if your experiment is useful to psychophysicists, you may want to add the keyword 'psychophysics'."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Keywords:"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -2708,6 +4312,14 @@ msgstr ""
 msgid "Language style"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Larger flow items"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Larger routine items"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/buttonBox/__init__.py
 msgid "Last button"
 msgstr ""
@@ -2724,8 +4336,36 @@ msgstr ""
 msgid "Last response"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Last synced at..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Latency critical"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Latency not important"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 msgid "Latency/exclusivity mode"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Later"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Launching local debug of online study"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Launching online study at Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Layout"
 msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
@@ -2759,6 +4399,10 @@ msgstr ""
 msgid "Light threshold at which the light sensor should register a positive, units go from 0 (least sensitive) to 1 (most sensitive)."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Line"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/slider/__init__.py
 msgid "Line color"
 msgstr ""
@@ -2770,6 +4414,10 @@ msgstr ""
 #: psychopy/psychopy/experiment/components/polygon/__init__.py
 #: psychopy/psychopy/experiment/components/progress/__init__.py
 msgid "Line width"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Line wrapping"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
@@ -2784,6 +4432,26 @@ msgstr ""
 msgid "List of positions (x, y) at which the target can appear"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Load tasks from a file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Loading app fonts..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Loading builder demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Loading coder demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Loading file"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
 msgid "Loading loops..."
 msgstr ""
@@ -2792,8 +4460,20 @@ msgstr ""
 msgid "Loading monitors..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Loading plugins..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Loading requested files..."
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte
 msgid "Loading surveys..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Loading task"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/preferences/PrefsDialog.svelte
@@ -2802,6 +4482,7 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
 #: psychopy-studio/src/lib/dialogs/projects/manage/Project.svelte
 msgid "Local folder:"
 msgstr ""
@@ -2810,10 +4491,38 @@ msgstr ""
 msgid "Local projects"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Location"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Location to unpack demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Log in"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "Log in to Pavlovia...\t{}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Log out"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/user.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Login"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Login..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/user.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Logout"
 msgstr ""
@@ -2828,6 +4537,16 @@ msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
 msgid "Longest since edited"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Looks like your variable '{code}' in '{displayName}' should be set to update."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Looks like your variable '{}' in '{}' should be set to update."
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
@@ -2850,8 +4569,21 @@ msgstr ""
 msgid "M (mask)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Manage Python packages and optional plugins for PsychoPy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Manage list"
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Manage plugins and packages"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Map devices from this machine to names in your experiment"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/form/__init__.py
@@ -2864,12 +4596,24 @@ msgstr ""
 msgid "Mask"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Match case?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Match regex?"
+msgstr ""
+
 #: psychopy/psychopy/experiment/routines/counterbalance/__init__.py
 msgid "Max number of participants in each group for each repeat."
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
 msgid "Max value"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Me"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -2913,12 +4657,23 @@ msgstr ""
 msgid "Min. look time"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Minimize window"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/roi/__init__.py
 msgid "Minimum dwell time within roi (look at) or outside roi (look away)."
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
 msgid "Minimum number of times the staircase must change direction before ending"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/validators.py
+msgid "Missing name"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -2929,6 +4684,8 @@ msgstr ""
 msgid "Monitor"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/lib/dialogs/monitorCenter/MonitorCenterDlg.svelte
 msgid "Monitor Center"
 msgstr ""
@@ -2941,12 +4698,34 @@ msgstr ""
 msgid "Monitor calibration setup"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Monitor center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Monitor settings and calibration"
+msgstr ""
+
 #: psychopy/psychopy/projects/pavlovia.py
 msgid "Most forks"
 msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
 msgid "Most stars"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Mouse"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Mouse Wheel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Mouse Wheel (Inverted)"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/eyetracking.py
@@ -2963,6 +4742,22 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/eyetracking.py
 msgid "Move button"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move down"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move to bottom"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move to top"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move up"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/eyetracker_calibrate/__init__.py
@@ -3015,6 +4810,7 @@ msgstr ""
 msgid "N up"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
 #: psychopy/psychopy/experiment/components/_base.py
 #: psychopy/psychopy/experiment/loops.py
 #: psychopy/psychopy/experiment/routines/_base.py
@@ -3033,8 +4829,26 @@ msgstr ""
 msgid "Name already in use"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/validators.py
+msgid "Name can only contain letters, numbers and underscores (_), no spaces or other symbols"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/NameCtrl.svelte
 msgid "Name cannot be a protected keyword"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Name is already in use ({})"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Name is not valid"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Name must be alphanumeric or _, no spaces"
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
@@ -3088,12 +4902,24 @@ msgstr ""
 msgid "Name of {} key"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Name:"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/NameCtrl.svelte
 msgid "Names cannot include spaces"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Navigate to PsychoPy library root."
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
 msgid "Navigate to current file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Navigate to current open file."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/routineSettings/__init__.py
@@ -3101,8 +4927,22 @@ msgstr ""
 msgid "Needed if color is defined numerically (see PsychoPy documentation on color spaces)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "New"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "New (no file)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
 msgid "New Routine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "New Routine name:"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
@@ -3126,6 +4966,10 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "New folder"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/flow/controls/AddLoop.svelte
 msgid "New loop"
 msgstr ""
@@ -3134,12 +4978,22 @@ msgstr ""
 msgid "New monitor name:"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "New name for copy of \"%(copied)s\"?  [%(default)s]"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/NewProjectDlg.svelte
 #: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte
 msgid "New project"
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "New project..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
 msgid "New user..."
 msgstr ""
 
@@ -3153,8 +5007,19 @@ msgstr ""
 msgid "New {}..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "New..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "New...\t{}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "News"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/movie/__init__.py
@@ -3184,16 +5049,43 @@ msgstr ""
 msgid "No details provided. ('prompt' value not set)."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "No device named `{}` has been setup in the Device Manager, set one up now?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "No file named {}"
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/outline/OutlinePanel.svelte
 msgid "No open file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "No parameters set"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "No parameters set (conditionsFile not found)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "No parameters set (select a file above)"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "No photometers found"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte
 msgid "No project"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "No readme file"
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DeviceCtrl.svelte
@@ -3212,6 +5104,7 @@ msgstr ""
 msgid "No speaker device found with {key} '{name}'"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "No user"
 msgstr ""
@@ -3231,6 +5124,24 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/routineSettings/__init__.py
 msgid "Non-slip timing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "None"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Not a valid file path: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+#, python-brace-format
+msgid "Not for PsychoPy {}:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Not now"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -3295,12 +5206,31 @@ msgstr ""
 msgid "O (odd)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "OK"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "OSF_logIn"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/dots/__init__.py
 msgid "On each frame are the signals dots remaining the same or changing? See Scase et al."
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/TableCtrl.svelte
 msgid "Once you have created and saved your table, please remember to add it."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Once you have created and saved your table, remember to add it here."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Online"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -3319,8 +5249,47 @@ msgstr ""
 msgid "Opacity of the stimulus (1=opaque, 0=fully transparent, 0.5=translucent). Leave blank for each color to have its own opacity (recommended if any color is None)."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Open"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open &Recent"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Open PIP terminal"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Open PIP terminal to manage packages manually"
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Open PsychoPy user folder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Open a new Builder view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Open a new Coder view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open a tool for choosing colors"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Open an existing experiment file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open an existing text file"
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/ColorCtrl.svelte
@@ -3331,6 +5300,10 @@ msgstr ""
 msgid "Open configuration"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Open demos folder"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
@@ -3338,6 +5311,16 @@ msgstr ""
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Open file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open file ..."
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Open folder"
 msgstr ""
 
 #: psychopy-studio/src/routes/coder/files/DirCtrl.svelte
@@ -3360,12 +5343,40 @@ msgstr ""
 msgid "Open table"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Open task list ..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Open the Device Manager to setup devices"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Open the current working directory"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 msgid "Open the device manager"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Open the directory the current editor file is located"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Open the folder containing this experiment in your system's file explorer"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Open the local folder where demos are stored"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 msgid "Open the monitor center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Open/create in your default table editor"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/grating/__init__.py
@@ -3374,6 +5385,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/grating/__init__.py
 msgid "OpenGL blend mode"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Optional details about the changes you're making in these files"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
@@ -3416,6 +5431,15 @@ msgstr ""
 msgid "Outline"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Output"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Output Space:"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/microphone/__init__.py
 msgid "Output file type"
 msgstr ""
@@ -3444,13 +5468,47 @@ msgstr ""
 msgid "PILOTING: Switch to run mode before testing."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "PIP error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "PREVIEW"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Package"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "Package installed"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+#, python-brace-format
+msgid "Package {} could not be uninstalled."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+#, python-brace-format
+msgid "Package {} successfully uninstalled!"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
 msgid "Packaged"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Packages"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/button/__init__.py
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
 msgid "Padding"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Panels"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -3469,23 +5527,67 @@ msgstr ""
 msgid "Parallel port to be used (you can change these options in preferences>general)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Param name(s) adjusted to be legal. Look ok?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Parameter"
+msgstr ""
+
 #: psychopy/psychopy/experiment/_experiment.py
 #, python-format
 msgid "Parameters not known to this version of PsychoPy have come from your experiment file: %s. This experiment may not run correctly in the current version."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Params:"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 msgid "Parity override"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+msgid "Paste"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
 msgid "Paste Component"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Paste Component\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/flow/EntryPoint.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Paste Routine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste above"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste below"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Paste text"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste the Component at bottom of the current Routine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste the Routine into the current experiment"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
@@ -3495,6 +5597,16 @@ msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Patch size (fraction of screen):"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Path"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Pavlovia"
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/SurveyCtrl.svelte
@@ -3520,6 +5632,12 @@ msgstr ""
 msgid "Photometer device, from the device manager, to use for this calibration"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Pilot"
+msgstr ""
+
 #: psychopy-studio/src/routes/runner/ribbon/Ribbon.svelte
 msgid "Pilot experiment in browser"
 msgstr ""
@@ -3528,18 +5646,30 @@ msgstr ""
 msgid "Pilot experiment locally"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Pilot experiment locally in your browser"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Pilot in Python"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Pilot in browser"
 msgstr ""
 
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 msgid "Pilot locally"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Pilot mode"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -3554,6 +5684,18 @@ msgstr ""
 msgid "Placeholder text to show when there is no text contents."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Playback"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Please enter a name"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Please fetch the latest version from www.psychopy.org and install manually."
+msgstr ""
+
 #: psychopy/psychopy/tools/versionchooser.py
 msgid "Please install git; needed by useVersion()"
 msgstr ""
@@ -3561,6 +5703,14 @@ msgstr ""
 #: psychopy/psychopy/tools/versionchooser.py
 #, python-brace-format
 msgid "Please request a version before importing any PsychoPy modules. (Found: {})"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Please restart PsychoPy to apply changes."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Please save experiment before editing the README file"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
@@ -3571,8 +5721,29 @@ msgstr ""
 msgid "Plot spectra"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Plugin Manager Error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Plugin/packages manager..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Plugins"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Plugins & Packages"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/pluginManager/Dialog.svelte
 msgid "Plugins & packages"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Point to an different location"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/polygon/__init__.py
@@ -3643,6 +5814,16 @@ msgstr ""
 msgid "Prevent the experiment from being fullscreen when piloting"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Preview"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Print\t%s"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Priority"
 msgstr ""
@@ -3664,6 +5845,34 @@ msgstr ""
 #: psychopy/psychopy/projects/pavlovia.py
 #, python-brace-format
 msgid "Project `{namespace}/{name}` already exists, please choose another name."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "Project folder:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project info"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project info has changed, update online before closing?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "Project name:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project root folder does not exist, change project root now?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project root folder is not yet specified, specify project root now?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project status; whether it can be run to collect data (Running), run by its creator without saving data (Piloting) or cannot be run (Inactive)."
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -3732,6 +5941,10 @@ msgstr ""
 msgid "PsychoPy Monitor Center"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "PsychoPy Preferences"
+msgstr ""
+
 #: psychopy-studio/src/routes/runner/+page.svelte
 msgid "PsychoPy Runner"
 msgstr ""
@@ -3744,8 +5957,77 @@ msgstr ""
 msgid "PsychoPy Tips"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "PsychoPy Updates"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"PsychoPy could not connect to the \n"
+" internet to check for more recent versions.\n"
+msgstr ""
+
 #: psychopy/psychopy/gui/wxgui.py
 msgid "PsychoPy dialogue"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "PsychoPy encountered an unhandled internal error! Please send the report under \"Details\" to the developers with a description of what you were doing with the software when the error occurred."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "PsychoPy experiments (*.psyexp)|*.psyexp|Any file (*.*)|*"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "PsychoPy experiments (*.psyexp)|*.psyexp|Any file (*.*)|*.*"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "PsychoPy unit testing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "PsychoPy updates"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "PsychoPy updates..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"PsychoPy v%(latest)s is available\n"
+"You are running v%(running)s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"PsychoPy v%(latest)s is available (you are running %(running)s).\n"
+"\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"PsychoPy v%(latest)s is available (you are running %(running)s).\n"
+"\n"
+"(To disable this check, see Preferences > connections > checkForUpdates)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "PsychoPy3 Error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Psychopy module"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Public:"
 msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
@@ -3775,13 +6057,53 @@ msgstr ""
 msgid "Python packages"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Python script (*.py)|*.py|JavaScript file (*.js)|*.js|Text file (*.txt)|*.txt|Any file (*.*)|*"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Python script (*.py)|*.py|JavaScript file (*.js)|*.js|Text file (*.txt)|*.txt|Any file (*.*)|*.*"
+msgstr ""
+
 #: psychopy-studio/src/routes/coder/shell/Shell.svelte
 msgid "Python shell input"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Python syntax error in field `{}`:  {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Python var `{}` in `{}` is same as Name"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/dialogs.py
+msgid "Query"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Quit"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Quitting PsychoPy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Quotation marks (\" or ') need to be escaped (\\\" or \\')"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "README..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "RGB Format"
 msgstr ""
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
@@ -3827,11 +6149,18 @@ msgstr ""
 msgid "Recording device '{device}' not found, using default device instead."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Rectangle"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/colorPicker/HexColor.svelte
 #: psychopy-studio/src/lib/dialogs/colorPicker/RgbColor.svelte
 msgid "Red"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -3839,8 +6168,28 @@ msgstr ""
 msgid "Redo"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Redo\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Redo %(action)s\t%(key)s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Redo last action"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
 msgid "Refresh"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Refresh survey list"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/roi/__init__.py
@@ -3856,6 +6205,10 @@ msgstr ""
 msgid "Register keypress on..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Regular polygon..."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/buttonBox/__init__.py
 #: psychopy/psychopy/experiment/components/soundsensor/__init__.py
 msgid "Release"
@@ -3865,8 +6218,36 @@ msgstr ""
 msgid "Reload Components"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reload window"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Reloading file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Reminder"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/TableCtrl.svelte
 msgid "Reminder..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Remove"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Remove experiment from list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Remove from favorites"
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte
@@ -3875,12 +6256,51 @@ msgstr ""
 msgid "Remove item"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Remove routine?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Remove task"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Remove this calibration entry (finalized when monitor is saved)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename Folder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Rename file `{}` to:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Rename folder `{}` to:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename the file"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "Replace default participant ID with \"pilot\" when piloting"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Report all printed output & show any new rms-test images"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
@@ -3906,14 +6326,34 @@ msgstr ""
 msgid "Requires a hacky workaround to progress"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-brace-format
+msgid "Requires plugin {}, click here to install."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 msgid "Resample"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Reset font"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Reset preferences"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Reset preferences..."
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reset zoom"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/camera/__init__.py
@@ -3944,19 +6384,50 @@ msgstr ""
 msgid "Response color"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Responses"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/deviceManager/addDevice/AddDeviceDialog.svelte
 msgid "Retry"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Return fonts to their original size."
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/files/FileNode.svelte
+#: psychopy-studio/src/routes/coder/files/FolderNode.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Reveal in file explorer"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Reveal in file explorer...\t%s"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Right"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"Right-click the app and 'Run as admin'):\n"
+"%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Routine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Routine Template:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/flow/Routine.svelte
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte
 msgid "Routine settings"
@@ -3970,11 +6441,22 @@ msgstr ""
 msgid "Routines"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Run"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run &JS for local debug"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run JS on &Pavlovia"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/pavlovia_survey/__init__.py
@@ -3997,6 +6479,11 @@ msgstr ""
 msgid "Run experiment locally"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run experiment on Pavlovia"
+msgstr ""
+
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
@@ -4011,12 +6498,39 @@ msgstr ""
 msgid "Run locally"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Run mode"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run on Pavlovia"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/button/__init__.py
 msgid "Run once per click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Run tests"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Run the current script"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run the current script in Python"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run the current script in Python with piloting features on"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -4028,12 +6542,24 @@ msgstr ""
 msgid "Run {}"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Run/pilot\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/+page.svelte
 msgid "Runner"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Running"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Running experiment"
 msgstr ""
 
 #: psychopy/psychopy/session.py
@@ -4057,12 +6583,24 @@ msgstr ""
 msgid "Saturation"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Save"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Save\tCtrl+S"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Save &as...\t%s"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -4085,8 +6623,31 @@ msgstr ""
 msgid "Save all calibrations for this monitor"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Save and exit"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Save as"
+msgstr ""
+
 #: psychopy/psychopy/experiment/routines/eyetracker_validate/__init__.py
 msgid "Save as image"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save as..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Save changes to %s before quitting?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Save changes to %s before running?"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
@@ -4121,6 +6682,30 @@ msgstr ""
 msgid "Save csv file (trial-by-trial)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Save current experiment file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Save current experiment file as..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current python file as..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current text file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current text file as..."
+msgstr ""
+
 #: psychopy/psychopy/experiment/routines/counterbalance/__init__.py
 msgid "Save data"
 msgstr ""
@@ -4145,6 +6730,10 @@ msgstr ""
 msgid "Save data from loops in psydat format. This is useful for Python programmers to generate analysis scripts."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "Save error traceback"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/variable/__init__.py
 msgid "Save exp end value"
 msgstr ""
@@ -4167,6 +6756,15 @@ msgstr ""
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Save file as"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save file as ..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Save file as..."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/camera/__init__.py
@@ -4209,6 +6807,14 @@ msgstr ""
 msgid "Save results as an image"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Save task list as ..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Save task list to a file"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/variable/__init__.py
 msgid "Save the Routine end value in data file."
 msgstr ""
@@ -4245,14 +6851,24 @@ msgstr ""
 msgid "Save..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Saving file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Saving task"
+msgstr ""
+
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Scanning ports..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
 #: psychopy-studio/src/routes/coder/files/FolderNode.svelte
 msgid "Scanning..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
@@ -4291,8 +6907,29 @@ msgstr ""
 msgid "Screen width (cm)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "Search Pavlovia\t{}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Search for projects online"
+msgstr ""
+
 #: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte
 msgid "Search projects"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Search projects..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Search the current file for a specific term"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Search the whole experiment for a specific term"
 msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/find/Dialog.svelte
@@ -4301,6 +6938,26 @@ msgstr ""
 
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackagesPanel.svelte
 msgid "Searching PyPi..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Select .psydat file(s) to extract"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+msgid "Select All"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Select a Routine to insert (Esc to exit)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Select a plugin to view details."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Select a template to base your new Routine on"
 msgstr ""
 
 #: psychopy/psychopy/gui/qtgui.py
@@ -4315,8 +6972,22 @@ msgstr ""
 msgid "Select file(s) to open"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Select image..."
+msgstr ""
+
 #: psychopy/psychopy/experiment/loops.py
 msgid "Select just a subset of rows from your condition file (the first is 0 not 1!). Examples: 0, 0:5, 5:-1"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Select one of your routines to be inserted into the experiment flow"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid ""
+"Select the test(s) to run, from:\n"
+"psychopy/tests/test*"
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
@@ -4343,9 +7014,19 @@ msgstr ""
 msgid "Send a regular string (which will be converted to binary) on {}"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Send current script to runner"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 #, python-brace-format
 msgid "Send custom code (e.g. from a variable) on {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Send experiment to Runner"
 msgstr ""
 
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
@@ -4355,6 +7036,12 @@ msgstr ""
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Send to Runner"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Send to runner\t%s"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
@@ -4389,12 +7076,25 @@ msgstr ""
 msgid "Set the value for the beginning of every screen refresh."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Setting the variable `{}` will overwrite an existing variable ({})"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/routineSettings/__init__.py
 msgid "Settings for this Routine."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Setup named devices for your Components to refer to"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/polygon/__init__.py
 msgid "Shape"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Share low-latency driver"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/sound/__init__.py
@@ -4405,8 +7105,20 @@ msgstr ""
 msgid "Shared low-latency (recommended)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shelf"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shell"
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/colorPicker/LmsColor.svelte
 msgid "Short"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Should PsychoPy update itself?"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/joystick/__init__.py
@@ -4420,6 +7132,10 @@ msgstr ""
 #: psychopy/psychopy/experiment/components/keyboard/__init__.py
 #: psychopy/psychopy/experiment/components/soundsensor/__init__.py
 msgid "Should a response force the end of the Routine (e.g end the trial)?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Should be legal as a variable name (alphanumeric)"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/eyetracker_record/__init__.py
@@ -4531,20 +7247,53 @@ msgstr ""
 msgid "Should we measure your frame rate at the start of the experiment? This is highly recommended for precise timing."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Show &EOLs\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Show &builder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Show &coder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Show &runner"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "Show / hide splash screen"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Show Builder"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Show Coder"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Show End Of Line markers in the code"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Show Runner"
@@ -4556,6 +7305,10 @@ msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
 msgid "Show all information"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Show all values as they would appear after saving to a file, without actually saving anything."
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -4576,6 +7329,10 @@ msgstr ""
 msgid "Show developer tools"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Show dialog to run unit tests"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Show info dialog"
 msgstr ""
@@ -4594,6 +7351,27 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/routines/eyetracker_validate/__init__.py
 msgid "Show results screen"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Show screen numbers"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Show whitespace characters in the code"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shows guides in the editor for your indentation level"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shows the output and shell panes (and starts capturing stdout)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Shrink font\t%s"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -4668,6 +7446,10 @@ msgstr ""
 msgid "Skip this Routine if the value in this contorl evaluates to True. Leave blank to not skip."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Skip this version"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/slider/__init__.py
 msgid "Slider: A simple, flexible object for getting ratings"
 msgstr ""
@@ -4679,6 +7461,19 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/routines/counterbalance/__init__.py
 msgid "Slots per group"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Smaller flow items"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Smaller routine items"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "SmartIndent\t%s"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
@@ -4693,6 +7488,10 @@ msgstr ""
 msgid "Sort columns by..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Sort..."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 msgid "Sound"
 msgstr ""
@@ -4703,6 +7502,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 msgid "Sound: play recorded files or generated sounds"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Source Assistant"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -4750,6 +7553,11 @@ msgstr ""
 msgid "Speaking start / stop times"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Specified path `{}` is not a directory."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/button/__init__.py
 #: psychopy/psychopy/experiment/components/text/__init__.py
 #: psychopy/psychopy/experiment/components/textbox/__init__.py
@@ -4758,6 +7566,24 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/slider/__init__.py
 msgid "Specifies the minimum step size (0 for a continuous scale, 1 for integer rating scale)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Specify color ..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Specify file or files..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Specify file..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Specify folder..."
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/counterbalance/__init__.py
@@ -4780,13 +7606,30 @@ msgstr ""
 msgid "Stair type"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Star"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/_base.py
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 msgid "Start"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Start Only"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/eyetracker_record/__init__.py
 msgid "Start and / or Stop recording data from the eye tracker"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Start and Check"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Start and Stop"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/parallelOut/__init__.py
@@ -4827,6 +7670,15 @@ msgstr ""
 msgid "Static: Static screen period (e.g. an ISI). Useful for pre-loading stimuli."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Status:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-studio/src/routes/coder/shell/ShellNotebook.svelte
+msgid "Stdout"
+msgstr ""
+
 #: psychopy/psychopy/experiment/loops.py
 msgid "Step sizes"
 msgstr ""
@@ -4835,11 +7687,20 @@ msgstr ""
 msgid "Step type"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Stimuli"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy/psychopy/experiment/components/_base.py
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 #: psychopy/psychopy/experiment/routines/_base.py
 msgid "Stop"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Stop Only"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
@@ -4850,12 +7711,20 @@ msgstr ""
 msgid "Stop data"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Stop the current (Python) script"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/_base.py
 msgid "Stop type"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/_base.py
 msgid "Stop type..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Stop warning me"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/eyetracker_record/__init__.py
@@ -4929,8 +7798,27 @@ msgstr ""
 msgid "Submit bug report"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Submit changes to Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"Success. \n"
+"Changes to PsychoPy will be completed when the application is next run"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Successfully downloaded PsychoPy-%s.zip"
+msgstr ""
+
 #: psychopy-studio/src/lib/python/functions.svelte.js
 msgid "Successfully started Python"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Summary of changes"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/pavlovia_survey/__init__.py
@@ -4949,12 +7837,49 @@ msgstr ""
 msgid "Survey type"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/user.py
+msgid "Switch User"
+msgstr ""
+
 #: psychopy/psychopy/experiment/loops.py
 msgid "Switch method"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Switch to Builder view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Switch to Coder view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Switch to Runner view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Switch user"
+msgstr ""
+
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Switch user..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Sync"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "Sync\t{}"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/joyButtons/__init__.py
@@ -4966,6 +7891,11 @@ msgstr ""
 msgid ""
 "Sync failed - could not find project with id {}\n"
 "\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Sync project with Pavlovia"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/sound/__init__.py
@@ -4984,6 +7914,10 @@ msgstr ""
 msgid "Sync to screen"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Synchronise this project's local files with their online counterparts. This will 'pull' changes from Pavlovia and 'push' changes from your local files."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/_base.py
 msgid "Synchronize times with screen refresh (good for visual stimuli and responses based on them)"
 msgstr ""
@@ -4996,8 +7930,20 @@ msgstr ""
 msgid "System"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "System Packages"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Tags (comma separated):"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/microphone/__init__.py
 msgid "Take exclusive control of the microphone, so other apps can't use it during your experiment."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Target"
 msgstr ""
 
 #: psychopy/psychopy/experiment/routines/eyetracker_calibrate/__init__.py
@@ -5017,6 +7963,21 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/routines/eyetracker_validate/__init__.py
 msgid "Target positions"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Terminate PsychoPy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Terminate the program"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Testing"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/eyetracker_marker/__init__.py
@@ -5077,6 +8038,25 @@ msgstr ""
 msgid "Thank you for your patience."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "That name is in use (by {used}). Try another name."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid "That name is in use (it's a %s). Try another name."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "That's us! We make PsychoPy and Pavlovia!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "The \"%s\" Loop is about to be deleted as well (by collapsing). OK to proceed?"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/grating/__init__.py
 msgid "The (2D) texture of the grating - can be sin, sqr, sinXsin... or a filename (including path)"
 msgstr ""
@@ -5119,6 +8099,10 @@ msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
 msgid "The first configuration check is your video card's drivers. The current"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "The following components/routines should now be visible in the Components panel (a restart may be required in some cases):\n"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/button/__init__.py
@@ -5224,17 +8208,61 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"There are no known compatibility\n"
+"issues with your current version."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "There are no surveys linked to your Pavlovia account."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "There is currently an installation/uninstallation in progress, are you sure you want to close?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "This file doesn't belong to any existing project."
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 #, python-format
 msgid "This page was auto-generated by the PsychoPy configuration wizard on %s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "This parameter has come from an older version of PsychoPy. In the latest version of PsychoPy, it is not used. Click this button to delete it. WARNING: This may affect how this experiment works in older versions!"
 msgstr ""
 
 #: psychopy/psychopy/experiment/_experiment.py
 msgid "This parameter is not known by this version of PsychoPy. It might be worth upgrading, otherwise press the X button to remove this parameter."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "This parameter will be treated as code - we have already put in the $, so you don't have to."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "This parameter will not be deleted until you click Okay. Click this button to revert the deletion and keep the parameter."
+msgstr ""
+
 #: psychopy-studio/src/lib/dialogs/deepLink/DeepLink.svelte
 msgid "This project is not synced to your local machine. Would you like to fetch it from Pavlovia?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"This version MAY require you to modify your\n"
+"scripts/exps slightly. Read the changelog carefully."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "This version is too big an update to be handled automatically.\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "This will uninstall all plugins an additional packages you have installed, are you sure you want to continue?"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -5289,8 +8317,51 @@ msgstr ""
 msgid "Timeout"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Timing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Title of the project. Unlike the project name, this isn't used as a filename anywhere; so you can add spaces, apostrophes and emojis to your heart's content! 🦕✨"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Title summarizing the changes you're making in these files"
+msgstr ""
+
 #: psychopy/psychopy/experiment/loops.py
 msgid "To have a fixed random sequence provide an integer of your choosing here. Leave blank to have a new random sequence on each run of the experiment."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "To set information about your monitor"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "To upgrade you need to restart the app as admin (Right-click the app and 'Run as admin')"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Toggle Readme"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Toggle comment\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Toggle commenting of selected lines"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Toggle fold\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Toggle folding of top level"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
@@ -5311,12 +8382,20 @@ msgstr ""
 msgid "Transcribe audio"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Transcription"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/microphone/__init__.py
 msgid "Transcription backend"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/microphone/__init__.py
 msgid "Transcription language"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Triangle"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/microphone/__init__.py
@@ -5335,6 +8414,10 @@ msgstr ""
 msgid "Try again. Cover the lens fully and press OK"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Try to indent to the correct position w.r.t. last line"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/slider/__init__.py
 msgid "Tweaks to change the appearance of the slider beyond its style."
 msgstr ""
@@ -5348,6 +8431,16 @@ msgstr ""
 msgid "Type of data to be sent: A number, a binary sequence, a character byte, or custom code ($)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#, python-brace-format
+msgid ""
+"Type pip commands below and press Enter to execute them in the installed PsychoPy environment, any returned text will appear below. When installing, remember to add `--user` on the end!\n"
+"\n"
+"All commands will be automatically prefaced with:\n"
+"{}\n"
+"(so you don't need to type it yourself)\n"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/parallelOut/__init__.py
 msgid "U3 Register to write byte to"
 msgstr ""
@@ -5356,10 +8449,27 @@ msgstr ""
 msgid "U3 register"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Un-comment selected lines"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Unable to find \"%s\""
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Uncomment\t%s"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/roi/__init__.py
 msgid "Under what condition should this ROI end the Routine?"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -5367,9 +8477,35 @@ msgstr ""
 msgid "Undo"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Undo\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Undo %(action)s\t%(key)s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Undo last action"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Uninstall"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Uninstall all plugins"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Unit &testing...\tCtrl-T"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/__init__.py
@@ -5401,6 +8537,10 @@ msgstr ""
 msgid "Unknown: A component which comes from a plugin which you do not have installed & activated."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Unpack demos to a writable location (so that they can be run)"
+msgstr ""
+
 #: psychopy-studio/src/lib/paramCtrls/ctrls/UnknownCtrl.svelte
 msgid "Unrecognised param deleted. Undo?"
 msgstr ""
@@ -5413,8 +8553,14 @@ msgstr ""
 msgid "Up to parent directory"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Update"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Update PsychoPy to the latest, or a specific, version"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -5453,8 +8599,13 @@ msgstr ""
 msgid "Use custom?"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
 msgid "User"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "User Packages"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/_base.py
@@ -5462,10 +8613,15 @@ msgstr ""
 msgid "Validate with..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Validation"
+msgstr ""
+
 #: psychopy/psychopy/experiment/routines/eyetracker_validate/__init__.py
 msgid "Validation routine for eyetrackers"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
 #: psychopy-studio/src/lib/dialogs/colorPicker/HsvColor.svelte
 msgid "Value"
 msgstr ""
@@ -5476,6 +8632,11 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/slider/__init__.py
 msgid "Value of the slider befre any response, leave blank to hide the marker until clicked on"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Variable name ${newName} is in use (by {used}). Try another name."
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/variable/__init__.py
@@ -5506,6 +8667,10 @@ msgstr ""
 msgid "Version or value"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Version:"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Vertical look position, ranging from -1 (fully down) to 1 (fully up)"
 msgstr ""
@@ -5518,6 +8683,32 @@ msgstr ""
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "View"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "View complete Changelog"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "View raw code"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "View styled HTML"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Views"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Visibility of the current project; whether its visible only to its creator (Private) or to any user (Public)."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Visibility:"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/settings/eyetracking.py
@@ -5533,7 +8724,16 @@ msgstr ""
 msgid "Volume"
 msgstr ""
 
-#: psychopy/psychopy/gui/qtgui.py
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Wait, go back!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Wall clock"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/dialogs.py psychopy/psychopy/gui/qtgui.py
 msgid "Warning"
 msgstr ""
 
@@ -5543,6 +8743,10 @@ msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
 msgid "Warning: <a href=\"https://www.psychopy.org/general/timing/reducingFrameDrops.html?highlight=shader\">Rendering of complex stimuli will be slow</a>."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid "Warning: Python to JavaScript Translation"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -5566,6 +8770,10 @@ msgstr ""
 msgid "Warning: python 2.7 or 3.6 are recommended; 2.6 and 3.5 might work. Others probably won't."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid "Warning: requires the metapensiero library"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "Warning: the refresh rate has high frame-to-frame variability (SD &gt; 0.5 ms)"
 msgstr ""
@@ -5583,6 +8791,14 @@ msgstr ""
 msgid "We found a repository pointing to {} but no user is logged in for us to check it"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "We got:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "We tried:"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "We'll go through a series of configuration checks in about 10 seconds. "
 msgstr ""
@@ -5591,6 +8807,7 @@ msgstr ""
 msgid "Webcam: Record video from a webcam."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy/psychopy/tools/wizard.py
 msgid "Welcome to PsychoPy3!"
 msgstr ""
@@ -5640,6 +8857,15 @@ msgstr ""
 msgid "What is the 'correct' response (True/False)? Might be helpful to add a correctAns column and use $correctAns to compare to the response. "
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "What is the name for the new Routine? (e.g. instr, trial, feedback)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "What is the new name for the Routine?"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/dots/__init__.py
 msgid "What is the shape of the field?"
 msgstr ""
@@ -5667,6 +8893,10 @@ msgstr ""
 
 #: psychopy/psychopy/experiment/components/roi/__init__.py
 msgid "What looks on this ROI should be saved to the data output?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "What shall we do?"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/polygon/__init__.py
@@ -5863,6 +9093,10 @@ msgstr ""
 msgid "Width of the shape's line (always in pixels - this does NOT use 'units')"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Window"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Window backend"
 msgstr ""
@@ -5879,20 +9113,87 @@ msgstr ""
 msgid "Works but something is unintuitive / could be prettier"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+#, python-brace-format
+msgid "Works with versions {}."
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/text/__init__.py
 msgid "Wrap width"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write JS"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write Python"
 msgstr ""
 
 #: psychopy-studio/src/routes/+page.svelte
 msgid "Write and edit code directly in a variety of languages."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write experiment as a JavaScript (JS) script"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write experiment as a Python script"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 msgid "Yes"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "You are not logged in to Pavlovia. Please log in to continue."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
 #: psychopy/psychopy/projects/pavlovia.py
 msgid "You are not logged in to Pavlovia. Please log in to sync project."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "You are running PsychoPy (%(running)s), which is ahead of the latest official version (%(latest)s)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"You are running PsychoPy v%s.\n"
+" "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"You are running the latest version of PsychoPy (%s)\n"
+" "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "You are running the latest version of PsychoPy (%s). "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "You can revert to a previous version by selecting a specific .zip source installation file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "You can update PsychoPy with your package manager"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "You need to install git to use Pavlovia projects"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+msgid "You need to log in to create a project"
 msgstr ""
 
 #: psychopy/psychopy/monitors/MonitorCenter.py
@@ -5946,16 +9247,26 @@ msgstr ""
 msgid "Zoom control"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom in"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom out"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom sensitivity"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "[Warning] Could not activate plugin. PsychoPy may need to restart for plugin to take effect."
 msgstr ""
 
 #: psychopy/psychopy/liaison.py
@@ -5976,12 +9287,64 @@ msgstr ""
 msgid "a list of parallel ports"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "abbreviateLongCompNames"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "abort"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "add"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "all"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "all buttons"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "all keys"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "allow PsychoPy to check for new features and bug fixes"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
 msgid "allow PsychoPy to send anonymous usage stats; please allow if possible, it helps PsychoPy's development"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "allowGUI"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "allowUsageStats"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "alwaysShowReadme"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "analyseCode"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "any click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "app"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "appKeyGoogleCloud"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -5996,24 +9359,194 @@ msgstr ""
 msgid "audio driver to use"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "audioDevice"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "audioDriver"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "audioWASAPIOnly"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "auto"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "autoProxy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "autoSavePrefs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "autocomplete"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "average"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "average (no FBO)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "avg"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "avoid upgrading during an experiment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "basic"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "bottom-center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "bottom-left"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "bottom-right"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "builderFind"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "builderLayout"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "button onset"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "by "
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
 msgid "can be set in <a href=\"https://www.psychopy.org/general/prefs.html#application-settings-app\">Preferences -> App</a>"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "center-left"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "center-right"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "checkForUpdates"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "circle"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "close"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "close the Builder or Coder window"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "codeComponentLanguage"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "codeFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "codeFontSize"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "columns"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "comma"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "comment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "compileScript"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "componentFilter"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "componentsFolders"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#, python-format
+msgid "cond %s:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "condition"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
 msgid "configuration and performance data. Begin?"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "confirmRoutineClose"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "connections"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "constant"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "contain"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "convert a Builder .psyexp script into a python script and open it in the Coder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "copy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "copyRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "correct click"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -6026,8 +9559,40 @@ msgstr ""
 msgid "could not import package %s"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "cover"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "csv from psydat"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "current manual proxy setting from <a href=\"https://www.psychopy.org/general/prefs.html#connection-settings-connections\">Preferences -> Connections</a>"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "custom..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "cut"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "cycleWindows"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "data"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "debug"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "debugMode"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -6036,6 +9601,22 @@ msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
 msgid "decrease display size of Routines"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "dedent"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "defaultView"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "different"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "direction"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -6050,12 +9631,28 @@ msgstr ""
 msgid "drivers cannot support PsychoPy, so you'll need to update the drivers."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "duplicate"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "duration (frames)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "duration (s)"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "during <a href=\"https://www.psychopy.org/api/visual/dotstim.html\">DotStim</a> with 100 random dots"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
 msgid "during the drifting <a href=\"https://www.psychopy.org/api/visual/gratingstim.html\">GratingStim</a>"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "edgeGuideColumn"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -6070,16 +9667,101 @@ msgstr ""
 msgid "end the application (PsychoPy)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "enlargeFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "errorDialog"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "every click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "every frame"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "every look"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "exclude non-WASAPI audio devices"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "exp"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "exp control"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "expSettings"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
 msgid "export Builder experiment to HTML"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "exportHTML"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "extra white-space"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "fill"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte
 msgid "final"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "find"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "findAgain"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first button"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first key"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first look"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "flac"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "fold"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -6098,8 +9780,48 @@ msgstr ""
 msgid "for online help, usage statistics, software updates, and google-speech"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forceMouseVisible"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forceNonRush"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forceWindowed"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forcedWindowSize"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "frame N"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "from exp settings"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "from preferences"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "full screen is best for accurate timing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "fullscr"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "gammaErrorPolicy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "general"
 msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
@@ -6112,6 +9834,19 @@ msgstr ""
 
 #: psychopy/psychopy/projects/pavlovia.py
 msgid "get project name"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "hardware"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "hidden"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "hiddenComponents"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/text/__init__.py
@@ -6135,8 +9870,64 @@ msgstr ""
 msgid "increase display size of Routines"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "indent"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "info"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "input"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "item"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "joystick onset"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "keyBindings"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "keyword"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "language to use in menus etc; not all translations are available. Select a value, then restart the app."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "largerFlow"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "largerRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last button"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last key"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last look"
 msgstr ""
 
 #: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte
@@ -6147,8 +9938,44 @@ msgstr ""
 msgid "launch a script, Builder or Coder, or run unit-tests"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "lineSpacing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "linear"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "locale"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "look at"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "look away"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "manually"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "max time to wait for a connection response"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "maxFavorites"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "misc"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "mouse onset"
 msgstr ""
 
 #: psychopy/psychopy/experiment/loops.py
@@ -6169,8 +9996,68 @@ msgstr ""
 msgid "name of the folder where subject data should be saved (relative to the script)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "named"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "nearest"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "never"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "new"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "newRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "none"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "not yet supported"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "nothing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "numpy function"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "numpy.std() of 1,000,000 data points"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on Save"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on Sync"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on valid click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "one of your Components, Routines, or condition parameters"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "open"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -6193,12 +10080,49 @@ msgstr ""
 msgid "or Cancel to stay in PsychoPy."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "or..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "outputFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "outputFontSize"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "override the above proxy settings with values found in the environment (if possible)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "parallelPorts"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "paste"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pasteCompon"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pasteRoutine"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "path to flac (lossless audio compression) on this operating system"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "paths"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pavlovia_logIn"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -6206,28 +10130,172 @@ msgstr ""
 msgid "physical RAM available for configuration test (of %.1fG total)"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pilotConsoleLoggingLevel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pilotLoggingLevel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "piloting"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "plotting; fast contains(), overlaps()"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "points to a remote that doesn't exist (deleted?)."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "position"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "preferences"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "preferredShell"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "press"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "print"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsFind"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsNew"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsOpen"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsSync"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "proxy"
 msgstr ""
 
 #: psychopy/psychopy/voicekey/__init__.py
 msgid "psychopy.voicekey is no longer maintained, please use psychopy.hardware.soundSensor instead"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "python keyword"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "qmixConfiguration"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "quit"
+msgstr ""
+
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 msgid "quitPsychoJS needs to be returned"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "readonly"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "redo"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "release"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
 msgid "reload previously opened files after start"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "reloadPrevExp"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "reloadPrevFiles"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "remove"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "rename"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "renameRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "repeat"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "replaceParticipantID"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "reset preferences to defaults on next restart of PsychoPy"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "resetPrefs"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "reveal the folder containing the current Builder file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "revealFolder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "roi onset"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "rows"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "runScript"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "runnerScript"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "same"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "same as in the file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "save"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -6242,12 +10310,94 @@ msgstr ""
 msgid "save any unsaved preferences before closing the window"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "saveAs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "savedDataFolder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "scale-down"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "scientific / numerical"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "scroll"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "semicolon"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "set during: "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "set every frame"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "set every repeat"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "show or hide the readme (info) for this experiment if possible"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showOutput"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showPilotingIndicator"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showSourceAsst"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showSplash"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showStartupTips"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "shrinkFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "shutdownKey"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "shutdownKeyModifiers"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "smallerFlow"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "smallerRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "smartIndent"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "square"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
@@ -6258,8 +10408,20 @@ msgstr ""
 msgid "start a new experiment or script"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "startUpPlugins"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "stimuli"
+msgstr ""
+
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
 msgid "stop"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "stopScript"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/slider/__init__.py
@@ -6274,6 +10436,18 @@ msgstr ""
 msgid "switch between windows"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "system locale"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "tab"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "tag"
+msgstr ""
+
 #: psychopy/psychopy/preferences/hints.py
 msgid "the default units for windows and visual stimuli"
 msgstr ""
@@ -6282,12 +10456,100 @@ msgstr ""
 msgid "the http proxy for usage stats and auto-updating; format is host: port"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "theme"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "then switch back. You don't need to do anything."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "time (s)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "timeout"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "timing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "tips.txt"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggle comment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleEOLs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleIndentGuides"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleOutputPanel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleReadme"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleWhitespace"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "top-center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "top-left"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "top-right"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "try to auto-detect a proxy if needed; see <a href=\"https://www.psychopy.org/general/prefs.html#connection-settings-connections\">Preferences -> Connections</a>"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "type:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "unclutteredNamespace"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "uncomment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "undo"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "units"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "unpackedDemosDir"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "use prefs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "valid click"
 msgstr ""
 
 #: psychopy/psychopy/tools/wizard.py
@@ -6298,8 +10560,24 @@ msgstr ""
 msgid "video card drivers"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "visible"
+msgstr ""
+
 #: psychopy/psychopy/tools/wizard.py
 msgid "visual window for drawing"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "walk"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "warn"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "warning"
 msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
@@ -6312,6 +10590,10 @@ msgstr ""
 
 #: psychopy/psychopy/preferences/hints.py
 msgid "whether to automatically reload a previously open experiment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "window type"
 msgstr ""
 
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
