@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PsychoPy 2026.2.1\n"
+"Project-Id-Version: PsychoPy 2027.1.0\n"
 "Report-Msgid-Bugs-To: shuonwang@gmail.com\n"
-"POT-Creation-Date: 2026-07-27 10:26+0000\n"
+"POT-Creation-Date: 2026-09-16 11:32+0000\n"
 "PO-Revision-Date: 2023-12-13 14:40-0500\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Shun Wang <shuonwang@gmail.com>\n"
@@ -124,13 +124,6 @@ msgstr "未在本地找到“{param.val}”字体，下次运行将在 Google Fo
 
 #: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
 #, python-brace-format
-msgid ""
-"Font `{font} {style}` not available in weight `{weight}`, component `{name}`"
-" will default to Open Sans Regular."
-msgstr "磅值“{weight}”不可用于“{font}{style}”字体，组件“{name}”将默认显示为 Open Sans Regular。"
-
-#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
-#, python-brace-format
 msgid "Recording device '{device}' not found, using default device instead."
 msgstr "未找到录音设备“{device}”，将使用默认设备。"
 
@@ -222,32 +215,46 @@ msgid ""
 "handle their own conversion."
 msgstr "因为非 RGB 颜色已自行处理换算，不再使用RGB属性“.{rgbAttrib}”。"
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Field"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DeviceCtrl.svelte
+#: psychopy-studio/src/lib/paramCtrls/ctrls/utils.svelte.js
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Default"
 msgstr "默认"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "&File"
 msgstr "文件(&F)"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "&Edit"
 msgstr "编辑(&E)"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/flow/EntryPoint.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Paste Routine"
 msgstr "粘贴例程"
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
 #: psychopy-studio/src/routes/builder/flow/controls/AddRoutine.svelte
 msgid "New Routine"
 msgstr "新建例程"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -255,26 +262,40 @@ msgstr "新建例程"
 msgid "Edit"
 msgstr "编辑"
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
 #: psychopy/psychopy/gui/qtgui.py psychopy/psychopy/gui/wxgui.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid " OK "
 msgstr " 确认 "
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
 #: psychopy/psychopy/gui/qtgui.py psychopy/psychopy/gui/wxgui.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid " Cancel "
 msgstr " 取消 "
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy-studio/src/lib/dialogs/monitorCenter/configuration.svelte.js
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Screen"
 msgstr "屏幕"
 
+#: psychopy-app/src/psychopy_app/localizedStrings.py
 #: psychopy-studio/src/lib/paramCtrls/ctrls/VersionCtrl.svelte
 msgid "final"
 msgstr "最终"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
@@ -282,51 +303,69 @@ msgstr "最终"
 msgid "Experiment"
 msgstr "实验"
 
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Delete"
 msgstr "删除"
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/coder/+page.svelte
 msgid "Editor"
 msgstr "编辑器"
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy/psychopy/tools/wizard.py
 msgid "Welcome to PsychoPy3!"
 msgstr "欢迎使用 PsychoPy3!"
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Install"
 msgstr "安装"
 
-#: psychopy/psychopy/gui/qtgui.py
+#: psychopy-app/src/psychopy_app/dialogs.py psychopy/psychopy/gui/qtgui.py
 msgid "Warning"
 msgstr "警告"
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 msgid "Yes"
 msgstr "是"
 
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 msgid "Cancel"
 msgstr "取消"
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
 #: psychopy-studio/src/lib/dialogs/fontManager/manager.svelte.js
 msgid "User"
 msgstr "用户"
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
 #: psychopy-studio/src/lib/dialogs/projects/manage/Project.svelte
 msgid "Local folder:"
 msgstr "本地目录："
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/user.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Logout"
 msgstr "登出"
 
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
 #: psychopy/psychopy/experiment/components/sound/__init__.py
 msgid "Exclusive low-latency"
 msgstr "独占低延迟模式"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -335,10 +374,19 @@ msgstr "独占低延迟模式"
 msgid "File"
 msgstr "文件"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "Save"
 msgstr "保存"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -346,6 +394,9 @@ msgstr "保存"
 msgid "Undo"
 msgstr "撤销"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
@@ -353,14 +404,21 @@ msgstr "撤销"
 msgid "Redo"
 msgstr "重做"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/lib/dialogs/monitorCenter/MonitorCenterDlg.svelte
 msgid "Monitor Center"
 msgstr "显示器中心"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/+page.svelte
 msgid "Runner"
 msgstr "Runner"
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
@@ -1859,6 +1917,7 @@ msgstr "文本框是否可编辑？"
 msgid "Automatically record all changes to this in the log file"
 msgstr "在日志文件中自动记录该处的所有的改变"
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
 #: psychopy/psychopy/experiment/components/_base.py
 #: psychopy/psychopy/experiment/loops.py
 #: psychopy/psychopy/experiment/routines/_base.py
@@ -2022,6 +2081,7 @@ msgstr "描述每个阶梯之间差异的字典列表"
 msgid "An xlsx or csv file specifying the parameters for each condition"
 msgstr "指定每个条件参数的 xlsx 或 csv 文件"
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy/psychopy/experiment/components/_base.py
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 #: psychopy/psychopy/experiment/components/serialOut/__init__.py
@@ -2263,6 +2323,7 @@ msgstr "复制\tCtrl+C"
 msgid "Choose Monitor"
 msgstr "关闭显示器"
 
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
 #: psychopy/psychopy/monitors/MonitorCenter.py
 msgid "New..."
 msgstr "新的..."
@@ -3394,91 +3455,122 @@ msgid ""
 "installed or not activated."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "No user"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Edit user..."
 msgstr ""
 
-#: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
+#: psychopy-app/src/psychopy_app/ribbon.py
 msgid "New user..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte
 msgid "No project"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/ribbon.py
 #: psychopy-studio/src/lib/pavlovia/NewProjectDlg.svelte
 #: psychopy-studio/src/lib/pavlovia/ProjectCtrl.svelte
 msgid "New project"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Show Builder"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Show Coder"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-app/src/psychopy_app/utils.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Show Runner"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/flow/Routine.svelte
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte
 msgid "Routine settings"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Help"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/components/Panel.svelte
 msgid "Get more..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
 #: psychopy-studio/src/routes/builder/ribbon/Ribbon.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Ribbon.svelte
 msgid "Find"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 msgid "Experiment settings"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Pilot in browser"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
 #: psychopy-studio/src/lib/dialogs/find/Dialog.svelte
 msgid "Find in experiment..."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
 #: psychopy-studio/src/lib/dialogs/colorPicker/HsvColor.svelte
 msgid "Value"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
 #: psychopy/psychopy/projects/pavlovia.py
 msgid "You are not logged in to Pavlovia. Please log in to sync project."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/pavlovia_ui/user.py
 #: psychopy-studio/src/lib/pavlovia/UserCtrl.svelte
 msgid "Login"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
 #: psychopy-studio/src/lib/dialogs/pluginManager/packages/PackageItem.svelte
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Uninstall"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy/psychopy/experiment/components/settings/__init__.py
 msgid "Run mode"
 msgstr ""
@@ -3675,6 +3767,7 @@ msgstr ""
 msgid "Do not validate"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
 #: psychopy/psychopy/experiment/devices.py
 msgid "Device label"
 msgstr ""
@@ -4165,10 +4258,16 @@ msgstr ""
 msgid "Zoom control"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom in"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 #: psychopy/psychopy/experiment/components/panorama/__init__.py
 msgid "Zoom out"
 msgstr ""
@@ -5552,19 +5651,23 @@ msgid ""
 "up in the Device Manager dialog (from Builder).\""
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/lib/dialogs/deviceManager/Dialog.svelte
 msgid "Device manager"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
 #: psychopy-studio/src/lib/paramCtrls/ctrls/DictCtrl.svelte
 #: psychopy-studio/src/lib/paramCtrls/ctrls/FileListCtrl.svelte
 msgid "Add item"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
 #: psychopy/psychopy/experiment/devices.py
 msgid "A name to refer to this device by in Device Manager."
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
 #: psychopy-studio/src/routes/coder/files/FolderNode.svelte
 msgid "Scanning..."
 msgstr ""
@@ -6454,6 +6557,8 @@ msgid "Save file as"
 msgstr ""
 
 #: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/files/FileNode.svelte
+#: psychopy-studio/src/routes/coder/files/FolderNode.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 msgid "Reveal in file explorer"
 msgstr ""
@@ -6636,6 +6741,7 @@ msgstr ""
 msgid "No open file"
 msgstr ""
 
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
 #: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
 msgid "Quit"
@@ -6670,6 +6776,7 @@ msgstr ""
 msgid "PsychoPy Runner Configurations"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
 #: psychopy-studio/src/routes/runner/files/Panel.svelte
 msgid "Add file"
 msgstr ""
@@ -6682,6 +6789,7 @@ msgstr ""
 msgid "Clear pavlovia output"
 msgstr ""
 
+#: psychopy-studio/src/routes/coder/shell/StdoutOutput.svelte
 #: psychopy-studio/src/routes/runner/outputs/StdoutOutput.svelte
 msgid "Clear stdout"
 msgstr ""
@@ -6738,15 +6846,19 @@ msgstr ""
 msgid "Run experiment in browser"
 msgstr ""
 
+#: psychopy-app/src/psychopy_app/builder/builder.py
 #: psychopy-studio/src/routes/builder/routines/Canvas.svelte
 #: psychopy-studio/src/routes/builder/routines/Component.svelte
 msgid "Paste Component"
 msgstr "粘贴组件"
 
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
 #: psychopy-studio/src/lib/utils/dialog/Dialog.svelte
 msgid "Close"
 msgstr "关闭"
 
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
 #: psychopy-studio/src/lib/dialogs/pluginManager/plugins/PluginItem.svelte
 msgid "Update"
 msgstr ""
@@ -6936,8 +7048,4332 @@ msgstr ""
 msgid "quitPsychoJS needs to be returned"
 msgstr ""
 
-#~ msgid "Path"
-#~ msgstr "路径"
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Path"
+msgstr "路径"
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Search projects..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&View"
+msgstr "视图(&V)"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Open a new Builder view"
+msgstr "打开新的 Builder 视图"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Open a new Coder view"
+msgstr "打开新的 Coder 视图"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#, python-format
+msgid "&Quit\t%s"
+msgstr "退出(&Q)\t%s"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Terminate the program"
+msgstr "终止程序"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Creating frames..."
+msgstr "创建框架中..."
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Compatibility information"
+msgstr "兼容性信息"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "tips.txt"
+msgstr "tips.txt"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Select .psydat file(s) to extract"
+msgstr "选择要解压的 .psydat 文件"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid ""
+"For stimulus generation and experimental control in Python.\n"
+"PsychoPy depends on your feedback. If something doesn't work\n"
+"then let us know at psychopy-users@googlegroups.com"
+msgstr ""
+"用于 Python 中的刺激生成和实验控制。\n"
+"PsychoPy 非常感谢您的反馈。 如果某项内容不能正常工作\n"
+"请让我们知道，联系 psychopy-users@googlegroups.com"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Favorites"
+msgstr "偏好"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Stimuli"
+msgstr "刺激"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Responses"
+msgstr "应答"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Custom"
+msgstr "自定义"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "I/O"
+msgstr "输入/输出"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Add to favorites"
+msgstr "添加到偏好"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Remove from favorites"
+msgstr "从偏好中移除"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "remove"
+msgstr "移除"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&New\t%s"
+msgstr "新建(&N)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Open...\t%s"
+msgstr "打开...(&O)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open &Recent"
+msgstr "打开最近使用"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Save\t%s"
+msgstr "保存(&S)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Save &as...\t%s"
+msgstr "另存为...(&A)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Export HTML...\t%s"
+msgstr "导出为 HTML...\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Export experiment to html/javascript file"
+msgstr "导出实验到 html/javascript 文件"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Close file\t%s"
+msgstr "关闭文件(&C)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Close current experiment"
+msgstr "关闭当前实验"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Preferences\t%s"
+msgstr "首选项(&P)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Reset preferences..."
+msgstr "重置首选项..."
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Undo\t%s"
+msgstr "撤销\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Redo\t%s"
+msgstr "重做\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Paste\t%s"
+msgstr "粘贴(&P)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Toggle readme\t%s"
+msgstr "切换自述文件(RM)(&T)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Toggle Readme"
+msgstr "切换自述文件(RM)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Flow Larger\t%s"
+msgstr "放大实验流程(&F)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Larger flow items"
+msgstr "放大实验流程项目"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Flow Smaller\t%s"
+msgstr "缩小实验流程(&F)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Smaller flow items"
+msgstr "缩小显示实验流程的项目"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Routine Larger\t%s"
+msgstr "放大显示例程(&R)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Larger routine items"
+msgstr "放大例程的项目"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Routine Smaller\t%s"
+msgstr "缩小例程(&R)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Smaller routine items"
+msgstr "缩小显示例程项目"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "To set information about your monitor"
+msgstr "设置显示器的相关信息"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Compile\t%s"
+msgstr "编译\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Compile the exp to a script"
+msgstr "将实验编译成脚本"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Run the current script"
+msgstr "运行当前脚本"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Send to runner\t%s"
+msgstr "发送到 runner\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Send current script to runner"
+msgstr "将当前脚本发送至 runner"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "PsychoPy updates..."
+msgstr "PsychoPy 更新..."
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Update PsychoPy to the latest, or a specific, version"
+msgstr "将 PsychoPy 更新到最新或指定的版本"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Benchmark wizard"
+msgstr "基准向导"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Check software & hardware, generate report"
+msgstr "检查软件和硬件，生成报告"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&New Routine\t%s"
+msgstr "新建例程(&N)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Create a new routine (e.g. the trial definition)"
+msgstr "创建新的例程（routine，例如试验定义）"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Copy Routine\t%s"
+msgstr "复制例程(routine)(&E)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Copy the current routine so it can be used in another exp"
+msgstr "复制当前例程，以便它可以在另一个实验中使用"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Paste Routine\t%s"
+msgstr "粘贴例程(routine)(&E)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste the Routine into the current experiment"
+msgstr "将例程粘贴到当前实验中"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Rename Routine\t%s"
+msgstr "重命名例程(&R)\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Change the name of this routine"
+msgstr "改变此例程的名称"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Paste Component\t%s"
+msgstr "粘贴组件\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste the Component at bottom of the current Routine"
+msgstr "将组件粘贴到当前例程的底部"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Routine in Flow"
+msgstr "在实验流程中插入例程"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Select one of your routines to be inserted into the experiment flow"
+msgstr "选择一个要插入到实验流程中的例程"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Loop in Flow"
+msgstr "在实验流程中插入循环"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Create a new loop in your flow window"
+msgstr "在实验流程窗口中创建一个新的循环"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "README..."
+msgstr "README..."
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Add or edit the text shown when your experiment is opened"
+msgstr "添加或编辑打开实验时要显示的说明文本"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "&Unpack Demos..."
+msgstr "解压演示包...(&E)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Unpack demos to a writable location (so that they can be run)"
+msgstr "将演示解包到可写入的位置（以便它们有权限可运行）"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Browse on Pavlovia"
+msgstr "在 Pavlovia 上浏览"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Get more demos from the online demos repository on Pavlovia"
+msgstr "从 Pavlovia 上的在线演示存储库获取更多演示"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Open demos folder"
+msgstr "打开演示文件夹"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Open the local folder where demos are stored"
+msgstr "打开存储演示的本地文件夹"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Demos"
+msgstr "演示(&D)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Window"
+msgstr "窗口"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&PsychoPy Homepage"
+msgstr "PsychoPy 主页(&P)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the PsychoPy homepage"
+msgstr "转到 PsychoPy 主页"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "&PsychoPy Builder Help"
+msgstr "PsychoPy Builder 帮助(&P)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Go to the online documentation for PsychoPy Builder"
+msgstr "转到 PsychoPy Builder 的在线文档"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&System Info..."
+msgstr "系统信息...(&S)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Get system information."
+msgstr "获取系统信息"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&About..."
+msgstr "关于...(&A)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "About PsychoPy"
+msgstr "关于 PsychoPy"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&News..."
+msgstr "新闻...(&N)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "News"
+msgstr "新闻"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "PsychoPy experiments (*.psyexp)|*.psyexp|Any file (*.*)|*.*"
+msgstr "PsychoPy 实验 (*.psyexp)|*.psyexp|所有文件 (*.*)|*.*"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "PsychoPy experiments (*.psyexp)|*.psyexp|Any file (*.*)|*"
+msgstr "PsychoPy 实验 (*.psyexp)|*.psyexp|所有文件 (*.*)|*"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open file ..."
+msgstr "打开文件 ..."
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save file as ..."
+msgstr "文件另存为 ..."
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Please save experiment before editing the README file"
+msgstr "请在编辑 README 文件之前先保存实验"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "No readme file"
+msgstr "无 readme 文件"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Experiment %s has changed. Save before quitting?"
+msgstr "实验 %s 已更改。 退出前是否保存？"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid ""
+"Are you sure you want to reset your preferences? This cannot be undone."
+msgstr "您确定要重置您的首选项吗？ 此操作不可撤消."
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "I'm sure"
+msgstr "我确定"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Wait, go back!"
+msgstr "等等，返回！"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid ""
+"Done! Your preferences have been reset. Changes will be applied when you "
+"next open PsychoPy."
+msgstr "完成！ 您的首选项已被重置。 更改将在下次打开 PsychoPy 时被应用。"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Undo %(action)s\t%(key)s"
+msgstr "撤销 %(action)s\t%(key)s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Redo %(action)s\t%(key)s"
+msgstr "重做 %(action)s\t%(key)s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Location to unpack demos"
+msgstr "定位到解压演示的位置"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "New name for copy of \"%(copied)s\"?  [%(default)s]"
+msgstr "副本 \"%(copied)s\"的新名称?  [%(default)s]"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "What is the new name for the Routine?"
+msgstr "例程的新名称是什么？"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename"
+msgstr "重命名"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "What is the name for the new Routine? (e.g. instr, trial, feedback)"
+msgstr "新例程的名称是什么？ (e.g. instr, trial, feedback)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Close readme\t%s"
+msgstr "关闭 readme((&C))\t%s"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "rename"
+msgstr "重命名"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Routine"
+msgstr "插入例程"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Insert Loop"
+msgstr "插入循环"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Select a Routine to insert (Esc to exit)"
+msgstr "选择一个要插入的例程(按 Esc 退出)"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "CANCEL Insert"
+msgstr "取消插入"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Click where you want to insert the Routine, or CANCEL insert."
+msgstr "单击要插入例程的位置，或取消插入。"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "CANCEL insert"
+msgstr "取消插入"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Click where you want the loop to start/end, or CANCEL insert."
+msgstr "单击您希望循环 开始/结束 的位置，或取消插入。"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Click the other end for the loop"
+msgstr "单击循环的其他结尾"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid ""
+"The \"%s\" Loop is about to be deleted as well (by collapsing). OK to "
+"proceed?"
+msgstr "“%s” 循环也即将被删除（由于崩溃）。 需要继续吗？"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Impending Loop collapse"
+msgstr "循环即将发生崩溃"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "set during: "
+msgstr "期间设置: "
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid " Properties"
+msgstr "属性"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid " Help "
+msgstr " 帮助 "
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid "Go to online help about this component"
+msgstr "转到有关此组件的在线帮助"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid "That name is in use (it's a %s). Try another name."
+msgstr "该名称正在使用中（它是 %s）。 试试别的名字。"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Name must be alphanumeric or _, no spaces"
+msgstr "名称必须是字母数字或 下划线_，不能有空格"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "No parameters set"
+msgstr "未设置参数"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "No parameters set (select a file above)"
+msgstr "未设置参数（选择上面的文件）"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid ""
+"%(nCondition)i conditions, with %(nParam)i parameters\n"
+"%(paramStr)s"
+msgstr ""
+"%(nCondition)i 个条件，带有 %(nParam)i 个参数\n"
+"%(paramStr)s"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "No parameters set (conditionsFile not found)"
+msgstr "未设置参数（未找到 conditionsFile）"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-brace-format
+msgid "Builder variable(s) ({}) in file:{}"
+msgstr "Builder 变量 ({})在文件：{}"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid ""
+"\n"
+"Py to JS auto-translation requires the metapensiero library.\n"
+"Available for Python 3.5+.\n"
+msgstr ""
+"\n"
+"Py 到 JS 的自动转译需要 metapensiero 库。\n"
+"适用于 Python 3.5+。\n"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid "Warning: requires the metapensiero library"
+msgstr "警告：需要 metapensiero 库"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid ""
+"\n"
+"Auto-JS translation will overwrite your existing JavaScript code.\n"
+"Press OK to continue, or Cancel.\n"
+msgstr ""
+"\n"
+"Auto-JS 自动转译JS将覆盖您现有的 JavaScript 代码。\n"
+"按确定继续此操作，或按取消。\n"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid "Warning: Python to JavaScript Translation"
+msgstr "警告：Python 到 JavaScript 的转译"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "New (no file)"
+msgstr "新建(无文件)"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Conditions data (no file)"
+msgstr "条件数据(无文件)"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Params:"
+msgstr "参数:"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "type:"
+msgstr "类型:"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#, python-format
+msgid "cond %s:"
+msgstr "条件 %s:"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Should be legal as a variable name (alphanumeric)"
+msgstr "变量名应该合法（字母和数字）"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "extra white-space"
+msgstr "额外的空格"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "PREVIEW"
+msgstr "预览"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "+cond."
+msgstr "+条件"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid ""
+"Add a condition (row); to delete a condition, delete all of its values."
+msgstr "添加条件（行）； 要删除条件，请删除其所有值。"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "+param"
+msgstr "+参数"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid ""
+"Add a parameter (column); to delete a param, set its type to None, or delete"
+" all of its values."
+msgstr "添加参数（列）； 删除参数，将其类型设置为 None，或删除其所有值。"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Preview"
+msgstr "预览"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid ""
+"Show all values as they would appear after saving to a file, without "
+"actually saving anything."
+msgstr "显示保存到文件后出现的所有值，而不实际保存任何内容。"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Save as"
+msgstr "另存为"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Go to online help"
+msgstr "转到在线帮助"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Save and exit"
+msgstr "保存并退出"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Exit, discard any edits"
+msgstr "退出，放弃所有编辑"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsConditions.py
+msgid "Param name(s) adjusted to be legal. Look ok?"
+msgstr "参数名称已调整为合法的。 这样看起来OK吗？"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid ""
+"This parameter will be treated as code - we have already put in the $, so "
+"you don't have to."
+msgstr "此参数将被视为代码 - 我们已经放入 $,因此您不必这样做。"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Open/create in your default table editor"
+msgstr "在您的默认表格编辑器中打开/创建"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Reminder"
+msgstr "提醒"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Specify color ..."
+msgstr "指定颜色..."
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Basic"
+msgstr "基础"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Color"
+msgstr "颜色"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Layout"
+msgstr "布局"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Data"
+msgstr "数据"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Dots"
+msgstr "点(Dot)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Grating"
+msgstr "光栅(Grating)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Advanced"
+msgstr "高级"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Carrier"
+msgstr "载波(Carrier)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Envelope"
+msgstr "包络(Envelope)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Appearance"
+msgstr "外观"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Online"
+msgstr "在线"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Testing"
+msgstr "测试"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Audio"
+msgstr "音频"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Format"
+msgstr "格式"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Formatting"
+msgstr "格式化"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Eyetracking"
+msgstr "眼动追踪"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Target"
+msgstr "目标"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Animation"
+msgstr "动画"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Transcription"
+msgstr "转录(Transcription)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Timing"
+msgstr "定时(Timing)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Playback"
+msgstr "回放"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "linear"
+msgstr "线性"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "nearest"
+msgstr "邻近的"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "named"
+msgstr "命名的"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last key"
+msgstr "最后一个键"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first key"
+msgstr "最前一个键"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "all keys"
+msgstr "所有键"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "nothing"
+msgstr "无"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last button"
+msgstr "最后的按钮"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first button"
+msgstr "最前的按钮"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "all buttons"
+msgstr "所有按钮"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on click"
+msgstr "点击"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "every frame"
+msgstr "每一帧"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "never"
+msgstr "从不"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "from exp settings"
+msgstr "从 实验 设置"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "from preferences"
+msgstr "从首选项"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "circle"
+msgstr "圆形"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "square"
+msgstr "方形"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "direction"
+msgstr "方向"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "position"
+msgstr "位置"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "walk"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "same"
+msgstr "相同"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "different"
+msgstr "不同"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "repeat"
+msgstr "重复"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "none"
+msgstr "无"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "time (s)"
+msgstr "时间 (s)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "frame N"
+msgstr "第N帧"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "condition"
+msgstr "条件"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "duration (s)"
+msgstr "持续时间(s)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "duration (frames)"
+msgstr "持续时间(帧)"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "constant"
+msgstr "恒定"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "set every repeat"
+msgstr "设置每次重复"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "set every frame"
+msgstr "设置每一帧"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "add"
+msgstr "添加"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "average"
+msgstr "平均"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on Sync"
+msgstr "在 同步"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on Save"
+msgstr "在 保存"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "manually"
+msgstr "手动"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "debug"
+msgstr "调试"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "info"
+msgstr "信息"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "exp"
+msgstr "实验(exp)"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "data"
+msgstr "数据"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "warning"
+msgstr "警告"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "error"
+msgstr "错误"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "any click"
+msgstr "任何点击"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "valid click"
+msgstr "有效点击"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "mouse onset"
+msgstr "鼠标动作"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Routine"
+msgstr "例程"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "joystick onset"
+msgstr "操纵杆动作"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "every click"
+msgstr "每次点击"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first click"
+msgstr "首次点击"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last click"
+msgstr "末次点击"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "button onset"
+msgstr "按钮动作"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "rows"
+msgstr "行"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "columns"
+msgstr "列"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first"
+msgstr "首个"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last"
+msgstr "末尾"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "all"
+msgstr "全部"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "one of your Components, Routines, or condition parameters"
+msgstr "您的组件、例程或条件参数之一"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid " Avoid `this`, `these`, `continue`, `Clock`, or `component` in name"
+msgstr " 避免在名称中使用 `this`、`these`、`continue`、`Clock` 或 `component`"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Builder variable"
+msgstr "Builder 变量"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Psychopy module"
+msgstr "Psychopy 模块"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "numpy function"
+msgstr "numpy 函数"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "python keyword"
+msgstr "python 关键字"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "look at"
+msgstr "注视"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "look away"
+msgstr "移开视线"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "every look"
+msgstr "每次注视"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "first look"
+msgstr "首次注视"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "last look"
+msgstr "最后注视"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "roi onset"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#: psychopy-app/src/psychopy_app/builder/validators.py
+msgid "Missing name"
+msgstr "缺少名称"
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "That name is in use (by {used}). Try another name."
+msgstr "该名称已被占用（由 {used} ）。 试试别的名字。"
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+msgid ""
+"Name can only contain letters, numbers and underscores (_), no spaces or "
+"other symbols"
+msgstr "名称只能包含字母、数字和下划线 (_)，不能包含空格或其他符号"
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid ""
+"Font `{val}` not found locally, will attempt to retrieve from Google Fonts "
+"when this experiment next runs"
+msgstr "本地未找到字体“{val}”，下次运行此实验时将尝试从 Google 字体检索"
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Python syntax error in field `{}`:  {}"
+msgstr "字段“{}”中的 Python 语法错误：{}"
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid ""
+"Looks like your variable '{code}' in '{displayName}' should be set to "
+"update."
+msgstr "看起来应该将“{displayName}”中的变量“{code}”设置为更新。"
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Python var `{}` in `{}` is same as Name"
+msgstr "`{}` 中的 Python var `{}` 与 Name 相同"
+
+#: psychopy-app/src/psychopy_app/builder/validators.py
+#, python-brace-format
+msgid "Variable name ${newName} is in use (by {used}). Try another name."
+msgstr "变量名 ${newName} 正在使用中（由 {used} 使用）。 试试别的名字。"
+
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+msgid "Cut"
+msgstr "剪切"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Copy"
+msgstr "复制"
+
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+msgid "Paste"
+msgstr "粘贴"
+
+#: psychopy-app/src/psychopy_app/coder/codeEditorBase.py
+msgid "Select All"
+msgstr "全选"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "basic"
+msgstr "基础"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "input"
+msgstr "输入"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "stimuli"
+msgstr "刺激"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "exp control"
+msgstr "实验控制"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "hardware"
+msgstr "硬件"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "timing"
+msgstr "定时"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "misc"
+msgstr "杂项"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "PsychoPy unit testing"
+msgstr "PsychoPy 单元测试"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Tests"
+msgstr "测试(&T)"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Run tests\t%s"
+msgstr "运行测试(&R)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Close tests panel\t%s"
+msgstr "关闭测试面板(&C)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Go to &Coder view\t%s"
+msgstr "转到 &Coder 视图\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the Coder view"
+msgstr "跳转到 Coder 视图"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Terminate PsychoPy"
+msgstr "终止 PsychoPy"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Preferences"
+msgstr "&首选项"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid ""
+"Select the test(s) to run, from:\n"
+"psychopy/tests/test*"
+msgstr ""
+"选择要运行的测试，从：\n"
+"psychopy/tests/test*"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Run tests"
+msgstr "运行测试"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Coverage Report"
+msgstr "覆盖报告(Coverage Report)"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Include coverage report (requires coverage module)"
+msgstr "包括覆盖率报告（需要覆盖率模块）"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "ALL stdout"
+msgstr "所有 stdout"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Report all printed output & show any new rms-test images"
+msgstr "报告所有打印输出并显示任何新的 rms-test 图像"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Analyzing code"
+msgstr "分析代码"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Unable to find \"%s\""
+msgstr "找不到 “%s”"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Source Assistant"
+msgstr "源码助手"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shell"
+msgstr "Shell"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Output"
+msgstr "输出"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shelf"
+msgstr "Shelf"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current file"
+msgstr "保存当前文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current python file as..."
+msgstr "将当前 python 文件另存为..."
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close current file"
+msgstr "关闭当前文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close all files"
+msgstr "关闭所有文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close all files in the editor."
+msgstr "关闭编辑器中所有文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Print\t%s"
+msgstr "打印\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Close PsychoPy Coder"
+msgstr "关闭 Psychopy Coder"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Cu&t\t%s"
+msgstr "剪切((&T)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Copy\t%s"
+msgstr "复制((&C))\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Duplicate the current line (or current selection)"
+msgstr "重建当前行（或当前选择）"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Duplicate\t%s"
+msgstr "重建((&D)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Find\t%s"
+msgstr "查找((&F)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Find &Next\t%s"
+msgstr "查找下一个(&N)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Comment\t%s"
+msgstr "评论\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Comment selected lines"
+msgstr "评论所选行"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Uncomment\t%s"
+msgstr "取消评论\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Un-comment selected lines"
+msgstr "取消所选行的评论"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Toggle comment\t%s"
+msgstr "切换评论 %s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Toggle commenting of selected lines"
+msgstr "切换选定行的注释"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Toggle fold\t%s"
+msgstr "切换折叠 %s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Toggle folding of top level"
+msgstr "切换顶层折叠"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Indent selection\t%s"
+msgstr "缩进所选\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Increase indentation of current line"
+msgstr "增加当前行的缩进"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Dedent selection\t%s"
+msgstr "反向缩进所选\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Decrease indentation of current line"
+msgstr "减少当前行的缩进"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Try to indent to the correct position w.r.t. last line"
+msgstr "尝试缩进到正确的位置 w.r.t. 最后一行"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "SmartIndent\t%s"
+msgstr "智能缩进\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Enlarge font\t%s"
+msgstr "放大字体\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Increase font size"
+msgstr "增加字体的尺寸"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Shrink font\t%s"
+msgstr "缩小字体\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Decrease font size"
+msgstr "减小字体的尺寸"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Reset font"
+msgstr "重置字体"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Return fonts to their original size."
+msgstr "将字体恢复为原始大小。"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Editor file location"
+msgstr "编辑器文件位置"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "File browser pane location"
+msgstr "文件浏览器面板位置"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Choose directory ..."
+msgstr "选择目录..."
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Change working directory to ..."
+msgstr "更改工作目录为..."
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Panels"
+msgstr "面板"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shows the output and shell panes (and starts capturing stdout)"
+msgstr "显示输出和 shell 面板（并开始捕获标准输出）"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Output/Shell\t%s"
+msgstr "输出/Shell(&O)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Hide/show the source assistant pane."
+msgstr "隐藏/显示源助手窗格。"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Shows guides in the editor for your indentation level"
+msgstr "在编辑器中显示缩进级别的指南"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Indentation guides\t%s"
+msgstr "缩进指南(&I)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Show whitespace characters in the code"
+msgstr "在代码中显示空白字符"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "&Whitespace\t%s"
+msgstr "空格(&W)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Show End Of Line markers in the code"
+msgstr "在代码中显示行尾标记(EOL)"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Show &EOLs\t%s"
+msgstr "显示 EOLs(&E)\t%s"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Enable/disable line wrapping in editors."
+msgstr "在编辑器中启用/禁用换行"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Line wrapping"
+msgstr "换行"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "csv from psydat"
+msgstr "来自psydat的csv"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Create a .csv file from an existing .psydat file"
+msgstr "从现有的 .psydat 文件创建 .csv 文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Unit &testing...\tCtrl-T"
+msgstr "单元测试(&T)... \tCtrl-T"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Show dialog to run unit tests"
+msgstr "显示对话框以运行单元测试"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&PsychoPy Coder Tutorial"
+msgstr "PsychoPy 编码器教程(&P)"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the online PsychoPy tutorial"
+msgstr "转到在线 PsychoPy 教程"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&PsychoPy API (reference)"
+msgstr "PsychoPy API（参考）(&P)"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Go to the online PsychoPy reference manual"
+msgstr "转到在线 PsychoPy 参考手册"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid ""
+"'%s' was modified outside of PsychoPy:\n"
+"\n"
+"Reload (without saving)?"
+msgstr ""
+"在 PsychoPy 之外修改了“%s”：\n"
+"\n"
+"重新加载（但不保存）？"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Reloading file"
+msgstr "重新加载文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Save changes to %s before quitting?"
+msgstr "在退出前是否保存 %s ？"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-brace-format
+msgid "Failed to open `{}`. Make sure that encoding of the file is utf-8."
+msgstr "未能打开'{}'。 确保文件的编码是 utf-8。"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Loading file"
+msgstr "正在加载文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid ""
+"File appears to have been modified outside of PsychoPy:\n"
+"   %s\n"
+"OK to overwrite?"
+msgstr ""
+"文件似乎已在 PsychoPy 之外进行了修改：\n"
+"    %s\n"
+"可以覆盖吗？"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid ""
+"File '%s' lacks write-permission:\n"
+"Will try save-as instead."
+msgstr ""
+"文件 '%s' 缺少写权限:\n"
+"将尝试另存为。"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Saving file"
+msgstr "正在保存文件"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid ""
+"Python script (*.py)|*.py|JavaScript file (*.js)|*.js|Text file "
+"(*.txt)|*.txt|Any file (*.*)|*.*"
+msgstr ""
+"Python 脚本(*.py)|*.py|JavaScript 文件(*.js)|*.js|文本文件(*.txt)|*.txt|所有文件 "
+"(*.*)|*.*"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid ""
+"Python script (*.py)|*.py|JavaScript file (*.js)|*.js|Text file "
+"(*.txt)|*.txt|Any file (*.*)|*"
+msgstr ""
+"Python 脚本(*.py)|*.py|JavaScript 文件(*.js)|*.js|文本文件 (*.txt)|*.txt|所有文件 "
+"(*.*)|*"
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Save changes to %s before running?"
+msgstr "运行前保存对 %s 的更改？"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Directory:"
+msgstr "目录:"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Browse ..."
+msgstr "浏览 ..."
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Browse the file system for a directory to open"
+msgstr "浏览要打开的文件夹"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Current working directory"
+msgstr "当前工作目录"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Open the current working directory"
+msgstr "打开当前工作目录"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Open the directory the current editor file is located"
+msgstr "打开当前编辑器文件所在的目录"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid ""
+"Cannot change working directory to location of file `{}`. It needs to be "
+"saved first."
+msgstr "无法将工作目录更改为文件'{}'的位置。 需要先保存。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Enter folder name:"
+msgstr "输入文件夹名称:"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "New folder"
+msgstr "新建文件夹"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Folder name cannot be empty."
+msgstr "文件夹名称不能为空"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot create folder `{}`, already exists."
+msgstr "无法创建文件夹 `{}`, 因为已经存在。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot create folder `{}`, permission denied."
+msgstr "无法创建文件夹`{}`，因为没有权限。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Rename folder `{}` to:"
+msgstr "将文件夹`{}`重命名为："
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename Folder"
+msgstr "重命名文件夹"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot rename `{}` to `{}`."
+msgstr "无法将`{}`重命名为`{}`。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Rename file `{}` to:"
+msgstr "重命名文件`{}`为："
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename file"
+msgstr "重命名文件"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Are you sure you want to PERMANENTLY delete folder `{}`?"
+msgstr "您确定要永久删除文件夹 `{}`吗？"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot delete folder `{}`, directory does not exist."
+msgstr "无法删除文件夹`{}`，目录不存在。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid ""
+"Cannot delete folder `{}`, directory is not empty or permission denied."
+msgstr "无法删除文件夹`{}`，目录不为空或权限被拒绝。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Are you sure you want to PERMANENTLY delete file `{}`?"
+msgstr "您确定要永久删除文件“{}”吗？"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot delete folder `{}`, file does not exist."
+msgstr "无法删除文件夹“{}”，文件不存在。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot delete file `{}`, permission denied."
+msgstr "无法删除文件 `{}`，权限被拒绝。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Specified path `{}` is not a directory."
+msgstr "指定路径 `{}`不是一个文件夹。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot access directory `{}`, permission denied."
+msgstr "无法访问目录 `{}`，权限被拒绝。"
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+#, python-brace-format
+msgid "Cannot access directory `{}`, not a directory."
+msgstr "无法访问目录 `{}`，因为不是一个目录。"
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Output Space:"
+msgstr "输出空间："
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Couldn't connect to psychopy.org to check for updates. \n"
+msgstr "无法连接到psychopy.org 来检查更新。 \n"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Check internet settings (and proxy setting in PsychoPy Preferences)."
+msgstr "检查互联网设置（以及 PsychoPy 首选项设置中的代理设置）。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "PsychoPy updates"
+msgstr "Psychopy 升级"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"PsychoPy v%(latest)s is available (you are running %(running)s).\n"
+"\n"
+msgstr ""
+"PsychoPy v%(latest)s 可用（您当前运行 %(running)s）。.\n"
+"\n"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "This version is too big an update to be handled automatically.\n"
+msgstr "此版本太大，无法自动处理。\n"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"Please fetch the latest version from www.psychopy.org and install manually."
+msgstr "请从 www.psychopy.org 获取最新版本并手动安装。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Go to downloads"
+msgstr "转到下载"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Go to changelog"
+msgstr "转到更新日志"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Later"
+msgstr "稍后"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "You are running the latest version of PsychoPy (%s). "
+msgstr "正在运行最新版本的PsychoPy（%s）。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"PsychoPy v%(latest)s is available (you are running %(running)s).\n"
+"\n"
+"(To disable this check, see Preferences > connections > checkForUpdates)"
+msgstr ""
+"PsychoPy 版本v%(latest)s可用（您运行的版本为%(running)s）。\n"
+"（如需禁用此检查，见 首选项>链接>检查更新（checkForUpdates））"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"This version MAY require you to modify your\n"
+"scripts/exps slightly. Read the changelog carefully."
+msgstr ""
+"此版本可能要求对\n"
+"由较早版本生成的脚本/实验进行修改。请仔细阅读日志。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"There are no known compatibility\n"
+"issues with your current version."
+msgstr "当前版本不存在已知的兼容性问题。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "View complete Changelog"
+msgstr "查看完整更新日志"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "You can update PsychoPy with your package manager"
+msgstr "您可以使用包管理器升级 PsychoPy"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Should PsychoPy update itself?"
+msgstr "Psychopy 需要自己升级吗？"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Keep warning me"
+msgstr "继续为我警告"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Stop warning me"
+msgstr "停止为我警告"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Not now"
+msgstr "现在不要"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Skip this version"
+msgstr "跳过此版本"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "PsychoPy Updates"
+msgstr "Psychopy 升级"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid " Auto-update (will fetch latest version)"
+msgstr " 自动更新（将获取最新版本）"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid " Use zip file below (download a PsychoPy release file ending .zip)"
+msgstr " 使用下面的 zip 文件（下载以 .zip 结尾的 PsychoPy 发布版本文件）"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"You are running PsychoPy v%s.\n"
+" "
+msgstr ""
+"正在运行 PsychoPy 版本 v%s.\n"
+" "
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"PsychoPy could not connect to the \n"
+" internet to check for more recent versions.\n"
+msgstr ""
+"PsychoPy 无法连接到\n"
+"网络以检查更新的版本。\n"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Check proxy settings in preferences."
+msgstr "请在首选项中检查代理设置。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"You are running PsychoPy (%(running)s), which is ahead of the latest "
+"official version (%(latest)s)"
+msgstr "正在运行 PsychoPy （%(running)s），此版本领先官方最新版本（%(latest)s）。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"You are running the latest version of PsychoPy (%s)\n"
+" "
+msgstr "正在运行最新版本的 PsychoPy (%s)\n"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"You can revert to a previous version by selecting a specific .zip source "
+"installation file"
+msgstr "您可通过选择一个特定的.zip源安装文件以恢复至较早版本。"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"PsychoPy v%(latest)s is available\n"
+"You are running v%(running)s"
+msgstr ""
+"PsychoPy v%(latest)s可用\n"
+"正在运行v%(running)s"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"\n"
+"You can update to the latest version automatically"
+msgstr ""
+"\n"
+"您可以自动更新到最新版本"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"\n"
+"You cannot update to the latest version automatically.\n"
+"Please fetch the latest Standalone package from www.psychopy.org"
+msgstr ""
+"\n"
+"您无法自动更新到最新版本。\n"
+"请从 www.psychopy.org 获取最新的独立包"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Attempting to fetch PsychoPy %s..."
+msgstr "尝试获取 PsychoPy %s…"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Fetched %(done)i of %(total)i kb of PsychoPy-%(version)s.zip"
+msgstr "已获取 PsychoPy-%(version)s.zip的%(done)i/%(total)i kb"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Successfully downloaded PsychoPy-%s.zip"
+msgstr "成功下载 PsychoPy-%s.zip"
+
+# Translate “admin” as 管理者
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"To upgrade you need to restart the app as admin (Right-click the app and "
+"'Run as admin')"
+msgstr "如需更新，您需要以管理者重启软件（右键软件图标并选择“以管理者运行（Run as admin）”）"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid "Could not move existing PsychoPy installation (permissions error?)"
+msgstr "无法移动已有的 PsychoPy 安装（权限错误？）"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"Right-click the app and 'Run as admin'):\n"
+"%s"
+msgstr ""
+"右键软件图标并选择“以管理者运行（Run as admin）”：\n"
+"%s"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid ""
+"Failed to create directory for new version (permissions error?):\n"
+"%s"
+msgstr ""
+"为新版本创建目录失败（权限错误？）：\n"
+"%s"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"Success. \n"
+"Changes to PsychoPy will be completed when the application is next run"
+msgstr ""
+"成功。\n"
+"下次运行软件时将完成 PsychoPy 的更新"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+#, python-format
+msgid "Downloading PsychoPy v%s"
+msgstr "正在下载 PsychoPy v%s"
+
+#: psychopy-app/src/psychopy_app/connections/updates.py
+msgid ""
+"Failed to fetch PsychoPy release.\n"
+"Check proxy setting in preferences"
+msgstr ""
+"无法获取 PsychoPy 的发布。\n"
+"请于首选项中检查代理设置"
+
+#: psychopy-app/src/psychopy_app/dialogs.py
+msgid "Info"
+msgstr "信息"
+
+#: psychopy-app/src/psychopy_app/dialogs.py
+msgid "Query"
+msgstr "查询"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "OK"
+msgstr "好的"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "PsychoPy3 Error"
+msgstr "Psychopy 错误"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid ""
+"PsychoPy encountered an unhandled internal error! Please send the report "
+"under \"Details\" to the developers with a description of what you were "
+"doing with the software when the error occurred."
+msgstr "PsychoPy 遇到未处理的内部错误！ 请将“详细信息”下的报告发送给开发人员，并详细说明错误发生时您对软件所做的操作步骤。"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&OK"
+msgstr "&OK"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "E&xit PsychoPy"
+msgstr "退出 Psychopy(&E)"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&Details"
+msgstr "详情(&D)"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&Copy"
+msgstr "复制(&C)"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid ""
+"Are you sure you want to exit PsychoPy? Unsaved work may be lost (but we'll "
+"try to save opened files)."
+msgstr "确定退出PsychoPy？未储存的内容将会丢失（我们会尝试保存已打开的文件）。"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "Exit PsychoPy?"
+msgstr "要退出 Psychopy 吗？"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "Save error traceback"
+msgstr "保存错误跟踪"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+#, python-format
+msgid "Cannot save to file '%s'."
+msgstr "无法保存到文件 ‘%s’"
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "File save error"
+msgstr "文件保存出错"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#, python-format
+msgid "&Close View\t%s"
+msgstr "关闭视图(&C)\t%s"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Close current window"
+msgstr "关闭当前窗口"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "Committing changes"
+msgstr "正在提交变更"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Summary of changes"
+msgstr "变更摘要"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid ""
+"Details of changes\n"
+" (optional)"
+msgstr ""
+"变更详情\n"
+" （可选）"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Title summarizing the changes you're making in these files"
+msgstr "请在标题中总结您在这些文件中做的修改"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/_base.py
+msgid "Optional details about the changes you're making in these files"
+msgstr "请描述您在这些文件中所做的修改细节（可选）"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "Choose/create the root location for the synced project"
+msgstr "请为要同步的项目选择/创建源地址"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "Changes to commit:\n"
+msgstr "需提交的修改：\n"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+#, python-brace-format
+msgid "\t{}: {} files\n"
+msgstr "\t{}: {} 文件\n"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "You need to install git to use Pavlovia projects"
+msgstr "您需要安装 git 以运行 Pavlovia 项目"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "Log in to Pavlovia...\t{}"
+msgstr "登录到 Pavlovia...\t{}"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "Search Pavlovia\t{}"
+msgstr "在Pavlovia搜索\t{}"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "New...\t{}"
+msgstr "新建...\t{}"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+#, python-brace-format
+msgid "Sync\t{}"
+msgstr "同步\t{}"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/menu.py
+msgid "You need to log in to create a project"
+msgstr "您需要登录才能创建项目"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Name:"
+msgstr "名称:"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Group/owner:"
+msgstr "组/所有者："
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Description:"
+msgstr "描述："
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Browse..."
+msgstr "浏览..."
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Tags (comma separated):"
+msgstr "标签（逗号分隔）："
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Public:"
+msgstr "发布："
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create project on Pavlovia"
+msgstr "在 Pavlovia 上创建项目"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Submit changes to Pavlovia"
+msgstr "向 Pavlovia 提交更改"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project info"
+msgstr "项目信息"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "This file doesn't belong to any existing project."
+msgstr "此文件不属于任何现有项目。"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create a project"
+msgstr "创建项目"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "points to a remote that doesn't exist (deleted?)."
+msgstr "指向一个不存在的远端（已删除？）"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "What shall we do?"
+msgstr "您期望我们执行？"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "(Re)create a project"
+msgstr "(重新)创建项目"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Point to an different location"
+msgstr "指向不同的位置"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "not yet supported"
+msgstr "目前不支持"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Forget the local git repository (deletes history keeps files)"
+msgstr "清除本地 git repository 记忆（删除历史记录，保留文件）"
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Search for projects online"
+msgstr "在线搜索项目"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "General"
+msgstr "通用"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Application"
+msgstr "应用程序"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Key Bindings"
+msgstr "指定快捷键"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Hardware"
+msgstr "硬件"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Connections"
+msgstr "连接"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "general"
+msgstr "通用"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "app"
+msgstr "应用程序"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "window type"
+msgstr "窗口类型"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "units"
+msgstr "单位"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "paths"
+msgstr "路径"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "gammaErrorPolicy"
+msgstr "语法错误策略"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "appKeyGoogleCloud"
+msgstr "Google Cloud 应用密钥"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "locale"
+msgstr "本地化"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "theme"
+msgstr "主题"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "componentFilter"
+msgstr "组件过滤器"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "lineSpacing"
+msgstr "行间距"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "edgeGuideColumn"
+msgstr "边缘引导列"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "open"
+msgstr "打开"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "new"
+msgstr "新建"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "save"
+msgstr "保存"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "print"
+msgstr "打印"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "close"
+msgstr "关闭"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "quit"
+msgstr "退出"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "preferences"
+msgstr "首选项"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "cut"
+msgstr "剪切"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "copy"
+msgstr "复制"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "paste"
+msgstr "粘贴"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "duplicate"
+msgstr "重建"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "indent"
+msgstr "缩进"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "dedent"
+msgstr "减少缩进"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "find"
+msgstr "查找"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "undo"
+msgstr "撤销"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "redo"
+msgstr "重做"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "comment"
+msgstr "评论"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "uncomment"
+msgstr "取消评论"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggle comment"
+msgstr "切换评论"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "fold"
+msgstr "折叠"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "proxy"
+msgstr "代理"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "timeout"
+msgstr "超时"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Builder, Coder and Runner"
+msgstr "Builder, Coder 和 Runner"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "same as in the file"
+msgstr "和文件中保持一致"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "abort"
+msgstr "中止"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "warn"
+msgstr "警告"
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Latency not important"
+msgstr "延迟不重要"
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Share low-latency driver"
+msgstr "共享低延迟驱动程序"
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Aggressive low-latency"
+msgstr "激进低延迟模式（推荐）"
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Latency critical"
+msgstr "延迟关键模式"
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "PsychoPy Preferences"
+msgstr "PsychoPy 首选项"
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "system locale"
+msgstr "系统区域"
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+#, python-format
+msgid "Invalid value in \"%(pref)s\" (\"%(section)s\" Tab)"
+msgstr "“%(pref)s”出现无效值（“%(section)s”标签页）"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Error"
+msgstr "错误"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Add task"
+msgstr "添加任务"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Adding task"
+msgstr "正在添加任务"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Remove task"
+msgstr "移除任务"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Clear all"
+msgstr "清除全部"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Clearing tasks"
+msgstr "正在清除任务"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Saving task"
+msgstr "正在保存列表"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Loading task"
+msgstr "任务加载中"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Closing Runner"
+msgstr "正在关闭 Runner"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Quitting PsychoPy"
+msgstr "正在退出 PsychoPy"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Running experiment"
+msgstr "正在运行试验"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Launching local debug of online study"
+msgstr "启动在线学习本地调试"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Launching online study at Pavlovia"
+msgstr "在 Pavlovia 启动在线学习"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Loading builder demos"
+msgstr "正在加载 builder 演示资源"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Loading coder demos"
+msgstr "正在加载 coder 演示资源"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Save task list as ..."
+msgstr "任务列表另存为..."
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Open task list ..."
+msgstr "打开任务列表..."
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Alerts"
+msgstr "告警"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#: psychopy-studio/src/routes/coder/shell/ShellNotebook.svelte
+msgid "Stdout"
+msgstr "标准输出"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Add experiment to list"
+msgstr "将实验添加到列表"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Remove experiment from list"
+msgstr "从列表中删除实验"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Save task list to a file"
+msgstr "将任务列表保存到文件"
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Load tasks from a file"
+msgstr "从文件加载任务"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run the current script in Python"
+msgstr "在 Python 中运行当前脚本"
+
+#: psychopy-app/src/psychopy_app/stdout/stdOutRich.py
+msgid "For further info see "
+msgstr "欲了解更多信息，请参阅"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "New"
+msgstr "新建"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Create new experiment file"
+msgstr "创建新的实验文件"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Open"
+msgstr "打开"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Open an existing experiment file"
+msgstr "打开现有的实验文件"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Save current experiment file"
+msgstr "保存当前实验文件"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Save current experiment file as..."
+msgstr "将当前实验文件另存为..."
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Undo last action"
+msgstr "撤销上个操作"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Redo last action"
+msgstr "重做上个操作"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Monitor settings and calibration"
+msgstr "显示器设置和校准"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Edit experiment settings"
+msgstr "编辑实验设置"
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Send experiment to Runner"
+msgstr "将实验发送到 Runner"
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "use prefs"
+msgstr "使用首选项"
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "&Open Builder view\t"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "&Open Coder view\t"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#, python-brace-format
+msgid "Copyright (C) {year} OpenScienceTools.org"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Loading app fonts..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Loading plugins..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+msgid "Loading requested files..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#, python-brace-format
+msgid "Failed to open {}, file does not exist."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/_psychopyApp.py
+#, python-brace-format
+msgid "Failed to open file {}, reason: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid "Connection Error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/errorDlg.py
+msgid ""
+"Could not connect to Pavlovia server. \n"
+"\n"
+"Please check that you are connected to the internet. If you are connected, then the Pavlovia servers may be down. You can check their status here: \n"
+"\n"
+"https://pavlovia.org/status"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Input"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Validation"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "cover"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "contain"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "fill"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "scale-down"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "top-center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "bottom-center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "center-left"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "center-right"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "top-left"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "top-right"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "bottom-left"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "bottom-right"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "avg"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "average (no FBO)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "auto"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "comma"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "semicolon"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "tab"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Experiment start"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Wall clock"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "press"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "release"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "on valid click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "correct click"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Line"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Triangle"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Rectangle"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Circle"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Cross"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Star"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Arrow"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Regular polygon..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Custom polygon..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "custom..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Start and Stop"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Start Only"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Stop Only"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "None"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Start and Check"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Check Only"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Mouse"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Drag"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (Arrow Keys)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (WASD)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (Custom keys)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Mouse Wheel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Mouse Wheel (Inverted)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "Keyboard (+-)"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "visible"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "scroll"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "hidden"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid "Pilot mode"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "piloting"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "keyBindings"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "connections"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "fullscr"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "allowGUI"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "flac"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "shutdownKey"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "shutdownKeyModifiers"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "startUpPlugins"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showStartupTips"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "defaultView"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "resetPrefs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "autoSavePrefs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "debugMode"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "errorDialog"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showSplash"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "reloadPrevExp"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "codeComponentLanguage"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "unclutteredNamespace"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "componentsFolders"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "hiddenComponents"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "abbreviateLongCompNames"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "unpackedDemosDir"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "savedDataFolder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "builderLayout"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "alwaysShowReadme"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "maxFavorites"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "confirmRoutineClose"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "readonly"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "outputFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "codeFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "outputFontSize"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "codeFontSize"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showSourceAsst"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showOutput"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "autocomplete"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "reloadPrevFiles"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "preferredShell"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forceWindowed"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forceMouseVisible"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forcedWindowSize"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pilotLoggingLevel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pilotConsoleLoggingLevel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "showPilotingIndicator"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "forceNonRush"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "replaceParticipantID"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "saveAs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "revealFolder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "exportHTML"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "smartIndent"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "findAgain"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "enlargeFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "shrinkFont"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "analyseCode"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "compileScript"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "runScript"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "runnerScript"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "stopScript"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleWhitespace"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleEOLs"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleIndentGuides"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "expSettings"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "newRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "copyRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pasteRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pasteCompon"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "builderFind"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleOutputPanel"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "renameRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "cycleWindows"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "largerFlow"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "smallerFlow"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "largerRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "smallerRoutine"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "toggleReadme"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "pavlovia_logIn"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "OSF_logIn"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsSync"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsFind"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsOpen"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "projectsNew"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "audioWASAPIOnly"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "audioDriver"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "audioDevice"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "parallelPorts"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "qmixConfiguration"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "autoProxy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "allowUsageStats"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "checkForUpdates"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/localizedStrings.py
+msgid "From theme..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/preferencesDlg.py
+msgid " Apply "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Switch user"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Log out"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Log in"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/ribbon.py
+msgid "Edit project..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+#, python-brace-format
+msgid "Could not get image from: {}, using blank image instead."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Save file as..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "View raw code"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "View styled HTML"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "item"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+#, python-brace-format
+msgid "Add {}..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Inavlid image format, could not set image."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Select image..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Specify folder..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Specify file..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+#, python-format
+msgid "&Next window\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Show &builder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Show &coder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/utils.py
+msgid "Show &runner"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Reveal in file explorer...\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid ""
+"Open the folder containing this experiment in your system's file explorer"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "&Find in experiment...\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Search the whole experiment for a specific term"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Themes"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#, python-format
+msgid "Run/pilot\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Plugin/packages manager..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Manage Python packages and optional plugins for PsychoPy"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "E&xperiment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-format
+msgid "Experiment &Settings\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "&Pavlovia.org"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Window"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#, python-brace-format
+msgid "Do you want to remove routine '{}' from the experiment?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Remove routine?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste above"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Paste below"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Remove"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move to top"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move up"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move down"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Move to bottom"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Cannot add component, experiment has no routines."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Add new components and features via plugins."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid ""
+"Filter components by whether they work with PsychoJS, PsychoPy or both."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save as..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Monitor center"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Pilot"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Desktop"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write Python"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write experiment as a Python script"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run the current script in Python with piloting features on"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Browser"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write JS"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Write experiment as a JavaScript (JS) script"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Pilot experiment locally in your browser"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run on Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run experiment on Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Sync"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Sync project with Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Views"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Switch to Builder view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Switch to Coder view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+#: psychopy-app/src/psychopy_app/coder/coder.py
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Switch to Runner view"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-brace-format
+msgid "Requires plugin {}, click here to install."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Conditions file set from variable."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid "Could not read conditions from: %s\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid ""
+"Bad name in %s: Parameters (column headers) cannot contain dots or be "
+"duplicated."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+#, python-format
+msgid "Duplicate condition names, different conditions file: %s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Show screen numbers"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "New Routine name:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Routine Template:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/__init__.py
+msgid "Select a template to base your new Routine on"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Disabled"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Match case?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Match regex?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Go"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Location"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/findDlg.py
+msgid "Parameter"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid ""
+"This parameter has come from an older version of PsychoPy. In the latest "
+"version of PsychoPy, it is not used. Click this button to delete it. "
+"WARNING: This may affect how this experiment works in older versions!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "DELETED"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid ""
+"This parameter will not be deleted until you click Okay. Click this button "
+"to revert the deletion and keep the parameter."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid ""
+"Below are all of the surveys linked to your Pavlovia account - select the "
+"one you want and press OK to add its ID."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "There are no surveys linked to your Pavlovia account."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Click here to manage surveys on Pavlovia."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Refresh survey list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Find online..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Get survey ID from a list of your surveys on Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid ""
+"Font {} is not installed, would you like to download it from Google Fonts?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Could not download font {} from Google Fonts, reason: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Font download successfully"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Create new text file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open an existing text file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current text file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Save current text file as..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Search the current file for a specific term"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Color picker"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/coder.py
+msgid "Open a tool for choosing colors"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Folder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Create a new folder here."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Rename the file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Delete the file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Browse for a folder to open."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Navigate to PsychoPy library root."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/fileBrowser.py
+msgid "Navigate to current open file."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid "Close the current shell."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid ""
+"Close the current shell and start a new one, this will clear any variables."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+#: psychopy-app/src/psychopy_app/stdout/stdOutRich.py
+msgid "Clear all previous output."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid "Hit [Return] to start a Python session."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/coder/repl.py
+msgid "Hit [Return] to start a Python shell."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid " RGB Channels "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Hex/HTML"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "RGB Format"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid " HSV Channels "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/colorpicker/ui.py
+msgid "Insert"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+msgid "You are not logged in to Pavlovia. Please log in to continue."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/functions.py
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Login..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"An image to represent this project, this helps it stand out when browsing on"
+" Pavlovia."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Title of the project. Unlike the project name, this isn't used as a filename"
+" anywhere; so you can add spaces, apostrophes and emojis to your heart's "
+"content! 🦕✨"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Click to view the project in Pavlovia."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"'Star' this project to get back to it easily. Projects you've starred will "
+"appear first in your searches and projects with more stars in total will "
+"appear higher in everyone's searches."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Fork"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Create a copy of this project on your own Pavlovia account so that you can "
+"make changes without affecting the original project."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Create a Pavlovia project for the current experiment."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Synchronise this project's local files with their online counterparts. This "
+"will 'pull' changes from Pavlovia and 'push' changes from your local files."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Download"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"'Clone' this project, creating local copies of all its files and tracking "
+"any changes you make so that they can be applied when you next 'sync' the "
+"project."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Last synced at..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Folder in which local files are stored for this project. Changes to files in"
+" this folder will be tracked and applied to the project when you 'sync', so "
+"make sure the only files in this folder are relevant!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Description of the project to be shown on Pavlovia. Note: This is different "
+"than a README file!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Visibility:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Visibility of the current project; whether its visible only to its creator "
+"(Private) or to any user (Public)."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Status:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Project status; whether it can be run to collect data (Running), run by its "
+"creator without saving data (Piloting) or cannot be run (Inactive)."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Keywords:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "tag"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"Keywords associated with this project, helping others to find it. For "
+"example, if your experiment is useful to psychophysicists, you may want to "
+"add the keyword 'psychophysics'."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#, python-brace-format
+msgid ""
+"Could not find GitLab project with id {}.\n"
+"\n"
+"Please check that the project exists on Pavlovia, that you are logged in as the correct user in the PsychoPy app, and that your account has access to the project."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+#, python-brace-format
+msgid ""
+"Could not find folder {directory}, please select a different local root."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project info has changed, update online before closing?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project root folder is not yet specified, specify project root now?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid "Project root folder does not exist, change project root now?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/project.py
+msgid ""
+"\n"
+"Sync cancelled by user."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Me"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Sort..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Filter..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/search.py
+msgid "Author"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "New project..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "Project name:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/sync.py
+msgid "Project folder:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/pavlovia_ui/user.py
+msgid "Switch User"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Plugins & Packages"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Plugins"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Packages"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid ""
+"[Warning] Could not activate plugin. PsychoPy may need to restart for plugin"
+" to take effect."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid ""
+"The following components/routines should now be visible in the Components "
+"panel (a restart may be required in some cases):\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+#, python-format
+msgid "For more information about the %s plugin, read the documentation at:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid ""
+"There is currently an installation/uninstallation in progress, are you sure "
+"you want to close?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/dialog.py
+msgid "Please restart PsychoPy to apply changes."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "or..."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Install from file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid ""
+"Install a package from a local file, such as a .egg or .whl. You can also "
+"point to a pyproject.toml file to add an 'editable install' of an in-"
+"development package."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Open PIP terminal"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Open PIP terminal to manage packages manually"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Package"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "Installed"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "by "
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Homepage"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+#, python-brace-format
+msgid "Not for PsychoPy {}:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid ""
+"Could not retrieve plugins. Try restarting the PsychoPy app and make sure "
+"you are connected to the internet."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Uninstall all plugins"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid ""
+"This will uninstall all plugins an additional packages you have installed, "
+"are you sure you want to continue?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid ""
+"All plugins and additional packages have been uninstalled. You will need to "
+"restart PsychoPy for this to take effect."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Version:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "keyword"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Select a plugin to view details."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+#, python-brace-format
+msgid "Works with versions {}."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Author's GitHub"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "That's us! We make PsychoPy and Pavlovia!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Enabled"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "PIP error"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "We tried:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "We got:"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+#, python-brace-format
+msgid "Package {} could not be uninstalled."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "Package installed"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+#, python-brace-format
+msgid "Package {} successfully uninstalled!"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "Installation complete. See above for info.\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/utils.py
+msgid "Installation failed. See above for info.\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Save list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Open list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#, python-format
+msgid "&Run/pilot\t%s"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run &JS for local debug"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Run JS on &Pavlovia"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Builder Demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Coder Demos"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "&Run"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Manage list"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Add"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+msgid "Stop the current (Python) script"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/themes/ui.py
+msgid "&Open theme folder"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
+msgid "Device name"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Map devices from this machine to names in your experiment"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Setting the variable `{}` will overwrite an existing variable ({})"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Looks like your variable '{}' in '{}' should be set to update."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Quotation marks (\" or ') need to be escaped (\\\" or \\')"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Name is already in use ({})"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Name is not valid"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Browse for a file"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Not a valid file path: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "No file named {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Dictionary keys can't be code"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid "Duplicate dictionary key: {}"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Open the Device Manager to setup devices"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+#, python-brace-format
+msgid ""
+"No device named `{}` has been setup in the Device Manager, set one up now?"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/deviceManager/addDialog.py
+msgid "Available devices"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+#, python-brace-format
+msgid ""
+"Type pip commands below and press Enter to execute them in the installed PsychoPy environment, any returned text will appear below. When installing, remember to add `--user` on the end!\n"
+"\n"
+"All commands will be automatically prefaced with:\n"
+"{}\n"
+"(so you don't need to type it yourself)\n"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "User Packages"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/packages.py
+msgid "System Packages"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Add custom item"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "All Files (*.*)|*.*"
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "App info"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Copy text"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/dlgsCode.py
+msgid ""
+"Could not detect the necessary Python library for translating code. Install "
+"it now?"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Cut text"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Device Manager"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid ""
+"Failed to access the plugin index from the server. Please check your "
+"internet connection and try again."
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/runner/runner.py
+#, python-brace-format
+msgid "File {} does not exist in this location. Remove item from Runner?"
+msgstr ""
+
+#: psychopy/psychopy/alerts/alertsCatalogue/alertmsg.py
+#, python-brace-format
+msgid ""
+"Font `{font}{style}` not available in weight `{weight}`, component `{name}` "
+"will use default font."
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Force reload window"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Minimize window"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Once you have created and saved your table, remember to add it here."
+msgstr ""
+
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Open folder"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+msgid "Paste text"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Please enter a name"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/plugin_manager/plugins.py
+msgid "Plugin Manager Error"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reload window"
+msgstr ""
+
+#: psychopy-studio/src/routes/builder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/coder/ribbon/Menu.svelte
+#: psychopy-studio/src/routes/runner/ribbon/Menu.svelte
+msgid "Reset zoom"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/builder.py
+msgid "Setup named devices for your Components to refer to"
+msgstr ""
+
+#: psychopy-app/src/psychopy_app/builder/dialogs/paramCtrls.py
+msgid "Specify file or files..."
+msgstr ""
+
+#, python-brace-format
+#~ msgid ""
+#~ "Font `{font} {style}` not available in weight `{weight}`, component `{name}`"
+#~ " will default to Open Sans Regular."
+#~ msgstr "磅值“{weight}”不可用于“{font}{style}”字体，组件“{name}”将默认显示为 Open Sans Regular。"
 
 #~ msgid "Output path"
 #~ msgstr "输出路径"
@@ -6991,9 +11427,6 @@ msgstr ""
 
 #~ msgid "Eye tracker serial number (optional)."
 #~ msgstr "眼动仪的序列号（可选）。"
-
-#~ msgid "Search projects..."
-#~ msgstr ""
 
 #~ msgid "GazePoint IP address"
 #~ msgstr ""
@@ -8410,1929 +12843,11 @@ msgstr ""
 #~ msgid "Add additional columns as a dictionary"
 #~ msgstr ""
 
-#~ msgid "&View"
-#~ msgstr "视图(&V)"
-
-#~ msgid "Open a new Builder view"
-#~ msgstr "打开新的 Builder 视图"
-
-#~ msgid "Open a new Coder view"
-#~ msgstr "打开新的 Coder 视图"
-
-#, python-format
-#~ msgid "&Quit\t%s"
-#~ msgstr "退出(&Q)\t%s"
-
-#~ msgid "Terminate the program"
-#~ msgstr "终止程序"
-
-#~ msgid "Creating frames..."
-#~ msgstr "创建框架中..."
-
-#~ msgid "Compatibility information"
-#~ msgstr "兼容性信息"
-
-#~ msgid "tips.txt"
-#~ msgstr "tips.txt"
-
-#~ msgid "Select .psydat file(s) to extract"
-#~ msgstr "选择要解压的 .psydat 文件"
-
-#~ msgid ""
-#~ "For stimulus generation and experimental control in Python.\n"
-#~ "PsychoPy depends on your feedback. If something doesn't work\n"
-#~ "then let us know at psychopy-users@googlegroups.com"
-#~ msgstr ""
-#~ "用于 Python 中的刺激生成和实验控制。\n"
-#~ "PsychoPy 非常感谢您的反馈。 如果某项内容不能正常工作\n"
-#~ "请让我们知道，联系 psychopy-users@googlegroups.com"
-
-#~ msgid "Favorites"
-#~ msgstr "偏好"
-
-#~ msgid "Stimuli"
-#~ msgstr "刺激"
-
-#~ msgid "Responses"
-#~ msgstr "应答"
-
-#~ msgid "Custom"
-#~ msgstr "自定义"
-
-#~ msgid "I/O"
-#~ msgstr "输入/输出"
-
-#~ msgid "Add to favorites"
-#~ msgstr "添加到偏好"
-
-#~ msgid "Remove from favorites"
-#~ msgstr "从偏好中移除"
-
-#~ msgid "remove"
-#~ msgstr "移除"
-
-#, python-format
-#~ msgid "&New\t%s"
-#~ msgstr "新建(&N)\t%s"
-
-#, python-format
-#~ msgid "&Open...\t%s"
-#~ msgstr "打开...(&O)\t%s"
-
-#~ msgid "Open &Recent"
-#~ msgstr "打开最近使用"
-
-#, python-format
-#~ msgid "&Save\t%s"
-#~ msgstr "保存(&S)\t%s"
-
-#, python-format
-#~ msgid "Save &as...\t%s"
-#~ msgstr "另存为...(&A)\t%s"
-
-#, python-format
-#~ msgid "Export HTML...\t%s"
-#~ msgstr "导出为 HTML...\t%s"
-
-#~ msgid "Export experiment to html/javascript file"
-#~ msgstr "导出实验到 html/javascript 文件"
-
-#, python-format
-#~ msgid "&Close file\t%s"
-#~ msgstr "关闭文件(&C)\t%s"
-
-#~ msgid "Close current experiment"
-#~ msgstr "关闭当前实验"
-
-#, python-format
-#~ msgid "&Preferences\t%s"
-#~ msgstr "首选项(&P)\t%s"
-
-#~ msgid "Reset preferences..."
-#~ msgstr "重置首选项..."
-
-#, python-format
-#~ msgid "Undo\t%s"
-#~ msgstr "撤销\t%s"
-
-#, python-format
-#~ msgid "Redo\t%s"
-#~ msgstr "重做\t%s"
-
-#, python-format
-#~ msgid "&Paste\t%s"
-#~ msgstr "粘贴(&P)\t%s"
-
-#, python-format
-#~ msgid "&Toggle readme\t%s"
-#~ msgstr "切换自述文件(RM)(&T)\t%s"
-
-#~ msgid "Toggle Readme"
-#~ msgstr "切换自述文件(RM)"
-
-#, python-format
-#~ msgid "&Flow Larger\t%s"
-#~ msgstr "放大实验流程(&F)\t%s"
-
-#~ msgid "Larger flow items"
-#~ msgstr "放大实验流程项目"
-
-#, python-format
-#~ msgid "&Flow Smaller\t%s"
-#~ msgstr "缩小实验流程(&F)\t%s"
-
-#~ msgid "Smaller flow items"
-#~ msgstr "缩小显示实验流程的项目"
-
-#, python-format
-#~ msgid "&Routine Larger\t%s"
-#~ msgstr "放大显示例程(&R)\t%s"
-
-#~ msgid "Larger routine items"
-#~ msgstr "放大例程的项目"
-
-#, python-format
-#~ msgid "&Routine Smaller\t%s"
-#~ msgstr "缩小例程(&R)\t%s"
-
-#~ msgid "Smaller routine items"
-#~ msgstr "缩小显示例程项目"
-
-#~ msgid "&Tools"
-#~ msgstr "工具(&T)"
-
-#~ msgid "To set information about your monitor"
-#~ msgstr "设置显示器的相关信息"
-
-#, python-format
-#~ msgid "Compile\t%s"
-#~ msgstr "编译\t%s"
-
-#~ msgid "Compile the exp to a script"
-#~ msgstr "将实验编译成脚本"
-
-#~ msgid "Run the current script"
-#~ msgstr "运行当前脚本"
-
-#, python-format
-#~ msgid "Send to runner\t%s"
-#~ msgstr "发送到 runner\t%s"
-
-#~ msgid "Send current script to runner"
-#~ msgstr "将当前脚本发送至 runner"
-
-#~ msgid "PsychoPy updates..."
-#~ msgstr "PsychoPy 更新..."
-
-#~ msgid "Update PsychoPy to the latest, or a specific, version"
-#~ msgstr "将 PsychoPy 更新到最新或指定的版本"
-
-#~ msgid "Benchmark wizard"
-#~ msgstr "基准向导"
-
-#~ msgid "Check software & hardware, generate report"
-#~ msgstr "检查软件和硬件，生成报告"
-
-#, python-format
-#~ msgid "&New Routine\t%s"
-#~ msgstr "新建例程(&N)\t%s"
-
-#~ msgid "Create a new routine (e.g. the trial definition)"
-#~ msgstr "创建新的例程（routine，例如试验定义）"
-
-#, python-format
-#~ msgid "&Copy Routine\t%s"
-#~ msgstr "复制例程(routine)(&E)\t%s"
-
-#~ msgid "Copy the current routine so it can be used in another exp"
-#~ msgstr "复制当前例程，以便它可以在另一个实验中使用"
-
-#, python-format
-#~ msgid "&Paste Routine\t%s"
-#~ msgstr "粘贴例程(routine)(&E)\t%s"
-
-#~ msgid "Paste the Routine into the current experiment"
-#~ msgstr "将例程粘贴到当前实验中"
-
-#, python-format
-#~ msgid "&Rename Routine\t%s"
-#~ msgstr "重命名例程(&R)\t%s"
-
-#~ msgid "Change the name of this routine"
-#~ msgstr "改变此例程的名称"
-
-#, python-format
-#~ msgid "Paste Component\t%s"
-#~ msgstr "粘贴组件\t%s"
-
-#~ msgid "Paste the Component at bottom of the current Routine"
-#~ msgstr "将组件粘贴到当前例程的底部"
-
-#~ msgid "Insert Routine in Flow"
-#~ msgstr "在实验流程中插入例程"
-
-#~ msgid "Select one of your routines to be inserted into the experiment flow"
-#~ msgstr "选择一个要插入到实验流程中的例程"
-
-#~ msgid "Insert Loop in Flow"
-#~ msgstr "在实验流程中插入循环"
-
-#~ msgid "Create a new loop in your flow window"
-#~ msgstr "在实验流程窗口中创建一个新的循环"
-
-#~ msgid "README..."
-#~ msgstr "README..."
-
-#~ msgid "Add or edit the text shown when your experiment is opened"
-#~ msgstr "添加或编辑打开实验时要显示的说明文本"
-
-#~ msgid "&Unpack Demos..."
-#~ msgstr "解压演示包...(&E)"
-
-#~ msgid "Unpack demos to a writable location (so that they can be run)"
-#~ msgstr "将演示解包到可写入的位置（以便它们有权限可运行）"
-
-#~ msgid "Browse on Pavlovia"
-#~ msgstr "在 Pavlovia 上浏览"
-
-#~ msgid "Get more demos from the online demos repository on Pavlovia"
-#~ msgstr "从 Pavlovia 上的在线演示存储库获取更多演示"
-
-#~ msgid "Open demos folder"
-#~ msgstr "打开演示文件夹"
-
-#~ msgid "Open the local folder where demos are stored"
-#~ msgstr "打开存储演示的本地文件夹"
-
-#~ msgid "&Demos"
-#~ msgstr "演示(&D)"
-
-#~ msgid "Window"
-#~ msgstr "窗口"
-
-#~ msgid "&Help"
-#~ msgstr "帮助(&H)"
-
-#~ msgid "&PsychoPy Homepage"
-#~ msgstr "PsychoPy 主页(&P)"
-
-#~ msgid "Go to the PsychoPy homepage"
-#~ msgstr "转到 PsychoPy 主页"
-
-#~ msgid "&PsychoPy Builder Help"
-#~ msgstr "PsychoPy Builder 帮助(&P)"
-
-#~ msgid "Go to the online documentation for PsychoPy Builder"
-#~ msgstr "转到 PsychoPy Builder 的在线文档"
-
-#~ msgid "&System Info..."
-#~ msgstr "系统信息...(&S)"
-
-#~ msgid "Get system information."
-#~ msgstr "获取系统信息"
-
-#~ msgid "&About..."
-#~ msgstr "关于...(&A)"
-
-#~ msgid "About PsychoPy"
-#~ msgstr "关于 PsychoPy"
-
-#~ msgid "&News..."
-#~ msgstr "新闻...(&N)"
-
-#~ msgid "News"
-#~ msgstr "新闻"
-
-#~ msgid "PsychoPy experiments (*.psyexp)|*.psyexp|Any file (*.*)|*.*"
-#~ msgstr "PsychoPy 实验 (*.psyexp)|*.psyexp|所有文件 (*.*)|*.*"
-
-#~ msgid "PsychoPy experiments (*.psyexp)|*.psyexp|Any file (*.*)|*"
-#~ msgstr "PsychoPy 实验 (*.psyexp)|*.psyexp|所有文件 (*.*)|*"
-
-#~ msgid "Open file ..."
-#~ msgstr "打开文件 ..."
-
-#~ msgid "Save file as ..."
-#~ msgstr "文件另存为 ..."
-
-#~ msgid "Please save experiment before editing the README file"
-#~ msgstr "请在编辑 README 文件之前先保存实验"
-
-#~ msgid "No readme file"
-#~ msgstr "无 readme 文件"
-
-#, python-format
-#~ msgid "Experiment %s has changed. Save before quitting?"
-#~ msgstr "实验 %s 已更改。 退出前是否保存？"
-
-#~ msgid ""
-#~ "Are you sure you want to reset your preferences? This cannot be undone."
-#~ msgstr "您确定要重置您的首选项吗？ 此操作不可撤消."
-
-#~ msgid "I'm sure"
-#~ msgstr "我确定"
-
-#~ msgid "Wait, go back!"
-#~ msgstr "等等，返回！"
-
-#~ msgid ""
-#~ "Done! Your preferences have been reset. Changes will be applied when you "
-#~ "next open PsychoPy."
-#~ msgstr "完成！ 您的首选项已被重置。 更改将在下次打开 PsychoPy 时被应用。"
-
-#, python-format
-#~ msgid "Undo %(action)s\t%(key)s"
-#~ msgstr "撤销 %(action)s\t%(key)s"
-
-#, python-format
-#~ msgid "Redo %(action)s\t%(key)s"
-#~ msgstr "重做 %(action)s\t%(key)s"
-
-#~ msgid "Location to unpack demos"
-#~ msgstr "定位到解压演示的位置"
-
-#, python-format
-#~ msgid "New name for copy of \"%(copied)s\"?  [%(default)s]"
-#~ msgstr "副本 \"%(copied)s\"的新名称?  [%(default)s]"
-
-#~ msgid "What is the new name for the Routine?"
-#~ msgstr "例程的新名称是什么？"
-
-#~ msgid "Rename"
-#~ msgstr "重命名"
-
-#~ msgid "What is the name for the new Routine? (e.g. instr, trial, feedback)"
-#~ msgstr "新例程的名称是什么？ (e.g. instr, trial, feedback)"
-
-#, python-format
-#~ msgid "&Close readme\t%s"
-#~ msgstr "关闭 readme((&C))\t%s"
-
-#~ msgid "rename"
-#~ msgstr "重命名"
-
-#~ msgid "Insert Routine"
-#~ msgstr "插入例程"
-
-#~ msgid "Insert Loop"
-#~ msgstr "插入循环"
-
-#~ msgid "Select a Routine to insert (Esc to exit)"
-#~ msgstr "选择一个要插入的例程(按 Esc 退出)"
-
-#~ msgid "CANCEL Insert"
-#~ msgstr "取消插入"
-
-#~ msgid "Click where you want to insert the Routine, or CANCEL insert."
-#~ msgstr "单击要插入例程的位置，或取消插入。"
-
-#~ msgid "CANCEL insert"
-#~ msgstr "取消插入"
-
-#~ msgid "Click where you want the loop to start/end, or CANCEL insert."
-#~ msgstr "单击您希望循环 开始/结束 的位置，或取消插入。"
-
-#~ msgid "Click the other end for the loop"
-#~ msgstr "单击循环的其他结尾"
-
-#, python-format
-#~ msgid ""
-#~ "The \"%s\" Loop is about to be deleted as well (by collapsing). OK to "
-#~ "proceed?"
-#~ msgstr "“%s” 循环也即将被删除（由于崩溃）。 需要继续吗？"
-
-#~ msgid "Impending Loop collapse"
-#~ msgstr "循环即将发生崩溃"
-
-#~ msgid "set during: "
-#~ msgstr "期间设置: "
-
-#~ msgid " Properties"
-#~ msgstr "属性"
-
-#~ msgid " Help "
-#~ msgstr " 帮助 "
-
-#~ msgid "Go to online help about this component"
-#~ msgstr "转到有关此组件的在线帮助"
-
-#, python-format
-#~ msgid "That name is in use (it's a %s). Try another name."
-#~ msgstr "该名称正在使用中（它是 %s）。 试试别的名字。"
-
-#~ msgid "Name must be alphanumeric or _, no spaces"
-#~ msgstr "名称必须是字母数字或 下划线_，不能有空格"
-
-#~ msgid "No parameters set"
-#~ msgstr "未设置参数"
-
-#~ msgid "No parameters set (select a file above)"
-#~ msgstr "未设置参数（选择上面的文件）"
-
-#, python-format
-#~ msgid ""
-#~ "%(nCondition)i conditions, with %(nParam)i parameters\n"
-#~ "%(paramStr)s"
-#~ msgstr ""
-#~ "%(nCondition)i 个条件，带有 %(nParam)i 个参数\n"
-#~ "%(paramStr)s"
-
-#~ msgid "No parameters set (conditionsFile not found)"
-#~ msgstr "未设置参数（未找到 conditionsFile）"
-
-#, python-brace-format
-#~ msgid "Builder variable(s) ({}) in file:{}"
-#~ msgstr "Builder 变量 ({})在文件：{}"
-
-#~ msgid ""
-#~ "\n"
-#~ "Py to JS auto-translation requires the metapensiero library.\n"
-#~ "Available for Python 3.5+.\n"
-#~ msgstr ""
-#~ "\n"
-#~ "Py 到 JS 的自动转译需要 metapensiero 库。\n"
-#~ "适用于 Python 3.5+。\n"
-
-#~ msgid "Warning: requires the metapensiero library"
-#~ msgstr "警告：需要 metapensiero 库"
-
-#~ msgid ""
-#~ "\n"
-#~ "Auto-JS translation will overwrite your existing JavaScript code.\n"
-#~ "Press OK to continue, or Cancel.\n"
-#~ msgstr ""
-#~ "\n"
-#~ "Auto-JS 自动转译JS将覆盖您现有的 JavaScript 代码。\n"
-#~ "按确定继续此操作，或按取消。\n"
-
-#~ msgid "Warning: Python to JavaScript Translation"
-#~ msgstr "警告：Python 到 JavaScript 的转译"
-
-#~ msgid "New (no file)"
-#~ msgstr "新建(无文件)"
-
-#~ msgid "Conditions data (no file)"
-#~ msgstr "条件数据(无文件)"
-
-#~ msgid "Params:"
-#~ msgstr "参数:"
-
-#~ msgid "type:"
-#~ msgstr "类型:"
-
-#, python-format
-#~ msgid "cond %s:"
-#~ msgstr "条件 %s:"
-
-#~ msgid "Should be legal as a variable name (alphanumeric)"
-#~ msgstr "变量名应该合法（字母和数字）"
-
-#~ msgid "extra white-space"
-#~ msgstr "额外的空格"
-
-#~ msgid "PREVIEW"
-#~ msgstr "预览"
-
-#~ msgid "+cond."
-#~ msgstr "+条件"
-
-#~ msgid ""
-#~ "Add a condition (row); to delete a condition, delete all of its values."
-#~ msgstr "添加条件（行）； 要删除条件，请删除其所有值。"
-
-#~ msgid "+param"
-#~ msgstr "+参数"
-
-#~ msgid ""
-#~ "Add a parameter (column); to delete a param, set its type to None, or delete"
-#~ " all of its values."
-#~ msgstr "添加参数（列）； 删除参数，将其类型设置为 None，或删除其所有值。"
-
-#~ msgid "Preview"
-#~ msgstr "预览"
-
-#~ msgid ""
-#~ "Show all values as they would appear after saving to a file, without "
-#~ "actually saving anything."
-#~ msgstr "显示保存到文件后出现的所有值，而不实际保存任何内容。"
-
-#~ msgid "Save as"
-#~ msgstr "另存为"
-
-#~ msgid "Go to online help"
-#~ msgstr "转到在线帮助"
-
-#~ msgid "Save and exit"
-#~ msgstr "保存并退出"
-
-#~ msgid "Exit, discard any edits"
-#~ msgstr "退出，放弃所有编辑"
-
-#~ msgid "Param name(s) adjusted to be legal. Look ok?"
-#~ msgstr "参数名称已调整为合法的。 这样看起来OK吗？"
-
-#~ msgid ""
-#~ "This parameter will be treated as code - we have already put in the $, so "
-#~ "you don't have to."
-#~ msgstr "此参数将被视为代码 - 我们已经放入 $,因此您不必这样做。"
-
-#~ msgid "Open/create in your default table editor"
-#~ msgstr "在您的默认表格编辑器中打开/创建"
-
 #, python-brace-format
 #~ msgid ""
 #~ "Once you have created and saved your table,please remember to add it to "
 #~ "{name}"
 #~ msgstr "创建并保存表格后，请记住将其添加到 {name}"
-
-#~ msgid "Reminder"
-#~ msgstr "提醒"
-
-#~ msgid "Specify color ..."
-#~ msgstr "指定颜色..."
-
-#~ msgid "Basic"
-#~ msgstr "基础"
-
-#~ msgid "Color"
-#~ msgstr "颜色"
-
-#~ msgid "Layout"
-#~ msgstr "布局"
-
-#~ msgid "Data"
-#~ msgstr "数据"
-
-#~ msgid "Dots"
-#~ msgstr "点(Dot)"
-
-#~ msgid "Grating"
-#~ msgstr "光栅(Grating)"
-
-#~ msgid "Advanced"
-#~ msgstr "高级"
-
-#~ msgid "Carrier"
-#~ msgstr "载波(Carrier)"
-
-#~ msgid "Envelope"
-#~ msgstr "包络(Envelope)"
-
-#~ msgid "Appearance"
-#~ msgstr "外观"
-
-#~ msgid "Online"
-#~ msgstr "在线"
-
-#~ msgid "Testing"
-#~ msgstr "测试"
-
-#~ msgid "Audio"
-#~ msgstr "音频"
-
-#~ msgid "Format"
-#~ msgstr "格式"
-
-#~ msgid "Formatting"
-#~ msgstr "格式化"
-
-#~ msgid "Eyetracking"
-#~ msgstr "眼动追踪"
-
-#~ msgid "Target"
-#~ msgstr "目标"
-
-#~ msgid "Animation"
-#~ msgstr "动画"
-
-#~ msgid "Transcription"
-#~ msgstr "转录(Transcription)"
-
-#~ msgid "Timing"
-#~ msgstr "定时(Timing)"
-
-#~ msgid "Playback"
-#~ msgstr "回放"
-
-#~ msgid "linear"
-#~ msgstr "线性"
-
-#~ msgid "nearest"
-#~ msgstr "邻近的"
-
-#~ msgid "named"
-#~ msgstr "命名的"
-
-#~ msgid "last key"
-#~ msgstr "最后一个键"
-
-#~ msgid "first key"
-#~ msgstr "最前一个键"
-
-#~ msgid "all keys"
-#~ msgstr "所有键"
-
-#~ msgid "nothing"
-#~ msgstr "无"
-
-#~ msgid "last button"
-#~ msgstr "最后的按钮"
-
-#~ msgid "first button"
-#~ msgstr "最前的按钮"
-
-#~ msgid "all buttons"
-#~ msgstr "所有按钮"
-
-#~ msgid "on click"
-#~ msgstr "点击"
-
-#~ msgid "every frame"
-#~ msgstr "每一帧"
-
-#~ msgid "never"
-#~ msgstr "从不"
-
-#~ msgid "from exp settings"
-#~ msgstr "从 实验 设置"
-
-#~ msgid "from preferences"
-#~ msgstr "从首选项"
-
-#~ msgid "circle"
-#~ msgstr "圆形"
-
-#~ msgid "square"
-#~ msgstr "方形"
-
-#~ msgid "direction"
-#~ msgstr "方向"
-
-#~ msgid "position"
-#~ msgstr "位置"
-
-#~ msgid "walk"
-#~ msgstr ""
-
-#~ msgid "same"
-#~ msgstr "相同"
-
-#~ msgid "different"
-#~ msgstr "不同"
-
-#~ msgid "repeat"
-#~ msgstr "重复"
-
-#~ msgid "none"
-#~ msgstr "无"
-
-#~ msgid "time (s)"
-#~ msgstr "时间 (s)"
-
-#~ msgid "frame N"
-#~ msgstr "第N帧"
-
-#~ msgid "condition"
-#~ msgstr "条件"
-
-#~ msgid "duration (s)"
-#~ msgstr "持续时间(s)"
-
-#~ msgid "duration (frames)"
-#~ msgstr "持续时间(帧)"
-
-#~ msgid "constant"
-#~ msgstr "恒定"
-
-#~ msgid "set every repeat"
-#~ msgstr "设置每次重复"
-
-#~ msgid "set every frame"
-#~ msgstr "设置每一帧"
-
-#~ msgid "add"
-#~ msgstr "添加"
-
-#~ msgid "average"
-#~ msgstr "平均"
-
-#~ msgid "on Sync"
-#~ msgstr "在 同步"
-
-#~ msgid "on Save"
-#~ msgstr "在 保存"
-
-#~ msgid "manually"
-#~ msgstr "手动"
-
-#~ msgid "debug"
-#~ msgstr "调试"
-
-#~ msgid "info"
-#~ msgstr "信息"
-
-#~ msgid "exp"
-#~ msgstr "实验(exp)"
-
-#~ msgid "data"
-#~ msgstr "数据"
-
-#~ msgid "warning"
-#~ msgstr "警告"
-
-#~ msgid "error"
-#~ msgstr "错误"
-
-#~ msgid "any click"
-#~ msgstr "任何点击"
-
-#~ msgid "valid click"
-#~ msgstr "有效点击"
-
-#~ msgid "mouse onset"
-#~ msgstr "鼠标动作"
-
-#~ msgid "Routine"
-#~ msgstr "例程"
-
-#~ msgid "joystick onset"
-#~ msgstr "操纵杆动作"
-
-#~ msgid "every click"
-#~ msgstr "每次点击"
-
-#~ msgid "first click"
-#~ msgstr "首次点击"
-
-#~ msgid "last click"
-#~ msgstr "末次点击"
-
-#~ msgid "button onset"
-#~ msgstr "按钮动作"
-
-#~ msgid "rows"
-#~ msgstr "行"
-
-#~ msgid "columns"
-#~ msgstr "列"
-
-#~ msgid "first"
-#~ msgstr "首个"
-
-#~ msgid "last"
-#~ msgstr "末尾"
-
-#~ msgid "all"
-#~ msgstr "全部"
-
-#~ msgid "one of your Components, Routines, or condition parameters"
-#~ msgstr "您的组件、例程或条件参数之一"
-
-#~ msgid " Avoid `this`, `these`, `continue`, `Clock`, or `component` in name"
-#~ msgstr " 避免在名称中使用 `this`、`these`、`continue`、`Clock` 或 `component`"
-
-#~ msgid "Builder variable"
-#~ msgstr "Builder 变量"
-
-#~ msgid "Psychopy module"
-#~ msgstr "Psychopy 模块"
-
-#~ msgid "numpy function"
-#~ msgstr "numpy 函数"
-
-#~ msgid "python keyword"
-#~ msgstr "python 关键字"
-
-#~ msgid "look at"
-#~ msgstr "注视"
-
-#~ msgid "look away"
-#~ msgstr "移开视线"
-
-#~ msgid "every look"
-#~ msgstr "每次注视"
-
-#~ msgid "first look"
-#~ msgstr "首次注视"
-
-#~ msgid "last look"
-#~ msgstr "最后注视"
-
-#~ msgid "roi onset"
-#~ msgstr ""
-
-#~ msgid "Missing name"
-#~ msgstr "缺少名称"
-
-#, python-brace-format
-#~ msgid "That name is in use (by {used}). Try another name."
-#~ msgstr "该名称已被占用（由 {used} ）。 试试别的名字。"
-
-#~ msgid ""
-#~ "Name can only contain letters, numbers and underscores (_), no spaces or "
-#~ "other symbols"
-#~ msgstr "名称只能包含字母、数字和下划线 (_)，不能包含空格或其他符号"
-
-#, python-brace-format
-#~ msgid ""
-#~ "Font `{val}` not found locally, will attempt to retrieve from Google Fonts "
-#~ "when this experiment next runs"
-#~ msgstr "本地未找到字体“{val}”，下次运行此实验时将尝试从 Google 字体检索"
-
-#, python-brace-format
-#~ msgid "Python syntax error in field `{}`:  {}"
-#~ msgstr "字段“{}”中的 Python 语法错误：{}"
-
-#, python-brace-format
-#~ msgid ""
-#~ "Looks like your variable '{code}' in '{displayName}' should be set to "
-#~ "update."
-#~ msgstr "看起来应该将“{displayName}”中的变量“{code}”设置为更新。"
-
-#, python-brace-format
-#~ msgid "Python var `{}` in `{}` is same as Name"
-#~ msgstr "`{}` 中的 Python var `{}` 与 Name 相同"
-
-#, python-brace-format
-#~ msgid "Variable name ${newName} is in use (by {used}). Try another name."
-#~ msgstr "变量名 ${newName} 正在使用中（由 {used} 使用）。 试试别的名字。"
-
-#~ msgid "Cut"
-#~ msgstr "剪切"
-
-#~ msgid "Copy"
-#~ msgstr "复制"
-
-#~ msgid "Paste"
-#~ msgstr "粘贴"
-
-#~ msgid "Select All"
-#~ msgstr "全选"
-
-#~ msgid "basic"
-#~ msgstr "基础"
-
-#~ msgid "input"
-#~ msgstr "输入"
-
-#~ msgid "stimuli"
-#~ msgstr "刺激"
-
-#~ msgid "exp control"
-#~ msgstr "实验控制"
-
-#~ msgid "hardware"
-#~ msgstr "硬件"
-
-#~ msgid "timing"
-#~ msgstr "定时"
-
-#~ msgid "misc"
-#~ msgstr "杂项"
-
-#~ msgid "PsychoPy unit testing"
-#~ msgstr "PsychoPy 单元测试"
-
-#~ msgid "&Tests"
-#~ msgstr "测试(&T)"
-
-#, python-format
-#~ msgid "&Run tests\t%s"
-#~ msgstr "运行测试(&R)\t%s"
-
-#, python-format
-#~ msgid "&Close tests panel\t%s"
-#~ msgstr "关闭测试面板(&C)\t%s"
-
-#, python-format
-#~ msgid "Go to &Coder view\t%s"
-#~ msgstr "转到 &Coder 视图\t%s"
-
-#~ msgid "Go to the Coder view"
-#~ msgstr "跳转到 Coder 视图"
-
-#~ msgid "Terminate PsychoPy"
-#~ msgstr "终止 PsychoPy"
-
-#~ msgid "&Preferences"
-#~ msgstr "&首选项"
-
-#~ msgid ""
-#~ "Select the test(s) to run, from:\n"
-#~ "psychopy/tests/test*"
-#~ msgstr ""
-#~ "选择要运行的测试，从：\n"
-#~ "psychopy/tests/test*"
-
-#~ msgid "Run tests"
-#~ msgstr "运行测试"
-
-#~ msgid "Coverage Report"
-#~ msgstr "覆盖报告(Coverage Report)"
-
-#~ msgid "Include coverage report (requires coverage module)"
-#~ msgstr "包括覆盖率报告（需要覆盖率模块）"
-
-#~ msgid "ALL stdout"
-#~ msgstr "所有 stdout"
-
-#~ msgid "Report all printed output & show any new rms-test images"
-#~ msgstr "报告所有打印输出并显示任何新的 rms-test 图像"
-
-#~ msgid "Analyzing code"
-#~ msgstr "分析代码"
-
-#, python-format
-#~ msgid "Unable to find \"%s\""
-#~ msgstr "找不到 “%s”"
-
-#~ msgid "Source Assistant"
-#~ msgstr "源码助手"
-
-#~ msgid "Shell"
-#~ msgstr "Shell"
-
-#~ msgid "Output"
-#~ msgstr "输出"
-
-#~ msgid "Shelf"
-#~ msgstr "Shelf"
-
-#~ msgid "Save current file"
-#~ msgstr "保存当前文件"
-
-#~ msgid "Save current python file as..."
-#~ msgstr "将当前 python 文件另存为..."
-
-#~ msgid "Close current file"
-#~ msgstr "关闭当前文件"
-
-#~ msgid "Close all files"
-#~ msgstr "关闭所有文件"
-
-#~ msgid "Close all files in the editor."
-#~ msgstr "关闭编辑器中所有文件"
-
-#, python-format
-#~ msgid "Print\t%s"
-#~ msgstr "打印\t%s"
-
-#~ msgid "Close PsychoPy Coder"
-#~ msgstr "关闭 Psychopy Coder"
-
-#, python-format
-#~ msgid "Cu&t\t%s"
-#~ msgstr "剪切((&T)\t%s"
-
-#, python-format
-#~ msgid "&Copy\t%s"
-#~ msgstr "复制((&C))\t%s"
-
-#~ msgid "Duplicate the current line (or current selection)"
-#~ msgstr "重建当前行（或当前选择）"
-
-#, python-format
-#~ msgid "&Duplicate\t%s"
-#~ msgstr "重建((&D)\t%s"
-
-#, python-format
-#~ msgid "&Find\t%s"
-#~ msgstr "查找((&F)\t%s"
-
-#, python-format
-#~ msgid "Find &Next\t%s"
-#~ msgstr "查找下一个(&N)\t%s"
-
-#, python-format
-#~ msgid "Comment\t%s"
-#~ msgstr "评论\t%s"
-
-#~ msgid "Comment selected lines"
-#~ msgstr "评论所选行"
-
-#, python-format
-#~ msgid "Uncomment\t%s"
-#~ msgstr "取消评论\t%s"
-
-#~ msgid "Un-comment selected lines"
-#~ msgstr "取消所选行的评论"
-
-#, python-format
-#~ msgid "Toggle comment\t%s"
-#~ msgstr "切换评论 %s"
-
-#~ msgid "Toggle commenting of selected lines"
-#~ msgstr "切换选定行的注释"
-
-#, python-format
-#~ msgid "Toggle fold\t%s"
-#~ msgstr "切换折叠 %s"
-
-#~ msgid "Toggle folding of top level"
-#~ msgstr "切换顶层折叠"
-
-#, python-format
-#~ msgid "Indent selection\t%s"
-#~ msgstr "缩进所选\t%s"
-
-#~ msgid "Increase indentation of current line"
-#~ msgstr "增加当前行的缩进"
-
-#, python-format
-#~ msgid "Dedent selection\t%s"
-#~ msgstr "反向缩进所选\t%s"
-
-#~ msgid "Decrease indentation of current line"
-#~ msgstr "减少当前行的缩进"
-
-#~ msgid "Try to indent to the correct position w.r.t. last line"
-#~ msgstr "尝试缩进到正确的位置 w.r.t. 最后一行"
-
-#, python-format
-#~ msgid "SmartIndent\t%s"
-#~ msgstr "智能缩进\t%s"
-
-#, python-format
-#~ msgid "Enlarge font\t%s"
-#~ msgstr "放大字体\t%s"
-
-#~ msgid "Increase font size"
-#~ msgstr "增加字体的尺寸"
-
-#, python-format
-#~ msgid "Shrink font\t%s"
-#~ msgstr "缩小字体\t%s"
-
-#~ msgid "Decrease font size"
-#~ msgstr "减小字体的尺寸"
-
-#~ msgid "Reset font"
-#~ msgstr "重置字体"
-
-#~ msgid "Return fonts to their original size."
-#~ msgstr "将字体恢复为原始大小。"
-
-#~ msgid "Editor file location"
-#~ msgstr "编辑器文件位置"
-
-#~ msgid "File browser pane location"
-#~ msgstr "文件浏览器面板位置"
-
-#~ msgid "Choose directory ..."
-#~ msgstr "选择目录..."
-
-#~ msgid "Change working directory to ..."
-#~ msgstr "更改工作目录为..."
-
-#~ msgid "Panels"
-#~ msgstr "面板"
-
-#~ msgid "Shows the output and shell panes (and starts capturing stdout)"
-#~ msgstr "显示输出和 shell 面板（并开始捕获标准输出）"
-
-#, python-format
-#~ msgid "&Output/Shell\t%s"
-#~ msgstr "输出/Shell(&O)\t%s"
-
-#~ msgid "Hide/show the source assistant pane."
-#~ msgstr "隐藏/显示源助手窗格。"
-
-#~ msgid "Shows guides in the editor for your indentation level"
-#~ msgstr "在编辑器中显示缩进级别的指南"
-
-#, python-format
-#~ msgid "&Indentation guides\t%s"
-#~ msgstr "缩进指南(&I)\t%s"
-
-#~ msgid "Show whitespace characters in the code"
-#~ msgstr "在代码中显示空白字符"
-
-#, python-format
-#~ msgid "&Whitespace\t%s"
-#~ msgstr "空格(&W)\t%s"
-
-#~ msgid "Show End Of Line markers in the code"
-#~ msgstr "在代码中显示行尾标记(EOL)"
-
-#, python-format
-#~ msgid "Show &EOLs\t%s"
-#~ msgstr "显示 EOLs(&E)\t%s"
-
-#~ msgid "Enable/disable line wrapping in editors."
-#~ msgstr "在编辑器中启用/禁用换行"
-
-#~ msgid "Line wrapping"
-#~ msgstr "换行"
-
-#~ msgid "csv from psydat"
-#~ msgstr "来自psydat的csv"
-
-#~ msgid "Create a .csv file from an existing .psydat file"
-#~ msgstr "从现有的 .psydat 文件创建 .csv 文件"
-
-#~ msgid "Unit &testing...\tCtrl-T"
-#~ msgstr "单元测试(&T)... \tCtrl-T"
-
-#~ msgid "Show dialog to run unit tests"
-#~ msgstr "显示对话框以运行单元测试"
-
-#~ msgid "&PsychoPy Coder Tutorial"
-#~ msgstr "PsychoPy 编码器教程(&P)"
-
-#~ msgid "Go to the online PsychoPy tutorial"
-#~ msgstr "转到在线 PsychoPy 教程"
-
-#~ msgid "&PsychoPy API (reference)"
-#~ msgstr "PsychoPy API（参考）(&P)"
-
-#~ msgid "Go to the online PsychoPy reference manual"
-#~ msgstr "转到在线 PsychoPy 参考手册"
-
-#, python-format
-#~ msgid ""
-#~ "'%s' was modified outside of PsychoPy:\n"
-#~ "\n"
-#~ "Reload (without saving)?"
-#~ msgstr ""
-#~ "在 PsychoPy 之外修改了“%s”：\n"
-#~ "\n"
-#~ "重新加载（但不保存）？"
-
-#~ msgid "Reloading file"
-#~ msgstr "重新加载文件"
-
-#, python-format
-#~ msgid "Save changes to %s before quitting?"
-#~ msgstr "在退出前是否保存 %s ？"
-
-#, python-brace-format
-#~ msgid "Failed to open `{}`. Make sure that encoding of the file is utf-8."
-#~ msgstr "未能打开'{}'。 确保文件的编码是 utf-8。"
-
-#~ msgid "Loading file"
-#~ msgstr "正在加载文件"
-
-#, python-format
-#~ msgid ""
-#~ "File appears to have been modified outside of PsychoPy:\n"
-#~ "   %s\n"
-#~ "OK to overwrite?"
-#~ msgstr ""
-#~ "文件似乎已在 PsychoPy 之外进行了修改：\n"
-#~ "    %s\n"
-#~ "可以覆盖吗？"
-
-#, python-format
-#~ msgid ""
-#~ "File '%s' lacks write-permission:\n"
-#~ "Will try save-as instead."
-#~ msgstr ""
-#~ "文件 '%s' 缺少写权限:\n"
-#~ "将尝试另存为。"
-
-#~ msgid "Saving file"
-#~ msgstr "正在保存文件"
-
-#~ msgid ""
-#~ "Python script (*.py)|*.py|JavaScript file (*.js)|*.js|Text file "
-#~ "(*.txt)|*.txt|Any file (*.*)|*.*"
-#~ msgstr ""
-#~ "Python 脚本(*.py)|*.py|JavaScript 文件(*.js)|*.js|文本文件(*.txt)|*.txt|所有文件 "
-#~ "(*.*)|*.*"
-
-#~ msgid ""
-#~ "Python script (*.py)|*.py|JavaScript file (*.js)|*.js|Text file "
-#~ "(*.txt)|*.txt|Any file (*.*)|*"
-#~ msgstr ""
-#~ "Python 脚本(*.py)|*.py|JavaScript 文件(*.js)|*.js|文本文件 (*.txt)|*.txt|所有文件 "
-#~ "(*.*)|*"
-
-#, python-format
-#~ msgid "Save changes to %s before running?"
-#~ msgstr "运行前保存对 %s 的更改？"
-
-#~ msgid "Directory:"
-#~ msgstr "目录:"
-
-#~ msgid "Browse ..."
-#~ msgstr "浏览 ..."
-
-#~ msgid "Browse the file system for a directory to open"
-#~ msgstr "浏览要打开的文件夹"
-
-#~ msgid "Current working directory"
-#~ msgstr "当前工作目录"
-
-#~ msgid "Open the current working directory"
-#~ msgstr "打开当前工作目录"
-
-#~ msgid "Open the directory the current editor file is located"
-#~ msgstr "打开当前编辑器文件所在的目录"
-
-#, python-brace-format
-#~ msgid ""
-#~ "Cannot change working directory to location of file `{}`. It needs to be "
-#~ "saved first."
-#~ msgstr "无法将工作目录更改为文件'{}'的位置。 需要先保存。"
-
-#~ msgid "Enter folder name:"
-#~ msgstr "输入文件夹名称:"
-
-#~ msgid "New folder"
-#~ msgstr "新建文件夹"
-
-#~ msgid "Folder name cannot be empty."
-#~ msgstr "文件夹名称不能为空"
-
-#, python-brace-format
-#~ msgid "Cannot create folder `{}`, already exists."
-#~ msgstr "无法创建文件夹 `{}`, 因为已经存在。"
-
-#, python-brace-format
-#~ msgid "Cannot create folder `{}`, permission denied."
-#~ msgstr "无法创建文件夹`{}`，因为没有权限。"
-
-#, python-brace-format
-#~ msgid "Rename folder `{}` to:"
-#~ msgstr "将文件夹`{}`重命名为："
-
-#~ msgid "Rename Folder"
-#~ msgstr "重命名文件夹"
-
-#, python-brace-format
-#~ msgid "Cannot rename `{}` to `{}`."
-#~ msgstr "无法将`{}`重命名为`{}`。"
-
-#, python-brace-format
-#~ msgid "Rename file `{}` to:"
-#~ msgstr "重命名文件`{}`为："
-
-#~ msgid "Rename file"
-#~ msgstr "重命名文件"
-
-#, python-brace-format
-#~ msgid "Are you sure you want to PERMANENTLY delete folder `{}`?"
-#~ msgstr "您确定要永久删除文件夹 `{}`吗？"
-
-#, python-brace-format
-#~ msgid "Cannot delete folder `{}`, directory does not exist."
-#~ msgstr "无法删除文件夹`{}`，目录不存在。"
-
-#, python-brace-format
-#~ msgid ""
-#~ "Cannot delete folder `{}`, directory is not empty or permission denied."
-#~ msgstr "无法删除文件夹`{}`，目录不为空或权限被拒绝。"
-
-#, python-brace-format
-#~ msgid "Are you sure you want to PERMANENTLY delete file `{}`?"
-#~ msgstr "您确定要永久删除文件“{}”吗？"
-
-#, python-brace-format
-#~ msgid "Cannot delete folder `{}`, file does not exist."
-#~ msgstr "无法删除文件夹“{}”，文件不存在。"
-
-#, python-brace-format
-#~ msgid "Cannot delete file `{}`, permission denied."
-#~ msgstr "无法删除文件 `{}`，权限被拒绝。"
-
-#, python-brace-format
-#~ msgid "Specified path `{}` is not a directory."
-#~ msgstr "指定路径 `{}`不是一个文件夹。"
-
-#, python-brace-format
-#~ msgid "Cannot access directory `{}`, permission denied."
-#~ msgstr "无法访问目录 `{}`，权限被拒绝。"
-
-#, python-brace-format
-#~ msgid "Cannot access directory `{}`, not a directory."
-#~ msgstr "无法访问目录 `{}`，因为不是一个目录。"
-
-#~ msgid "Output Space:"
-#~ msgstr "输出空间："
-
-#~ msgid "Couldn't connect to psychopy.org to check for updates. \n"
-#~ msgstr "无法连接到psychopy.org 来检查更新。 \n"
-
-#~ msgid "Check internet settings (and proxy setting in PsychoPy Preferences)."
-#~ msgstr "检查互联网设置（以及 PsychoPy 首选项设置中的代理设置）。"
-
-#~ msgid "PsychoPy updates"
-#~ msgstr "Psychopy 升级"
-
-#, python-format
-#~ msgid ""
-#~ "PsychoPy v%(latest)s is available (you are running %(running)s).\n"
-#~ "\n"
-#~ msgstr ""
-#~ "PsychoPy v%(latest)s 可用（您当前运行 %(running)s）。.\n"
-#~ "\n"
-
-#~ msgid "This version is too big an update to be handled automatically.\n"
-#~ msgstr "此版本太大，无法自动处理。\n"
-
-#~ msgid ""
-#~ "Please fetch the latest version from www.psychopy.org and install manually."
-#~ msgstr "请从 www.psychopy.org 获取最新版本并手动安装。"
-
-#~ msgid "Go to downloads"
-#~ msgstr "转到下载"
-
-#~ msgid "Go to changelog"
-#~ msgstr "转到更新日志"
-
-#~ msgid "Later"
-#~ msgstr "稍后"
-
-#, python-format
-#~ msgid "You are running the latest version of PsychoPy (%s). "
-#~ msgstr "正在运行最新版本的PsychoPy（%s）。"
-
-#, python-format
-#~ msgid ""
-#~ "PsychoPy v%(latest)s is available (you are running %(running)s).\n"
-#~ "\n"
-#~ "(To disable this check, see Preferences > connections > checkForUpdates)"
-#~ msgstr ""
-#~ "PsychoPy 版本v%(latest)s可用（您运行的版本为%(running)s）。\n"
-#~ "（如需禁用此检查，见 首选项>链接>检查更新（checkForUpdates））"
-
-#~ msgid ""
-#~ "This version MAY require you to modify your\n"
-#~ "scripts/exps slightly. Read the changelog carefully."
-#~ msgstr ""
-#~ "此版本可能要求对\n"
-#~ "由较早版本生成的脚本/实验进行修改。请仔细阅读日志。"
-
-#~ msgid ""
-#~ "There are no known compatibility\n"
-#~ "issues with your current version."
-#~ msgstr "当前版本不存在已知的兼容性问题。"
-
-#~ msgid "View complete Changelog"
-#~ msgstr "查看完整更新日志"
-
-#~ msgid "You can update PsychoPy with your package manager"
-#~ msgstr "您可以使用包管理器升级 PsychoPy"
-
-#~ msgid "Should PsychoPy update itself?"
-#~ msgstr "Psychopy 需要自己升级吗？"
-
-#~ msgid "Keep warning me"
-#~ msgstr "继续为我警告"
-
-#~ msgid "Stop warning me"
-#~ msgstr "停止为我警告"
-
-#~ msgid "Not now"
-#~ msgstr "现在不要"
-
-#~ msgid "Skip this version"
-#~ msgstr "跳过此版本"
-
-#~ msgid "PsychoPy Updates"
-#~ msgstr "Psychopy 升级"
-
-#~ msgid " Auto-update (will fetch latest version)"
-#~ msgstr " 自动更新（将获取最新版本）"
-
-#~ msgid " Use zip file below (download a PsychoPy release file ending .zip)"
-#~ msgstr " 使用下面的 zip 文件（下载以 .zip 结尾的 PsychoPy 发布版本文件）"
-
-#, python-format
-#~ msgid ""
-#~ "You are running PsychoPy v%s.\n"
-#~ " "
-#~ msgstr ""
-#~ "正在运行 PsychoPy 版本 v%s.\n"
-#~ " "
-
-#~ msgid ""
-#~ "PsychoPy could not connect to the \n"
-#~ " internet to check for more recent versions.\n"
-#~ msgstr ""
-#~ "PsychoPy 无法连接到\n"
-#~ "网络以检查更新的版本。\n"
-
-#~ msgid "Check proxy settings in preferences."
-#~ msgstr "请在首选项中检查代理设置。"
-
-#, python-format
-#~ msgid ""
-#~ "You are running PsychoPy (%(running)s), which is ahead of the latest "
-#~ "official version (%(latest)s)"
-#~ msgstr "正在运行 PsychoPy （%(running)s），此版本领先官方最新版本（%(latest)s）。"
-
-#, python-format
-#~ msgid ""
-#~ "You are running the latest version of PsychoPy (%s)\n"
-#~ " "
-#~ msgstr "正在运行最新版本的 PsychoPy (%s)\n"
-
-#~ msgid ""
-#~ "You can revert to a previous version by selecting a specific .zip source "
-#~ "installation file"
-#~ msgstr "您可通过选择一个特定的.zip源安装文件以恢复至较早版本。"
-
-#, python-format
-#~ msgid ""
-#~ "PsychoPy v%(latest)s is available\n"
-#~ "You are running v%(running)s"
-#~ msgstr ""
-#~ "PsychoPy v%(latest)s可用\n"
-#~ "正在运行v%(running)s"
-
-#~ msgid ""
-#~ "\n"
-#~ "You can update to the latest version automatically"
-#~ msgstr ""
-#~ "\n"
-#~ "您可以自动更新到最新版本"
-
-#~ msgid ""
-#~ "\n"
-#~ "You cannot update to the latest version automatically.\n"
-#~ "Please fetch the latest Standalone package from www.psychopy.org"
-#~ msgstr ""
-#~ "\n"
-#~ "您无法自动更新到最新版本。\n"
-#~ "请从 www.psychopy.org 获取最新的独立包"
-
-#, python-format
-#~ msgid "Attempting to fetch PsychoPy %s..."
-#~ msgstr "尝试获取 PsychoPy %s…"
-
-#, python-format
-#~ msgid "Fetched %(done)i of %(total)i kb of PsychoPy-%(version)s.zip"
-#~ msgstr "已获取 PsychoPy-%(version)s.zip的%(done)i/%(total)i kb"
-
-#, python-format
-#~ msgid "Successfully downloaded PsychoPy-%s.zip"
-#~ msgstr "成功下载 PsychoPy-%s.zip"
-
-# Translate “admin” as 管理者
-#~ msgid ""
-#~ "To upgrade you need to restart the app as admin (Right-click the app and "
-#~ "'Run as admin')"
-#~ msgstr "如需更新，您需要以管理者重启软件（右键软件图标并选择“以管理者运行（Run as admin）”）"
-
-#~ msgid "Could not move existing PsychoPy installation (permissions error?)"
-#~ msgstr "无法移动已有的 PsychoPy 安装（权限错误？）"
-
-#, python-format
-#~ msgid ""
-#~ "Right-click the app and 'Run as admin'):\n"
-#~ "%s"
-#~ msgstr ""
-#~ "右键软件图标并选择“以管理者运行（Run as admin）”：\n"
-#~ "%s"
-
-#, python-format
-#~ msgid ""
-#~ "Failed to create directory for new version (permissions error?):\n"
-#~ "%s"
-#~ msgstr ""
-#~ "为新版本创建目录失败（权限错误？）：\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Success. \n"
-#~ "Changes to PsychoPy will be completed when the application is next run"
-#~ msgstr ""
-#~ "成功。\n"
-#~ "下次运行软件时将完成 PsychoPy 的更新"
-
-#, python-format
-#~ msgid "Downloading PsychoPy v%s"
-#~ msgstr "正在下载 PsychoPy v%s"
-
-#~ msgid ""
-#~ "Failed to fetch PsychoPy release.\n"
-#~ "Check proxy setting in preferences"
-#~ msgstr ""
-#~ "无法获取 PsychoPy 的发布。\n"
-#~ "请于首选项中检查代理设置"
-
-#~ msgid "Info"
-#~ msgstr "信息"
-
-#~ msgid "Query"
-#~ msgstr "查询"
-
-#~ msgid "OK"
-#~ msgstr "好的"
-
-#~ msgid "PsychoPy3 Error"
-#~ msgstr "Psychopy 错误"
-
-#~ msgid ""
-#~ "PsychoPy encountered an unhandled internal error! Please send the report "
-#~ "under \"Details\" to the developers with a description of what you were "
-#~ "doing with the software when the error occurred."
-#~ msgstr "PsychoPy 遇到未处理的内部错误！ 请将“详细信息”下的报告发送给开发人员，并详细说明错误发生时您对软件所做的操作步骤。"
-
-#~ msgid "&OK"
-#~ msgstr "&OK"
-
-#~ msgid "E&xit PsychoPy"
-#~ msgstr "退出 Psychopy(&E)"
-
-#~ msgid "&Details"
-#~ msgstr "详情(&D)"
-
-#~ msgid "&Copy"
-#~ msgstr "复制(&C)"
-
-#~ msgid "&Save"
-#~ msgstr "保存(&S)"
-
-#~ msgid ""
-#~ "Are you sure you want to exit PsychoPy? Unsaved work may be lost (but we'll "
-#~ "try to save opened files)."
-#~ msgstr "确定退出PsychoPy？未储存的内容将会丢失（我们会尝试保存已打开的文件）。"
-
-#~ msgid "Exit PsychoPy?"
-#~ msgstr "要退出 Psychopy 吗？"
-
-#~ msgid "Save error traceback"
-#~ msgstr "保存错误跟踪"
-
-#, python-format
-#~ msgid "Cannot save to file '%s'."
-#~ msgstr "无法保存到文件 ‘%s’"
-
-#~ msgid "File save error"
-#~ msgstr "文件保存出错"
-
-#, python-format
-#~ msgid "&Close View\t%s"
-#~ msgstr "关闭视图(&C)\t%s"
-
-#~ msgid "Close current window"
-#~ msgstr "关闭当前窗口"
-
-#~ msgid "Committing changes"
-#~ msgstr "正在提交变更"
-
-#~ msgid "Summary of changes"
-#~ msgstr "变更摘要"
-
-#~ msgid ""
-#~ "Details of changes\n"
-#~ " (optional)"
-#~ msgstr ""
-#~ "变更详情\n"
-#~ " （可选）"
-
-#~ msgid "Title summarizing the changes you're making in these files"
-#~ msgstr "请在标题中总结您在这些文件中做的修改"
-
-#~ msgid "Optional details about the changes you're making in these files"
-#~ msgstr "请描述您在这些文件中所做的修改细节（可选）"
-
-#~ msgid "Choose/create the root location for the synced project"
-#~ msgstr "请为要同步的项目选择/创建源地址"
-
-#~ msgid "Changes to commit:\n"
-#~ msgstr "需提交的修改：\n"
-
-#, python-brace-format
-#~ msgid "\t{}: {} files\n"
-#~ msgstr "\t{}: {} 文件\n"
-
-#~ msgid "You need to install git to use Pavlovia projects"
-#~ msgstr "您需要安装 git 以运行 Pavlovia 项目"
-
-#, python-brace-format
-#~ msgid "Log in to Pavlovia...\t{}"
-#~ msgstr "登录到 Pavlovia...\t{}"
-
-#, python-brace-format
-#~ msgid "Search Pavlovia\t{}"
-#~ msgstr "在Pavlovia搜索\t{}"
-
-#, python-brace-format
-#~ msgid "New...\t{}"
-#~ msgstr "新建...\t{}"
-
-#, python-brace-format
-#~ msgid "Sync\t{}"
-#~ msgstr "同步\t{}"
-
-#~ msgid "You need to log in to create a project"
-#~ msgstr "您需要登录才能创建项目"
-
-#~ msgid "Name:"
-#~ msgstr "名称:"
-
-#~ msgid "Group/owner:"
-#~ msgstr "组/所有者："
-
-#~ msgid "Description:"
-#~ msgstr "描述："
-
-#~ msgid "Browse..."
-#~ msgstr "浏览..."
-
-#~ msgid "Tags (comma separated):"
-#~ msgstr "标签（逗号分隔）："
-
-#~ msgid "Public:"
-#~ msgstr "发布："
-
-#~ msgid "Create project on Pavlovia"
-#~ msgstr "在 Pavlovia 上创建项目"
-
-#~ msgid "Submit changes to Pavlovia"
-#~ msgstr "向 Pavlovia 提交更改"
-
-#~ msgid "Project info"
-#~ msgstr "项目信息"
-
-#~ msgid "This file doesn't belong to any existing project."
-#~ msgstr "此文件不属于任何现有项目。"
-
-#~ msgid "Create a project"
-#~ msgstr "创建项目"
-
-#~ msgid "points to a remote that doesn't exist (deleted?)."
-#~ msgstr "指向一个不存在的远端（已删除？）"
-
-#~ msgid "What shall we do?"
-#~ msgstr "您期望我们执行？"
-
-#~ msgid "(Re)create a project"
-#~ msgstr "(重新)创建项目"
-
-#~ msgid "Point to an different location"
-#~ msgstr "指向不同的位置"
-
-#~ msgid "not yet supported"
-#~ msgstr "目前不支持"
-
-#~ msgid "Forget the local git repository (deletes history keeps files)"
-#~ msgstr "清除本地 git repository 记忆（删除历史记录，保留文件）"
-
-#~ msgid "Search for projects online"
-#~ msgstr "在线搜索项目"
-
-#~ msgid "General"
-#~ msgstr "通用"
-
-#~ msgid "Application"
-#~ msgstr "应用程序"
-
-#~ msgid "Key Bindings"
-#~ msgstr "指定快捷键"
-
-#~ msgid "Hardware"
-#~ msgstr "硬件"
-
-#~ msgid "Connections"
-#~ msgstr "连接"
-
-#~ msgid "general"
-#~ msgstr "通用"
-
-#~ msgid "app"
-#~ msgstr "应用程序"
-
-#~ msgid "window type"
-#~ msgstr "窗口类型"
-
-#~ msgid "units"
-#~ msgstr "单位"
-
-#~ msgid "paths"
-#~ msgstr "路径"
-
-#~ msgid "gammaErrorPolicy"
-#~ msgstr "语法错误策略"
-
-#~ msgid "appKeyGoogleCloud"
-#~ msgstr "Google Cloud 应用密钥"
-
-#~ msgid "locale"
-#~ msgstr "本地化"
-
-#~ msgid "theme"
-#~ msgstr "主题"
-
-#~ msgid "componentFilter"
-#~ msgstr "组件过滤器"
-
-#~ msgid "lineSpacing"
-#~ msgstr "行间距"
-
-#~ msgid "edgeGuideColumn"
-#~ msgstr "边缘引导列"
-
-#~ msgid "open"
-#~ msgstr "打开"
-
-#~ msgid "new"
-#~ msgstr "新建"
-
-#~ msgid "save"
-#~ msgstr "保存"
-
-#~ msgid "print"
-#~ msgstr "打印"
-
-#~ msgid "close"
-#~ msgstr "关闭"
-
-#~ msgid "quit"
-#~ msgstr "退出"
-
-#~ msgid "preferences"
-#~ msgstr "首选项"
-
-#~ msgid "cut"
-#~ msgstr "剪切"
-
-#~ msgid "copy"
-#~ msgstr "复制"
-
-#~ msgid "paste"
-#~ msgstr "粘贴"
-
-#~ msgid "duplicate"
-#~ msgstr "重建"
-
-#~ msgid "indent"
-#~ msgstr "缩进"
-
-#~ msgid "dedent"
-#~ msgstr "减少缩进"
-
-#~ msgid "find"
-#~ msgstr "查找"
-
-#~ msgid "undo"
-#~ msgstr "撤销"
-
-#~ msgid "redo"
-#~ msgstr "重做"
-
-#~ msgid "comment"
-#~ msgstr "评论"
-
-#~ msgid "uncomment"
-#~ msgstr "取消评论"
-
-#~ msgid "toggle comment"
-#~ msgstr "切换评论"
-
-#~ msgid "fold"
-#~ msgstr "折叠"
-
-#~ msgid "proxy"
-#~ msgstr "代理"
-
-#~ msgid "timeout"
-#~ msgstr "超时"
-
-#~ msgid "Builder, Coder and Runner"
-#~ msgstr "Builder, Coder 和 Runner"
-
-#~ msgid "same as in the file"
-#~ msgstr "和文件中保持一致"
-
-#~ msgid "abort"
-#~ msgstr "中止"
-
-#~ msgid "warn"
-#~ msgstr "警告"
-
-#~ msgid "Latency not important"
-#~ msgstr "延迟不重要"
-
-#~ msgid "Share low-latency driver"
-#~ msgstr "共享低延迟驱动程序"
-
-#~ msgid "Aggressive low-latency"
-#~ msgstr "激进低延迟模式（推荐）"
-
-#~ msgid "Latency critical"
-#~ msgstr "延迟关键模式"
-
-#~ msgid "PsychoPy Preferences"
-#~ msgstr "PsychoPy 首选项"
-
-#~ msgid "system locale"
-#~ msgstr "系统区域"
-
-#, python-format
-#~ msgid "Invalid value in \"%(pref)s\" (\"%(section)s\" Tab)"
-#~ msgstr "“%(pref)s”出现无效值（“%(section)s”标签页）"
-
-#~ msgid "Error"
-#~ msgstr "错误"
-
-#~ msgid "Add task"
-#~ msgstr "添加任务"
-
-#~ msgid "Adding task"
-#~ msgstr "正在添加任务"
-
-#~ msgid "Remove task"
-#~ msgstr "移除任务"
-
-#~ msgid "Clear all"
-#~ msgstr "清除全部"
-
-#~ msgid "Clearing tasks"
-#~ msgstr "正在清除任务"
-
-#~ msgid "Saving task"
-#~ msgstr "正在保存列表"
-
-#~ msgid "Loading task"
-#~ msgstr "任务加载中"
-
-#~ msgid "Closing Runner"
-#~ msgstr "正在关闭 Runner"
-
-#~ msgid "Quitting PsychoPy"
-#~ msgstr "正在退出 PsychoPy"
-
-#~ msgid "Running experiment"
-#~ msgstr "正在运行试验"
-
-#~ msgid "Launching local debug of online study"
-#~ msgstr "启动在线学习本地调试"
-
-#~ msgid "Launching online study at Pavlovia"
-#~ msgstr "在 Pavlovia 启动在线学习"
-
-#~ msgid "Loading builder demos"
-#~ msgstr "正在加载 builder 演示资源"
-
-#~ msgid "Loading coder demos"
-#~ msgstr "正在加载 coder 演示资源"
-
-#~ msgid "Save task list as ..."
-#~ msgstr "任务列表另存为..."
-
-#~ msgid "Open task list ..."
-#~ msgstr "打开任务列表..."
-
-#~ msgid "Alerts"
-#~ msgstr "告警"
-
-#~ msgid "Stdout"
-#~ msgstr "标准输出"
-
-#~ msgid "Add experiment to list"
-#~ msgstr "将实验添加到列表"
-
-#~ msgid "Remove experiment from list"
-#~ msgstr "从列表中删除实验"
-
-#~ msgid "Save task list to a file"
-#~ msgstr "将任务列表保存到文件"
-
-#~ msgid "Load tasks from a file"
-#~ msgstr "从文件加载任务"
-
-#~ msgid "Run the current script in Python"
-#~ msgstr "在 Python 中运行当前脚本"
-
-#~ msgid "For further info see "
-#~ msgstr "欲了解更多信息，请参阅"
-
-#~ msgid "New"
-#~ msgstr "新建"
-
-#~ msgid "Create new experiment file"
-#~ msgstr "创建新的实验文件"
-
-#~ msgid "Open"
-#~ msgstr "打开"
-
-#~ msgid "Open an existing experiment file"
-#~ msgstr "打开现有的实验文件"
-
-#~ msgid "Save current experiment file"
-#~ msgstr "保存当前实验文件"
-
-#~ msgid "Save current experiment file as..."
-#~ msgstr "将当前实验文件另存为..."
-
-#~ msgid "Undo last action"
-#~ msgstr "撤销上个操作"
-
-#~ msgid "Redo last action"
-#~ msgstr "重做上个操作"
-
-#~ msgid "Monitor settings and calibration"
-#~ msgstr "显示器设置和校准"
-
-#~ msgid "Edit experiment settings"
-#~ msgstr "编辑实验设置"
-
-#~ msgid "Send experiment to Runner"
-#~ msgstr "将实验发送到 Runner"
 
 #~ msgid "Begin Routine"
 #~ msgstr "开始例程"
@@ -10346,1171 +12861,12 @@ msgstr ""
 #~ msgid "End JS Routine"
 #~ msgstr "结束 JS 例程"
 
-#~ msgid "use prefs"
-#~ msgstr "使用首选项"
-
 #~ msgid "How should the next trial value(s) be chosen?"
 #~ msgstr "下一个试验的值应该如何选择？"
 
 #~ msgid ""
 #~ "Where to loop from and to (see values currently shown in the flow view)"
 #~ msgstr "循环的起点和终点（查看流程视图中当前显示的值）"
-
-#~ msgid "&Open Builder view\t"
-#~ msgstr ""
-
-#~ msgid "&Open Coder view\t"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Copyright (C) {year} OpenScienceTools.org"
-#~ msgstr ""
-
-#~ msgid "Loading app fonts..."
-#~ msgstr ""
-
-#~ msgid "Loading plugins..."
-#~ msgstr ""
-
-#~ msgid "Loading requested files..."
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Failed to open {}, file does not exist."
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Failed to open file {}, reason: {}"
-#~ msgstr ""
-
-#~ msgid "Connection Error"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Could not connect to Pavlovia server. \n"
-#~ "\n"
-#~ "Please check that you are connected to the internet. If you are connected, then the Pavlovia servers may be down. You can check their status here: \n"
-#~ "\n"
-#~ "https://pavlovia.org/status"
-#~ msgstr ""
-
-#~ msgid "Input"
-#~ msgstr ""
-
-#~ msgid "Validation"
-#~ msgstr ""
-
-#~ msgid "cover"
-#~ msgstr ""
-
-#~ msgid "contain"
-#~ msgstr ""
-
-#~ msgid "fill"
-#~ msgstr ""
-
-#~ msgid "scale-down"
-#~ msgstr ""
-
-#~ msgid "center"
-#~ msgstr ""
-
-#~ msgid "top-center"
-#~ msgstr ""
-
-#~ msgid "bottom-center"
-#~ msgstr ""
-
-#~ msgid "center-left"
-#~ msgstr ""
-
-#~ msgid "center-right"
-#~ msgstr ""
-
-#~ msgid "top-left"
-#~ msgstr ""
-
-#~ msgid "top-right"
-#~ msgstr ""
-
-#~ msgid "bottom-left"
-#~ msgstr ""
-
-#~ msgid "bottom-right"
-#~ msgstr ""
-
-#~ msgid "avg"
-#~ msgstr ""
-
-#~ msgid "average (no FBO)"
-#~ msgstr ""
-
-#~ msgid "auto"
-#~ msgstr ""
-
-#~ msgid "comma"
-#~ msgstr ""
-
-#~ msgid "semicolon"
-#~ msgstr ""
-
-#~ msgid "tab"
-#~ msgstr ""
-
-#~ msgid "Experiment start"
-#~ msgstr ""
-
-#~ msgid "Wall clock"
-#~ msgstr ""
-
-#~ msgid "press"
-#~ msgstr ""
-
-#~ msgid "release"
-#~ msgstr ""
-
-#~ msgid "on valid click"
-#~ msgstr ""
-
-#~ msgid "correct click"
-#~ msgstr ""
-
-#~ msgid "Line"
-#~ msgstr ""
-
-#~ msgid "Triangle"
-#~ msgstr ""
-
-#~ msgid "Rectangle"
-#~ msgstr ""
-
-#~ msgid "Circle"
-#~ msgstr ""
-
-#~ msgid "Cross"
-#~ msgstr ""
-
-#~ msgid "Star"
-#~ msgstr ""
-
-#~ msgid "Arrow"
-#~ msgstr ""
-
-#~ msgid "Regular polygon..."
-#~ msgstr ""
-
-#~ msgid "Custom polygon..."
-#~ msgstr ""
-
-#~ msgid "custom..."
-#~ msgstr ""
-
-#~ msgid "Start and Stop"
-#~ msgstr ""
-
-#~ msgid "Start Only"
-#~ msgstr ""
-
-#~ msgid "Stop Only"
-#~ msgstr ""
-
-#~ msgid "None"
-#~ msgstr ""
-
-#~ msgid "Start and Check"
-#~ msgstr ""
-
-#~ msgid "Check Only"
-#~ msgstr ""
-
-#~ msgid "Mouse"
-#~ msgstr ""
-
-#~ msgid "Drag"
-#~ msgstr ""
-
-#~ msgid "Keyboard (Arrow Keys)"
-#~ msgstr ""
-
-#~ msgid "Keyboard (WASD)"
-#~ msgstr ""
-
-#~ msgid "Keyboard (Custom keys)"
-#~ msgstr ""
-
-#~ msgid "Mouse Wheel"
-#~ msgstr ""
-
-#~ msgid "Mouse Wheel (Inverted)"
-#~ msgstr ""
-
-#~ msgid "Keyboard (+-)"
-#~ msgstr ""
-
-#~ msgid "visible"
-#~ msgstr ""
-
-#~ msgid "scroll"
-#~ msgstr ""
-
-#~ msgid "hidden"
-#~ msgstr ""
-
-#~ msgid "Pilot mode"
-#~ msgstr ""
-
-#~ msgid "piloting"
-#~ msgstr ""
-
-#~ msgid "keyBindings"
-#~ msgstr ""
-
-#~ msgid "connections"
-#~ msgstr ""
-
-#~ msgid "fullscr"
-#~ msgstr ""
-
-#~ msgid "allowGUI"
-#~ msgstr ""
-
-#~ msgid "flac"
-#~ msgstr ""
-
-#~ msgid "shutdownKey"
-#~ msgstr ""
-
-#~ msgid "shutdownKeyModifiers"
-#~ msgstr ""
-
-#~ msgid "startUpPlugins"
-#~ msgstr ""
-
-#~ msgid "showStartupTips"
-#~ msgstr ""
-
-#~ msgid "defaultView"
-#~ msgstr ""
-
-#~ msgid "resetPrefs"
-#~ msgstr ""
-
-#~ msgid "autoSavePrefs"
-#~ msgstr ""
-
-#~ msgid "debugMode"
-#~ msgstr ""
-
-#~ msgid "errorDialog"
-#~ msgstr ""
-
-#~ msgid "showSplash"
-#~ msgstr ""
-
-#~ msgid "reloadPrevExp"
-#~ msgstr ""
-
-#~ msgid "codeComponentLanguage"
-#~ msgstr ""
-
-#~ msgid "unclutteredNamespace"
-#~ msgstr ""
-
-#~ msgid "componentsFolders"
-#~ msgstr ""
-
-#~ msgid "hiddenComponents"
-#~ msgstr ""
-
-#~ msgid "abbreviateLongCompNames"
-#~ msgstr ""
-
-#~ msgid "unpackedDemosDir"
-#~ msgstr ""
-
-#~ msgid "savedDataFolder"
-#~ msgstr ""
-
-#~ msgid "builderLayout"
-#~ msgstr ""
-
-#~ msgid "alwaysShowReadme"
-#~ msgstr ""
-
-#~ msgid "maxFavorites"
-#~ msgstr ""
-
-#~ msgid "confirmRoutineClose"
-#~ msgstr ""
-
-#~ msgid "readonly"
-#~ msgstr ""
-
-#~ msgid "outputFont"
-#~ msgstr ""
-
-#~ msgid "codeFont"
-#~ msgstr ""
-
-#~ msgid "outputFontSize"
-#~ msgstr ""
-
-#~ msgid "codeFontSize"
-#~ msgstr ""
-
-#~ msgid "showSourceAsst"
-#~ msgstr ""
-
-#~ msgid "showOutput"
-#~ msgstr ""
-
-#~ msgid "autocomplete"
-#~ msgstr ""
-
-#~ msgid "reloadPrevFiles"
-#~ msgstr ""
-
-#~ msgid "preferredShell"
-#~ msgstr ""
-
-#~ msgid "forceWindowed"
-#~ msgstr ""
-
-#~ msgid "forceMouseVisible"
-#~ msgstr ""
-
-#~ msgid "forcedWindowSize"
-#~ msgstr ""
-
-#~ msgid "pilotLoggingLevel"
-#~ msgstr ""
-
-#~ msgid "pilotConsoleLoggingLevel"
-#~ msgstr ""
-
-#~ msgid "showPilotingIndicator"
-#~ msgstr ""
-
-#~ msgid "forceNonRush"
-#~ msgstr ""
-
-#~ msgid "replaceParticipantID"
-#~ msgstr ""
-
-#~ msgid "saveAs"
-#~ msgstr ""
-
-#~ msgid "revealFolder"
-#~ msgstr ""
-
-#~ msgid "exportHTML"
-#~ msgstr ""
-
-#~ msgid "smartIndent"
-#~ msgstr ""
-
-#~ msgid "findAgain"
-#~ msgstr ""
-
-#~ msgid "enlargeFont"
-#~ msgstr ""
-
-#~ msgid "shrinkFont"
-#~ msgstr ""
-
-#~ msgid "analyseCode"
-#~ msgstr ""
-
-#~ msgid "compileScript"
-#~ msgstr ""
-
-#~ msgid "runScript"
-#~ msgstr ""
-
-#~ msgid "runnerScript"
-#~ msgstr ""
-
-#~ msgid "stopScript"
-#~ msgstr ""
-
-#~ msgid "toggleWhitespace"
-#~ msgstr ""
-
-#~ msgid "toggleEOLs"
-#~ msgstr ""
-
-#~ msgid "toggleIndentGuides"
-#~ msgstr ""
-
-#~ msgid "expSettings"
-#~ msgstr ""
-
-#~ msgid "newRoutine"
-#~ msgstr ""
-
-#~ msgid "copyRoutine"
-#~ msgstr ""
-
-#~ msgid "pasteRoutine"
-#~ msgstr ""
-
-#~ msgid "pasteCompon"
-#~ msgstr ""
-
-#~ msgid "builderFind"
-#~ msgstr ""
-
-#~ msgid "toggleOutputPanel"
-#~ msgstr ""
-
-#~ msgid "renameRoutine"
-#~ msgstr ""
-
-#~ msgid "cycleWindows"
-#~ msgstr ""
-
-#~ msgid "largerFlow"
-#~ msgstr ""
-
-#~ msgid "smallerFlow"
-#~ msgstr ""
-
-#~ msgid "largerRoutine"
-#~ msgstr ""
-
-#~ msgid "smallerRoutine"
-#~ msgstr ""
-
-#~ msgid "toggleReadme"
-#~ msgstr ""
-
-#~ msgid "pavlovia_logIn"
-#~ msgstr ""
-
-#~ msgid "OSF_logIn"
-#~ msgstr ""
-
-#~ msgid "projectsSync"
-#~ msgstr ""
-
-#~ msgid "projectsFind"
-#~ msgstr ""
-
-#~ msgid "projectsOpen"
-#~ msgstr ""
-
-#~ msgid "projectsNew"
-#~ msgstr ""
-
-#~ msgid "audioWASAPIOnly"
-#~ msgstr ""
-
-#~ msgid "audioDriver"
-#~ msgstr ""
-
-#~ msgid "audioDevice"
-#~ msgstr ""
-
-#~ msgid "parallelPorts"
-#~ msgstr ""
-
-#~ msgid "qmixConfiguration"
-#~ msgstr ""
-
-#~ msgid "autoProxy"
-#~ msgstr ""
-
-#~ msgid "allowUsageStats"
-#~ msgstr ""
-
-#~ msgid "checkForUpdates"
-#~ msgstr ""
-
-#~ msgid "From theme..."
-#~ msgstr ""
-
-#~ msgid " Apply "
-#~ msgstr ""
-
-#~ msgid "Switch user"
-#~ msgstr ""
-
-#~ msgid "Log out"
-#~ msgstr ""
-
-#~ msgid "Log in"
-#~ msgstr ""
-
-#~ msgid "Edit project..."
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Could not get image from: {}, using blank image instead."
-#~ msgstr ""
-
-#~ msgid "Save file as..."
-#~ msgstr ""
-
-#~ msgid "View raw code"
-#~ msgstr ""
-
-#~ msgid "View styled HTML"
-#~ msgstr ""
-
-#~ msgid "item"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Add {}..."
-#~ msgstr ""
-
-#~ msgid "Inavlid image format, could not set image."
-#~ msgstr ""
-
-#~ msgid "Select image..."
-#~ msgstr ""
-
-#~ msgid "Specify folder..."
-#~ msgstr ""
-
-#~ msgid "Specify file..."
-#~ msgstr ""
-
-#, python-format
-#~ msgid "&Next window\t%s"
-#~ msgstr ""
-
-#~ msgid "Show &builder"
-#~ msgstr ""
-
-#~ msgid "Show &coder"
-#~ msgstr ""
-
-#~ msgid "Show &runner"
-#~ msgstr ""
-
-#, python-format
-#~ msgid "Reveal in file explorer...\t%s"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Open the folder containing this experiment in your system's file explorer"
-#~ msgstr ""
-
-#, python-format
-#~ msgid "&Find in experiment...\t%s"
-#~ msgstr ""
-
-#~ msgid "Search the whole experiment for a specific term"
-#~ msgstr ""
-
-#~ msgid "&Themes"
-#~ msgstr ""
-
-#, python-format
-#~ msgid "Run/pilot\t%s"
-#~ msgstr ""
-
-#~ msgid "Plugin/packages manager..."
-#~ msgstr ""
-
-#~ msgid "Manage Python packages and optional plugins for PsychoPy"
-#~ msgstr ""
-
-#~ msgid "E&xperiment"
-#~ msgstr ""
-
-#, python-format
-#~ msgid "Experiment &Settings\t%s"
-#~ msgstr ""
-
-#~ msgid "&Pavlovia.org"
-#~ msgstr ""
-
-#~ msgid "&Window"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Do you want to remove routine '{}' from the experiment?"
-#~ msgstr ""
-
-#~ msgid "Remove routine?"
-#~ msgstr ""
-
-#~ msgid "Paste above"
-#~ msgstr ""
-
-#~ msgid "Paste below"
-#~ msgstr ""
-
-#~ msgid "Remove"
-#~ msgstr ""
-
-#~ msgid "Move to top"
-#~ msgstr ""
-
-#~ msgid "Move up"
-#~ msgstr ""
-
-#~ msgid "Move down"
-#~ msgstr ""
-
-#~ msgid "Move to bottom"
-#~ msgstr ""
-
-#~ msgid "Cannot add component, experiment has no routines."
-#~ msgstr ""
-
-#~ msgid "Add new components and features via plugins."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Filter components by whether they work with PsychoJS, PsychoPy or both."
-#~ msgstr ""
-
-#~ msgid "Save as..."
-#~ msgstr ""
-
-#~ msgid "Monitor center"
-#~ msgstr ""
-
-#~ msgid "Pilot"
-#~ msgstr ""
-
-#~ msgid "Desktop"
-#~ msgstr ""
-
-#~ msgid "Write Python"
-#~ msgstr ""
-
-#~ msgid "Write experiment as a Python script"
-#~ msgstr ""
-
-#~ msgid "Run the current script in Python with piloting features on"
-#~ msgstr ""
-
-#~ msgid "Browser"
-#~ msgstr ""
-
-#~ msgid "Write JS"
-#~ msgstr ""
-
-#~ msgid "Write experiment as a JavaScript (JS) script"
-#~ msgstr ""
-
-#~ msgid "Pilot experiment locally in your browser"
-#~ msgstr ""
-
-#~ msgid "Run on Pavlovia"
-#~ msgstr ""
-
-#~ msgid "Run experiment on Pavlovia"
-#~ msgstr ""
-
-#~ msgid "Sync"
-#~ msgstr ""
-
-#~ msgid "Sync project with Pavlovia"
-#~ msgstr ""
-
-#~ msgid "Pavlovia"
-#~ msgstr ""
-
-#~ msgid "Views"
-#~ msgstr ""
-
-#~ msgid "Switch to Builder view"
-#~ msgstr ""
-
-#~ msgid "Switch to Coder view"
-#~ msgstr ""
-
-#~ msgid "Switch to Runner view"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Requires plugin {}, click here to install."
-#~ msgstr ""
-
-#~ msgid "Conditions file set from variable."
-#~ msgstr ""
-
-#, python-format
-#~ msgid "Could not read conditions from: %s\n"
-#~ msgstr ""
-
-#, python-format
-#~ msgid ""
-#~ "Bad name in %s: Parameters (column headers) cannot contain dots or be "
-#~ "duplicated."
-#~ msgstr ""
-
-#, python-format
-#~ msgid "Duplicate condition names, different conditions file: %s"
-#~ msgstr ""
-
-#~ msgid "Show screen numbers"
-#~ msgstr ""
-
-#~ msgid "New Routine name:"
-#~ msgstr ""
-
-#~ msgid "Routine Template:"
-#~ msgstr ""
-
-#~ msgid "Select a template to base your new Routine on"
-#~ msgstr ""
-
-#~ msgid "Disabled"
-#~ msgstr ""
-
-#~ msgid "Match case?"
-#~ msgstr ""
-
-#~ msgid "Match regex?"
-#~ msgstr ""
-
-#~ msgid "Go"
-#~ msgstr ""
-
-#~ msgid "Location"
-#~ msgstr ""
-
-#~ msgid "Parameter"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This parameter has come from an older version of PsychoPy. In the latest "
-#~ "version of PsychoPy, it is not used. Click this button to delete it. "
-#~ "WARNING: This may affect how this experiment works in older versions!"
-#~ msgstr ""
-
-#~ msgid "DELETED"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This parameter will not be deleted until you click Okay. Click this button "
-#~ "to revert the deletion and keep the parameter."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Below are all of the surveys linked to your Pavlovia account - select the "
-#~ "one you want and press OK to add its ID."
-#~ msgstr ""
-
-#~ msgid "There are no surveys linked to your Pavlovia account."
-#~ msgstr ""
-
-#~ msgid "Click here to manage surveys on Pavlovia."
-#~ msgstr ""
-
-#~ msgid "Refresh survey list"
-#~ msgstr ""
-
-#~ msgid "Find online..."
-#~ msgstr ""
-
-#~ msgid "Get survey ID from a list of your surveys on Pavlovia"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid ""
-#~ "Font {} is not installed, would you like to download it from Google Fonts?"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Could not download font {} from Google Fonts, reason: {}"
-#~ msgstr ""
-
-#~ msgid "Font download successfully"
-#~ msgstr ""
-
-#~ msgid "Create new text file"
-#~ msgstr ""
-
-#~ msgid "Open an existing text file"
-#~ msgstr ""
-
-#~ msgid "Save current text file"
-#~ msgstr ""
-
-#~ msgid "Save current text file as..."
-#~ msgstr ""
-
-#~ msgid "Search the current file for a specific term"
-#~ msgstr ""
-
-#~ msgid "Color picker"
-#~ msgstr ""
-
-#~ msgid "Open a tool for choosing colors"
-#~ msgstr ""
-
-#~ msgid "Folder"
-#~ msgstr ""
-
-#~ msgid "Create a new folder here."
-#~ msgstr ""
-
-#~ msgid "Rename the file"
-#~ msgstr ""
-
-#~ msgid "Delete the file"
-#~ msgstr ""
-
-#~ msgid "Browse for a folder to open."
-#~ msgstr ""
-
-#~ msgid "Navigate to PsychoPy library root."
-#~ msgstr ""
-
-#~ msgid "Navigate to current open file."
-#~ msgstr ""
-
-#~ msgid "Close the current shell."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Close the current shell and start a new one, this will clear any variables."
-#~ msgstr ""
-
-#~ msgid "Clear all previous output."
-#~ msgstr ""
-
-#~ msgid "Hit [Return] to start a Python session."
-#~ msgstr ""
-
-#~ msgid "Hit [Return] to start a Python shell."
-#~ msgstr ""
-
-#~ msgid " RGB Channels "
-#~ msgstr ""
-
-#~ msgid "Hex/HTML"
-#~ msgstr ""
-
-#~ msgid "RGB Format"
-#~ msgstr ""
-
-#~ msgid " HSV Channels "
-#~ msgstr ""
-
-#~ msgid "Insert"
-#~ msgstr ""
-
-#~ msgid "You are not logged in to Pavlovia. Please log in to continue."
-#~ msgstr ""
-
-#~ msgid "Login..."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An image to represent this project, this helps it stand out when browsing on"
-#~ " Pavlovia."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Title of the project. Unlike the project name, this isn't used as a filename"
-#~ " anywhere; so you can add spaces, apostrophes and emojis to your heart's "
-#~ "content! 🦕✨"
-#~ msgstr ""
-
-#~ msgid "Click to view the project in Pavlovia."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "'Star' this project to get back to it easily. Projects you've starred will "
-#~ "appear first in your searches and projects with more stars in total will "
-#~ "appear higher in everyone's searches."
-#~ msgstr ""
-
-#~ msgid "Fork"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Create a copy of this project on your own Pavlovia account so that you can "
-#~ "make changes without affecting the original project."
-#~ msgstr ""
-
-#~ msgid "Create"
-#~ msgstr ""
-
-#~ msgid "Create a Pavlovia project for the current experiment."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Synchronise this project's local files with their online counterparts. This "
-#~ "will 'pull' changes from Pavlovia and 'push' changes from your local files."
-#~ msgstr ""
-
-#~ msgid "Download"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "'Clone' this project, creating local copies of all its files and tracking "
-#~ "any changes you make so that they can be applied when you next 'sync' the "
-#~ "project."
-#~ msgstr ""
-
-#~ msgid "Last synced at..."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Folder in which local files are stored for this project. Changes to files in"
-#~ " this folder will be tracked and applied to the project when you 'sync', so "
-#~ "make sure the only files in this folder are relevant!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Description of the project to be shown on Pavlovia. Note: This is different "
-#~ "than a README file!"
-#~ msgstr ""
-
-#~ msgid "Visibility:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Visibility of the current project; whether its visible only to its creator "
-#~ "(Private) or to any user (Public)."
-#~ msgstr ""
-
-#~ msgid "Status:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Project status; whether it can be run to collect data (Running), run by its "
-#~ "creator without saving data (Piloting) or cannot be run (Inactive)."
-#~ msgstr ""
-
-#~ msgid "Keywords:"
-#~ msgstr ""
-
-#~ msgid "tag"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Keywords associated with this project, helping others to find it. For "
-#~ "example, if your experiment is useful to psychophysicists, you may want to "
-#~ "add the keyword 'psychophysics'."
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid ""
-#~ "Could not find GitLab project with id {}.\n"
-#~ "\n"
-#~ "Please check that the project exists on Pavlovia, that you are logged in as the correct user in the PsychoPy app, and that your account has access to the project."
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid ""
-#~ "Could not find folder {directory}, please select a different local root."
-#~ msgstr ""
-
-#~ msgid "Project info has changed, update online before closing?"
-#~ msgstr ""
-
-#~ msgid "Project root folder is not yet specified, specify project root now?"
-#~ msgstr ""
-
-#~ msgid "Project root folder does not exist, change project root now?"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "Sync cancelled by user."
-#~ msgstr ""
-
-#~ msgid "Me"
-#~ msgstr ""
-
-#~ msgid "Sort..."
-#~ msgstr ""
-
-#~ msgid "Filter..."
-#~ msgstr ""
-
-#~ msgid "Author"
-#~ msgstr ""
-
-#~ msgid "New project..."
-#~ msgstr ""
-
-#~ msgid "Project name:"
-#~ msgstr ""
-
-#~ msgid "Project folder:"
-#~ msgstr ""
-
-#~ msgid "Switch User"
-#~ msgstr ""
-
-#~ msgid "Plugins & Packages"
-#~ msgstr ""
-
-#~ msgid "Plugins"
-#~ msgstr ""
-
-#~ msgid "Packages"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "[Warning] Could not activate plugin. PsychoPy may need to restart for plugin"
-#~ " to take effect."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The following components/routines should now be visible in the Components "
-#~ "panel (a restart may be required in some cases):\n"
-#~ msgstr ""
-
-#, python-format
-#~ msgid "For more information about the %s plugin, read the documentation at:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "There is currently an installation/uninstallation in progress, are you sure "
-#~ "you want to close?"
-#~ msgstr ""
-
-#~ msgid "Please restart PsychoPy to apply changes."
-#~ msgstr ""
-
-#~ msgid "or..."
-#~ msgstr ""
-
-#~ msgid "Install from file"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Install a package from a local file, such as a .egg or .whl. You can also "
-#~ "point to a pyproject.toml file to add an 'editable install' of an in-"
-#~ "development package."
-#~ msgstr ""
-
-#~ msgid "Open PIP terminal"
-#~ msgstr ""
-
-#~ msgid "Open PIP terminal to manage packages manually"
-#~ msgstr ""
-
-#~ msgid "Package"
-#~ msgstr ""
-
-#~ msgid "Installed"
-#~ msgstr ""
-
-#~ msgid "by "
-#~ msgstr ""
-
-#~ msgid "Homepage"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Not for PsychoPy {}:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Could not retrieve plugins. Try restarting the PsychoPy app and make sure "
-#~ "you are connected to the internet."
-#~ msgstr ""
-
-#~ msgid "Uninstall all plugins"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This will uninstall all plugins an additional packages you have installed, "
-#~ "are you sure you want to continue?"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All plugins and additional packages have been uninstalled. You will need to "
-#~ "restart PsychoPy for this to take effect."
-#~ msgstr ""
-
-#~ msgid "Version:"
-#~ msgstr ""
-
-#~ msgid "keyword"
-#~ msgstr ""
-
-#~ msgid "Select a plugin to view details."
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Works with versions {}."
-#~ msgstr ""
-
-#~ msgid "Author's GitHub"
-#~ msgstr ""
-
-#~ msgid "That's us! We make PsychoPy and Pavlovia!"
-#~ msgstr ""
-
-#~ msgid "Enabled"
-#~ msgstr ""
-
-#~ msgid "PIP error"
-#~ msgstr ""
-
-#~ msgid "We tried:"
-#~ msgstr ""
-
-#~ msgid "We got:"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Package {} could not be uninstalled."
-#~ msgstr ""
-
-#~ msgid "Package installed"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Package {} successfully uninstalled!"
-#~ msgstr ""
-
-#~ msgid "Installation complete. See above for info.\n"
-#~ msgstr ""
-
-#~ msgid "Installation failed. See above for info.\n"
-#~ msgstr ""
-
-#~ msgid "&Save list"
-#~ msgstr ""
-
-#~ msgid "&Open list"
-#~ msgstr ""
-
-#, python-format
-#~ msgid "&Run/pilot\t%s"
-#~ msgstr ""
-
-#~ msgid "Run &JS for local debug"
-#~ msgstr ""
-
-#~ msgid "Run JS on &Pavlovia"
-#~ msgstr ""
-
-#~ msgid "&Builder Demos"
-#~ msgstr ""
-
-#~ msgid "&Coder Demos"
-#~ msgstr ""
-
-#~ msgid "&Run"
-#~ msgstr ""
-
-#~ msgid "Manage list"
-#~ msgstr ""
-
-#~ msgid "Add"
-#~ msgstr ""
-
-#~ msgid "Stop the current (Python) script"
-#~ msgstr ""
-
-#~ msgid "&Open theme folder"
-#~ msgstr ""
 
 #~ msgid "Before experiment"
 #~ msgstr ""
@@ -11543,78 +12899,10 @@ msgstr ""
 #~ "positive, units go from 0 (least volume) to 1 (most volume)."
 #~ msgstr ""
 
-#~ msgid "Device name"
-#~ msgstr ""
-
 #~ msgid "The package index is currently being updated. Please try again later."
 #~ msgstr ""
 
 #~ msgid "Package indexing in progress"
-#~ msgstr ""
-
-#~ msgid "Map devices from this machine to names in your experiment"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Setting the variable `{}` will overwrite an existing variable ({})"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Looks like your variable '{}' in '{}' should be set to update."
-#~ msgstr ""
-
-#~ msgid "Quotation marks (\" or ') need to be escaped (\\\" or \\')"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Name is already in use ({})"
-#~ msgstr ""
-
-#~ msgid "Name is not valid"
-#~ msgstr ""
-
-#~ msgid "Browse for a file"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Not a valid file path: {}"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "No file named {}"
-#~ msgstr ""
-
-#~ msgid "Dictionary keys can't be code"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid "Duplicate dictionary key: {}"
-#~ msgstr ""
-
-#~ msgid "Open the Device Manager to setup devices"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid ""
-#~ "No device named `{}` has been setup in the Device Manager, set one up now?"
-#~ msgstr ""
-
-#~ msgid "Available devices"
-#~ msgstr ""
-
-#, python-brace-format
-#~ msgid ""
-#~ "Type pip commands below and press Enter to execute them in the installed PsychoPy environment, any returned text will appear below. When installing, remember to add `--user` on the end!\n"
-#~ "\n"
-#~ "All commands will be automatically prefaced with:\n"
-#~ "{}\n"
-#~ "(so you don't need to type it yourself)\n"
-#~ msgstr ""
-
-#~ msgid "User Packages"
-#~ msgstr ""
-
-#~ msgid "System Packages"
 #~ msgstr ""
 
 #~ msgid "Available Packages"
@@ -11650,9 +12938,6 @@ msgstr ""
 
 #~ msgid "Get Photometer"
 #~ msgstr "获取光度计"
-
-#~ msgid "Add custom item"
-#~ msgstr ""
 
 #, python-brace-format
 #~ msgid ""

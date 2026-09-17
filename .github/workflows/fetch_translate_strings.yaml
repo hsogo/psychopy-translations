@@ -32,6 +32,13 @@ jobs:
         repository: psychopy/psychopy
         ref: ${{ github.event.inputs.branch }}
         path: source/psychopy
+
+    - name: Checkout psychopy standalone
+      uses: actions/checkout@v3
+      with:
+        repository: psychopy/psychopy-app
+        ref: ${{ github.event.inputs.branch }}
+        path: source/psychopy-app
     
     - name: Checkout psychopy-studio
       uses: actions/checkout@v3
